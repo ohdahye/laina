@@ -1,0 +1,258 @@
+@charset "utf-8";
+/* ------------------------------------------
+* Filename :disclosure.css
+* Description :공시실
+* Author :Fu:z
+------------------------------------------ */
+
+/* 도움말을 확인해주세요. */
+.content.disclosure .g_notice_01.adobe_reader a.go_adobe{color:#117bb2; text-decoration:underline}
+.content.disclosure .g_notice_01.adobe_reader a.get_adobe img{margin-top:-3px}
+.content.disclosure .g_notice_01.adobe_reader.no_bg{background:none}
+.content.disclosure .g_notice_01.adobe_reader .calculation01{display:block; color:#444}
+.content.disclosure .g_notice_01.adobe_reader .valuation_interest_rate{display:block; padding:6px 0 7px 0; color:#666}
+.content.disclosure .g_notice_01.adobe_reader .valuation_interest_rate.no_pt{padding-top:0}
+.content.disclosure .g_notice_01.adobe_reader .g_point_01{display:block; padding-bottom:5px; font-weight:bold;text-align:center}
+.content.disclosure .g_notice_01.adobe_reader .g_point_01.no_pb{padding-bottom: 0}
+.content.disclosure .g_notice_01.adobe_reader .calculation02{display:inline-block; padding:0 0 0 35px}
+.content.disclosure .g_notice_01.adobe_reader .inner_box{margin:10px 0 0 0; padding:18px 93px 20px 93px; background:#f5f5f5; border:1px solid #d9d9d9; text-align:left; line-height:24px}
+.content.disclosure .g_notice_01.adobe_reader .textleft {margin:10px 0 0 0;padding:20px 25px;background-color:#f5f5f5;border:1px solid #d9d9d9;text-align:left;line-height:24px;}
+.content.disclosure .g_notice_01.adobe_reader .textleft .g_list_04 .g_point_01{padding-bottom:0;text-align:left;}
+.content.disclosure .g_notice_01.adobe_reader .textleft .g_list_04 > li{margin-top:15px; padding-left:0}
+.content.disclosure .g_notice_01.adobe_reader .textleft .g_list_04 > li:first-child{margin-top:0}
+.content.disclosure .g_notice_01.adobe_reader .textleft .g_list_04 li:after{display:none}
+
+/* 계약자배당 */
+.content.disclosure .contract_devidend_con{color:#666}
+.content.disclosure .contract_devidend_con .contract01{font-size:15px;color:#444}
+.content.disclosure .contract_devidend_con .contract02{display:block;width:820px; padding:6px 0 0 0}
+.content.disclosure .contract_devidend_con .contract03{display:block;padding:5px 0 40px 0}
+.content.disclosure .contract_devidend_con .contract04{display:block}
+.content.disclosure .contract_devidend_con ol li{padding:0 0 0 12px}
+.content.disclosure .contract_devidend_con ol li ol{width:780px; padding:0 0 40px 0}
+.content.disclosure .contract_devidend_con ol li ol li{width:780px; padding:12px 0 0 0}
+.content.disclosure .contract_devidend_con ol li ol li .g_list_04 li{padding:0 0 0 10px}
+.content.disclosure .contract_devidend_con ol li ol li .provision{margin:12px 0 0 0;padding:8px 15px 26px 23px;background:#fafafa;border:1px solid #d9d9d9;color:#666}
+.content.disclosure .contract_devidend_con ol li ol li .provision li{padding:6px 0 0 16px;text-indent:-16px}
+.content.disclosure .contract_devidend_con .box{padding:5px;margin:10px 0 0 0;width:810px;background:url('../images/disclosure/bg_devidend_con_box.gif');text-align:center}
+.content.disclosure .contract_devidend_con .box p.in_box{padding:20px; background-color:#fff;font-size:15px;font-weight:bold}
+.content.disclosure .g_table_02.graph_con .at_left{text-align:left; vertical-align:top}
+.content.disclosure .g_table_02.graph_con .btn_wrap_center{text-align:center}
+.content.disclosure .g_table_02.graph_con td{padding:9px 15px 8px 15px}
+/* 특별계정현황 */
+.content.disclosure .special_con .g_list_02 li{padding-bottom:10px}
+.content.disclosure .special_con .g_list_02 li.lst{padding-bottom:0}
+.content.disclosure .special_con ul.tb_list{padding:20px 0 0 0;box-sizing:border-box}
+.content.disclosure .special_con ul.tb_list:after{display:block;content:'';clear:both}
+.content.disclosure .special_con ul.tb_list li{float:left;width:261px;margin:0 0 45px 0}
+.content.disclosure .special_con ul.tb_list li.mid{margin:0 16px}
+.content.disclosure .special_con ul.tb_list li p.sti{position:relative;height:15px;margin:0 0 7px 0;font-size:14px;line-height:15px;color:#444;font-weight:bold}
+.content.disclosure .special_con ul.tb_list li p.sti span{position:absolute;right:0;top:2px;font-size:13px;line-height:13px;color:#666;font-weight:normal}
+.content.disclosure .special_con ul.tb_list li p.g_point_01{text-align:right}
+/* 특별계정 자산현황 */
+/* 상단 검색 영역 */
+.content.disclosure .special_con .search_top{width:100%;padding:8px 0;border:1px solid #d0d0d0;background-color:#f8f8f8;text-align:right}
+.content.disclosure .special_con .search_top  .g_select_box{background-color:#fff}
+.content.disclosure .special_con .search_top a.g_btn_06{margin:0 18px 0 8px}
+/* 상단 조회년원일 */
+.content.disclosure .special_con dl.search_box dt{float:left;width:140px;height:44px;border:1px solid #d0d0d0;border-bottom:none;border-right:none;background:#f8f8f8;font-size:15px;text-align:center;color:#333;font-weight:bold;line-height:44px}
+.content.disclosure .special_con dl.search_box dt.last{border-bottom:1px solid #d0d0d0}
+.content.disclosure .special_con dl.search_box dd{float:left;width:627px;height:36px;padding:8px 25px 0 25px;border:1px solid #d0d0d0;border-bottom:none;color:#666;line-height:34px}
+.content.disclosure .special_con dl.search_box dd.last{border-bottom:1px solid #d0d0d0}
+.content.disclosure .special_con dl.search_box dd select{float:left;vertical-align:middle}
+.content.disclosure .special_con dl.search_box dd select.g_select{width:91px}
+.content.disclosure .special_con dl.search_box dd div{float:left}
+.content.disclosure .special_con dl.search_box dd span.calbtn{float:left;margin:2px 0 0 4px}
+.content.disclosure .special_con dl.search_box dd span.hypen{float:left;height:19px;margin:0 10px}
+.content.disclosure .special_con dl.search_box dd span.hypen2{float:left;height:19px;margin:0 18px 0 8px}
+.content.disclosure .special_con dl.search_box dd input{float:left;width:117px;border:1px solid #d0d0d0}
+.content.disclosure .special_con dl.search_box dd a.g_btn_06{float:right}
+.content.disclosure .special_con dl.search_box:after{content:"";display:block;clear:both}
+
+.content.disclosure .announcement{margin:0 0 50px 0; padding:19px 30px; width:760px; background-color:#fafafa; border:1px solid #d9d9d9}
+.content.disclosure .announcement .g_list_04{margin-bottom:10px}
+.content.disclosure .announcement .g_list_04 li{color:#666}
+.content.disclosure .announcement dl{line-height:22px}
+.content.disclosure .announcement dl dt{color:#444}
+.content.disclosure .announcement dl dd{color:#666}
+/* 방카슈랑스 모집수수료율 공시실 ::도움말을 확인해주세요. */
+.content.disclosure .g_notice_01.banka dd{padding-bottom:10px}
+.content.disclosure .g_table_01.bbs_list.g_video th,
+.content.disclosure .g_table_01.bbs_list.g_video td{border-width:1px 0 0 1px; border-style:solid; border-color:#cfd6d9}
+.content.disclosure .g_table_01.bbs_list.g_video th:first-child,
+.content.disclosure .g_table_01.bbs_list.g_video td:first-child{border-left:0}
+/* 직업검색 */
+.g_win_pop.jop_select_con_pop .p_con{padding:19px 20px 30px}
+.g_win_pop.jop_select_con_pop .p_con .textarea_01{width:100%}
+/* TV보험 광고 공시 */
+.disclosure_vod{margin-bottom:70px}
+.disclosure_vod:after{display:block; content:""; clear:both}
+.disclosure_vod .video{float:left;width:555px}
+.disclosure_vod .vod_script{overflow-y:auto;float:right;width:253px;height:310px;border:1px solid #d9d9d9}
+.disclosure_vod .vod_script .box_script{padding:15px 20px;font-size:14px;line-height:20px;color:#666}
+.disclosure_vod .vod_script .box_script pre{margin:0;font-family:'맑은고딕',Malgun Gothic,Dotum,'돋움',sans-serif;font-size:14px;line-height:20px;color:#666}
+/* popup 보험료 설계
+------------------------------------------ */
+.g_win_pop.graph_con_pop .p_header .tit .small{font-size:15px}
+.g_win_pop.graph_con_pop .p_con{padding:20px}
+.graph_con_pop .p_con fieldset:after{display:block;content:'';clear:both}
+/* step */
+.pop_graph_con_step_01{overflow:hidden; background-color:#e9e9e9; margin-bottom:20px}
+.pop_graph_con_step_01.n2 li{width:50%}
+.pop_graph_con_step_01 li{float:left; box-sizing:border-box; padding-left:13px; color:#666; font-weight:bold; text-align:center; height:40px; line-height:38px; font-size:17px}
+.pop_graph_con_step_01 li:first-child{padding-left:0; border-top-left-radius:4px; border-bottom-left-radius:4px; background-image:none}
+.pop_graph_con_step_01 li:last-child,
+.pop_graph_con_step_01 li.lst{border-top-right-radius:4px; border-bottom-right-radius:4px}
+.pop_graph_con_step_01 li.on{position:relative; color:#fff}
+.pop_graph_con_step_01 li.on:first-child{background-position:-50px 0}
+.pop_graph_con_step_01 li.on,
+.pop_graph_con_step_01 li.on:after{background:url('../images/common/bg_step_02.png') 0 0 no-repeat}
+.pop_graph_con_step_01 li.on:after{position:absolute; top:0; right:-30px; display:block; content:''; width:30px; height:40px; background-position:100% 0}
+/* // step */
+.graph_con_pop .p_con h2.g_title_01{position:relative; margin-bottom:4px;padding-bottom:10px;padding-left:11px;font-size:20px;background:none}
+.graph_con_pop .p_con h2.g_title_01:before{content:'';display:block;position:absolute;left:0;top:3px;width:3px;height:18px;background-color:#117bb2}
+.graph_con_pop .p_con h3.tit{padding-bottom:10px;font-size:17px;font-weight:bold}
+.graph_con_pop .p_con h3.tit_01{position:relative; margin-top:30px; padding:0 0 14px 11px; font-size:20px; font-weight:bold; color:#333; letter-spacing:-1px}
+.graph_con_pop .p_con h3.tit_01:before{content:'';display:block;position:absolute;left:0;top:6px;width:3px;height:18px;background-color:#117bb2}
+.graph_con_pop .p_con table + .txt_01{margin-top:10px}
+.graph_con_pop .p_con .txt_01 li{padding-left:10px;padding-bottom:10px;text-indent:-10px}
+.graph_con_pop .p_con .cont_left{float:left;width:33%}
+.graph_con_pop .p_con .cont_right{position:relative; float:right;width:63%;height:592px}
+.graph_con_pop .p_con table.tbl_type_01[class^='g_table_']{border-top-color:#1199b2; border-bottom-color:#8fc3c6}
+.graph_con_pop .p_con table.tbl_type_01[class^='g_table_'] th{background-color:#f6feff}
+.graph_con_pop .p_con table.tbl_type_01[class^='g_table_'] td{padding:6px 5px;letter-spacing:-1px}
+.graph_con_pop .p_con table.tbl_type_01[class^='g_table_'] .g_btn_06{min-width:40px; padding:0}
+.graph_con_pop .p_con table.g_table_02.tbl_type_01 th,
+.graph_con_pop .p_con table.g_table_02.tbl_type_01 td{padding-top:6px;padding-bottom:6px}
+.graph_con_pop .p_con table.g_table_01.tbl_type_01 th:first-child{border-left:0}
+.graph_con_pop .p_con table.g_table_01.tbl_type_01 th:first-child.bdl{border-left:1px solid #cfd6d9}
+.graph_con_pop .p_con table.g_table_02.tbl_type_01 th{border-bottom:1px solid #caecef}
+.graph_con_pop .p_con table.g_table_02.tbl_type_01 .lst_c_bot{border-bottom:1px solid #8fc3c6}
+.graph_con_pop .p_con table.g_table_02.tbl_type_01 td.chk label{margin-right:10px}
+.graph_con_pop .p_con table.g_table_02.tbl_type_01 td.chk label.lst{margin-right:0px}
+.graph_con_pop .p_con div.h_scroll_sec_01{overflow-y:auto;height:90px;margin-bottom:14px}
+.graph_con_pop .p_con div.h_scroll_sec_02{overflow-y:auto;height:340px}
+.graph_con_pop .p_con .srbox01_con{position:absolute;bottom:64px; margin-bottom:10px; padding:14px 10px 14px 16px;border-width:1px 0;border-style:solid;border-color:#9ab5c3;letter-spacing:-1px;background-color:#fffaf4}
+.graph_con_pop .p_con .srbox01_con a.g_btn_09{display:inline-block; font-weight:bold; border-radius:4px; width:auto; min-width:60px; height:30px; line-height:28px; padding:0 17px; font-size:14px; color:#fff; background-color:#1199b2; text-decoration:none; background-image:none; border:0; text-align: center;}
+.graph_con_pop .p_con .srbox01_con a.g_btn_10{display:inline-block; font-weight:bold; border-radius:4px; min-width:60px; height:30px; line-height:28px; padding:0 10px; font-size:14px; color:#fff; background-color:#117bb2; text-decoration:none; background-image:none; border:0; text-align: center;}
+.graph_con_pop .p_con .srbox01_con .al_right{display:block;float:right}
+.graph_con_pop .p_con .srbox01_con .al_right a{margin-left:5px}
+.graph_con_pop .p_con .srbox01_con .tit{display:block;float:left;font-size:14px}
+.graph_con_pop .p_con .srbox01_con .tit input[type=text]{font-size:15px;color:#de181b;font-weight:bold}
+.graph_con_pop .p_con .srbox01_con .tit label{margin-right:20px}
+.graph_con_pop .p_con .srbox01_con p.inner_srbox01_con:after{display:block;content:'';clear:both}
+.graph_con_pop .p_con .srbox01_con + div.confirm{position:absolute;bottom:20px}
+.graph_con_pop .p_con .confirm li{line-height:22px; letter-spacing:-1px}
+.graph_con_pop .p_con table.g_table_02.tbl_type_01 td.fir_tit{padding-right:12px; background-color:#fafafa}
+.graph_con_pop .p_con table.g_table_02.tbl_type_01 td.fir_tit .l{float:left; display:inline-block;height:28px;line-height:23px}
+.graph_con_pop .p_con table.g_table_02.tbl_type_01 td.fir_tit .r{float:right; display:inline-block;padding-right:5px}
+.graph_con_pop .p_con table.g_table_02.tbl_type_01 td.fir_tit .r label{margin-right:5px}
+.graph_con_pop .p_con .confirm a{font-weight:bold}
+.graph_con_pop .p_con table.g_table_02.tbl_type_01 td.funt_sec{background-color:#fafafa}
+.graph_con_pop .p_con .funtype1_tit{padding-bottom:12px;font-size:15px}
+.graph_con_pop .p_con .funtype1 dt{position:relative;float:left; width:65%; height:30px}
+.graph_con_pop .p_con .funtype1 dt label{position:absolute;left:10px}
+.graph_con_pop .p_con .funtype1 dt:after{content:''; display:block; width:3px; height:3px; background-color:#666; position:absolute; left:0; top:8px}
+.graph_con_pop .p_con .funtype1 dd{float:left; padding:3px 0; width:35%; text-align:right}
+/* step 02 */
+.graph_con_pop .step02_cont{overflow-y:auto;/* height:506px */}
+.graph_con_pop .step02_cont .g_notice_01 + .use_info_sec + table{margin-bottom:30px}
+.graph_con_pop .step02_cont table + .g_notice_01{margin-top:30px}
+.graph_con_pop h2.tit{padding-left:32px;position:relative;font-weight:bold;color:#333;line-height:22px}
+.graph_con_pop h2.tit:before{position:absolute; top:0; left:0; display:block; content:url('../images/common/bg_title_06.png')}
+.graph_con_pop h2.tit .tit_bot{font-size:13px}
+.graph_con_pop h2.tit .g_point_03{vertical-align:top}
+.graph_con_pop .result_r{position:absolute;top:15px;right:0}
+.graph_con_pop .step02_cont .use_info_sec{position:relative; border-top:2px solid #1699dc;margin-bottom:20px}
+.graph_con_pop .step02_cont .use_info_sec:before{display:block; position:absolute; bottom:20px; right:20px; content:url('../images/common/bg_pop_use_info_sec.png')}
+.graph_con_pop .step02_cont .bdb_n{border-bottom:none}
+.graph_con_pop .step02_cont .btb_n{border-top:none;border-bottom:none;margin-top:-1px}
+.graph_con_pop .step02_cont .btb_n th{border-width:0 0 0 1px}
+.graph_con_pop .step02_cont .g_notice_01 + .use_info_sec + table.mb_n{margin-bottom:0}
+.graph_con_pop .step02_cont .use_info_sec ul{padding:20px 30px 38px; border:1px solid #e9e9e9}
+.graph_con_pop .step02_cont .use_info_sec ul:after{display:block;content:'';clear:both}
+.graph_con_pop .step02_cont .use_info_sec li{position:relative;float:left; padding-bottom:7px; width:50%; font-size:15px;box-sizing:border-box}
+.graph_con_pop .step02_cont .use_info_sec li:after{display:block;content:url('../images/common/bul_dot_01.gif');clear:both; position:absolute; top:0; left:0; line-height:13px; width:3px;height:3px;/* background-color:#666 */}
+.graph_con_pop .step02_cont .use_info_sec li dt,
+.graph_con_pop .step02_cont .use_info_sec li dd{display:inline-block}
+.graph_con_pop .step02_cont .use_info_sec li dt{position:absolute;top:0;left:0 ; padding-left:10px}
+.graph_con_pop .step02_cont .use_info_sec li dd{padding-left:190px}
+.graph_con_pop .step02_cont .use_info_sec li dt strong{position:relative; display:inline-block; width:170px}
+.graph_con_pop .step02_cont .use_info_sec li dt strong:before{display:block; position:absolute; top:0; right:0; content:url('../images/common/pop_line.gif')}
+.graph_con_pop .step02_cont .total_price{position:relative; padding:14px 15px 14px 16px; border-top:1px solid #8fc3c6; border-bottom:1px solid #9ab5c3; text-align:right; background-color:#fffaf4}
+.graph_con_pop .step02_cont .total_price p strong,
+.graph_con_pop .step02_cont .total_price p strong.g_point_03{display:inline-block}
+.graph_con_pop .step02_cont .total_price p strong{font-size:17px}
+.graph_con_pop .step02_cont .total_price p strong.g_point_03{min-width:137px;height:23px;background-color:#fff;font-size:15px}
+.graph_con_pop .step02_cont .step02_cont{overflow-y:auto;height:503px}
+.graph_con_pop .step02_cont .g_notice_01{margin-bottom:30px}
+.graph_con_pop .step02_cont .g_notice_01 dd{margin-left:0}
+.graph_con_pop .step02_cont .tit{font-size:17px;padding-bottom:10px;font-weight:bold}
+.graph_con_pop .step02_cont table[class^='g_table_'] tbody tr th[rowspan]{border-right:1px solid #cfd6d9}
+
+/* 인쇄 step02 */
+.graph_con_pop.print_page .p_header, .graph_con_pop.print_page .btn_close_pop, 
+.graph_con_pop.print_page .pop_graph_con_step_01 li:first-child{display:none}
+.graph_con_pop.print_page .pop_graph_con_step_01{background:none}
+.graph_con_pop.print_page .pop_graph_con_step_01 li.on{position:relative; width:100%; background-image:none}
+.graph_con_pop.print_page .pop_graph_con_step_01 li.on:before{display:block; content:url('../images/disclosure/bg_print_tit.gif'); position:absolute; top:0; left:50%; margin-left:-308px; z-index:-1}
+.graph_con_pop.print_page .step02_cont{overflow-x:hidden}
+
+/*변액보험이란? 변액보험 운용설명서*/
+.disclosure .vul_con .variable{margin-bottom:20px; padding:19px 30px 0 160px; height:118px; border:1px solid #d9d9d9; background:url("../images/disclosure/bg_variable.gif") no-repeat 4% 50%; letter-spacing:-1px}
+.disclosure .vul_con .variable dt{font-size:17px; color:#333; font-weight:bold}
+.disclosure .vul_con .variable dd{padding:12px 0 0 0; color:#666}
+.disclosure .view_list{margin-bottom:50px}
+.disclosure .view_list li{position:relative;padding:30px 0; border-bottom:1px solid #d9d9d9}
+.disclosure .view_list li.lst{border:none}
+.disclosure .view_list li p.num_zone{padding-bottom:5px}
+.disclosure .view_list li p.txt{padding-left:37px}
+.disclosure .view_list li i{display:inline-block; width:30px; height:30px; margin-right:7px; background-color:#81bd00;border-radius:50%;color:#fff;font-size:17px;text-align:center;line-height:28px; font-weight:bold}
+.disclosure .view_list li strong{display:inline-block; color:#333;font-size:20px}
+.disclosure .view_list li .more{position:absolute;top:50%;right:0}
+.disclosure .view_list li .more a.g_btn_03{height:24px; padding:0 10px; line-height:22px; font-size:13px}
+/* 변액보험 운용설명서 */
+.disclosure .vul_list_con .g_list_01{margin-bottom:20px}
+.disclosure .vul_list_con .universal_deposit_list{margin-bottom:20px}
+.disclosure .vul_list_con .universal_deposit_list li{position: relative; padding:30px 0;border-top:1px solid #d9d9d9}
+.disclosure .vul_list_con .universal_deposit_list li p{line-height:80px}
+.disclosure .vul_list_con .universal_deposit_list li p .ico_zone{margin-right:30px}
+.disclosure .vul_list_con .universal_deposit_list .fir,
+.disclosure .vul_list_con .universal_deposit_list li:first-child{border:none}
+.disclosure .vul_list_con .universal_deposit_list .download a{position: absolute;top:50%;right:0;margin-top:-12px;height:24px; line-height:23px}
+/* 정기공시실 */
+.disclosure ul.pa1_con_list li dl {padding:12px 24px 6px 24px;margin:0 0 20px 0;border:1px solid #d9d9d9;clear:both}
+.disclosure ul.pa1_con_list li dl dt {margin:0 0 8px 0;font-size:20px;font-weight:bold;color:#333}
+.disclosure ul.pa1_con_list li dl dt span {padding:0 0 0 5px;color:#666;font-size:13px;font-weight:normal;line-height:26px}
+.disclosure ul.pa1_con_list li dl dt .year_on {font-size:22px;font-weight:bold;color:#117bb2}
+.disclosure ul.pa1_con_list li dl dd ul li {position:relative;margin:0 0 18px 0;padding:5px 0 5px 0;height:13px;background:url('../images/disclosure/bg_dashed.gif') repeat-x 0 14px;font-size:13px;font-weight:bold;color:#000}
+.disclosure ul.pa1_con_list li dl dd ul li a {display:inline-block}
+.disclosure ul.pa1_con_list li dl dd ul li .g_btn_04 {float:right;background-color:#fff;margin-top:-2px}
+.disclosure ul.pa1_con_list li dl dd ul li:after{position: absolute;right:122px;top: 3px;display: block;content: ''; width:13px;height:26px; background-color:#fff}
+.disclosure ul.pa1_con_list li dl dd ul li .reader03{position: relative; display:inline-block; float:left;height:22px;margin-top:-2px;padding-left:10px; padding-right: 10px; line-height:18px; background-color: #fff;font-size:15px;color: #666}
+.disclosure ul.pa1_con_list li dl dd ul li .reader03:after{position: absolute;top:8px; left:0; display: block; content: ''; width:3px; height:3px; background-color: #666}
+.disclosure ul.pa1_con_list li dl:hover {border:1px solid #117bb2}
+.disclosure ul.pa1_con_list li dl:hover dt {color:#117bb2}
+/* 사회공헌활동내역 */
+.content.disclosure table th.th_no_bg{background:none; font-weight:normal}
+.content.disclosure table th.total_zone,
+.content.disclosure table td.total_zone{background-color:#fffaf4}
+
+/* 직업 및 위험등급 안내 */
+.insurancelist_con .job_section .g_box_01 .btn_job_search {display:inline-block; border-radius:4px; min-width:48px; height:28px; padding:0 10px; line-height:26px; vertical-align: top; font-size:13px; color:#fff; border: 0; background-color:#888; text-decoration:none;}
+.insurancelist_con .job_section h4.g_title_n05 {position: relative; padding-left: 10px;}
+.insurancelist_con .job_section h4.g_title_n05:after{content:''; display:block; position:absolute; left:0; top:10px; width:3px; height:3px; background-color:#666;}
+.insurancelist_con .job_section .job_list {height: 200px; padding: 0; overflow-y: scroll;}
+.insurancelist_con .job_section .job_list .g_list_02 {padding: 10px;}
+.insurancelist_con .job_section .job_list .g_list_02 li input:checked + label {font-weight: bold; color: #de181b; text-decoration: underline;}
+.insurancelist_con .job_section .job_result {display: none;}
+
+/* 공시실 - 상품검색 */
+.top_searchbox{width:100%;padding:25px 30px 22px;margin-bottom:25px;background-color:#fafafa;border:1px solid #d9d9d9;box-sizing:border-box}
+.top_searchbox>p{margin-top:10px;font-size:13px;color:#444;}
+.top_searchbox .g_select_box{height:28px;margin-right:5px;box-sizing:border-box}
+.top_searchbox input[type="text"]{width:347px;height:28px;margin-right:5px;line-height:26px;font-size:13px;box-sizing:border-box}
+.top_searchbox button{display:inline-block;min-width:60px;height:28px;border-radius:4px;background-color:#117bb2;border:0;line-height:26px;padding:0 30px;font-size:13px;color:#fff;font-weight:bold;text-align:center;text-decoration:none}
+.search_nodata{margin:20px 0 30px;padding:80px 0;font-size:14px;text-align:center}
+.highlight{background-color:#e4f2f7;color:#117bb2;font-weight:bold}
+

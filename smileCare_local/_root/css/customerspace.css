@@ -1,0 +1,454 @@
+@charset "utf-8";
+/* ------------------------------------------
+* Filename : customerspace.css
+* Description : 고객광장
+* Author : Fu:z
+------------------------------------------ */
+
+/*고객광장 메인*/
+.submain_ctm {background:url('../images/customerspace/customerspace_bg.jpg') center top no-repeat}
+.submain_ctm #content {overflow:hidden}
+.ctm_search_box {width:1060px; margin:194px auto 0}
+.ctm_search_box p {width:680px; overflow:hidden; margin:0 auto; border:5px solid #66d01f; border-radius:5px; background:rgba(0, 0, 0, 0.5)}
+.ctm_search_box p input {float:left; width:621px; height:44px; line-height:44px; box-sizing:border-box; text-align:center; font-size:20px; letter-spacing:-1px; color:#fff; border:none; background:none}
+.ctm_search_box p input::-webkit-input-placeholder {color:#fff !important; opacity:1;}
+.ctm_search_box p input::-ms-input-placeholder {color:#fff !important; opacity:1;}
+.ctm_search_box p input::-moz-input-placeholder {color:#fff !important; opacity:1;}
+.ctm_search_box p a {display:inline-block;float:left;width:56px;height:40px;margin-top:2px}
+.ctm_search_box p a:focus{outline:1px dotted #ccc}
+.ctm_search_box .ctm_keyword {text-align:center; margin-top:3px}
+.ctm_search_box .ctm_keyword li {display:inline-block; padding:0 11px 0 14px; background:url('../images/customerspace/key_line.png') left center no-repeat}
+.ctm_search_box ul li:first-child {background:none}
+
+.ctm_use {overflow:hidden; margin-top:36px}
+.ctm_use li {float:left; margin-left:56px}
+.ctm_use li:first-child {margin-left:0}
+
+.ctm_main_link {width:1100px; margin:40px auto 30px; overflow:hidden}
+.ctm_main_link li {float:left; margin:0 0 20px 20px; background-position:right 20px top 25px; background-repeat:no-repeat;}
+.ctm_main_link li:nth-child(3n+1){margin-left:0}
+.ctm_main_link li a {display:block; width:353px; height:110px; padding:21px 0 0 25px; box-sizing:border-box; text-align:left; color:#fff}
+.ctm_main_link li a:hover {text-decoration:none;}
+.ctm_main_link .link01 {background-color:#4390e0; background-image:url('../images/customerspace/link01.png');}
+.ctm_main_link .link02 {background-color:#79be0b; background-image:url('../images/customerspace/link02.png');}
+.ctm_main_link .link03 {background-color:#e7b401; background-image:url('../images/customerspace/link03.png');}
+.ctm_main_link .link04 {background-color:#e7b401; background-image:url('../images/customerspace/link04.png');}
+.ctm_main_link .link05 {background-color:#4390e0; background-image:url('../images/customerspace/link05.png');}
+.ctm_main_link .link06 {background-color:#79be0b; background-image:url('../images/customerspace/link06.png');}
+.ctm_main_link li a strong {display:inline-block; margin-bottom:10px; font-size:16px; letter-spacing:-0.075em; text-shadow:1px 1px 1px #777}
+.ctm_main_link li a p {line-height:18px; font-size:12px; letter-spacing:-0.05em;}
+.ctm_main_link li a:hover p{text-decoration:underline}
+
+/* 페이지 상단 아이콘 */
+.customer .customerspace_pagetop_01{background-image:url('../images/customerspace/customerspace_pagetop_01.jpg')}
+.customer .customerspace_pagetop_02{background-image:url('../images/customerspace/customerspace_pagetop_02.jpg')}
+.customer .customerspace_pagetop_03{background-image:url('../images/customerspace/customerspace_pagetop_03.jpg')}
+.customer .customerspace_pagetop_04{background-image:url('../images/customerspace/customerspace_pagetop_04.jpg')}
+.customer .customerspace_pagetop_05{background-image:url('../images/customerspace/customerspace_pagetop_05.jpg')}
+.customer .customerspace_pagetop_06{background-image:url('../images/customerspace/customerspace_pagetop_06.jpg')}
+
+/* 고객센터 이용안내 */
+.customer .info_cs_center .info_tel li{font-size:15px; line-height:24px; color:#117bb2}
+.customer .info_cs_center .info_tel + .g_text_02{margin-top: 5px}
+.customer .info_cs_center .g_text_02 + .g_title_04{margin-top:40px}
+.customer .info_cs_center .img_wrap + .g_list_04{margin-top:9px}
+.customer .info_cs_center .img_wrap + .g_list_04 li{color:#666}
+
+/* 접수/처리 현황 조회 */
+.customer .input_sorting_status{padding:20px 0; border-top:2px solid #58bbee; background-color:#f6fcff; border-bottom:1px solid #9ab5c3}
+.customer .input_sorting_status .row{width:400px; margin:auto}
+.customer .input_sorting_status .row:first-child{margin-bottom:6px}
+.customer .input_sorting_status .row span{display:inline-block; font-weight:bold; color:#444; width:82px}
+.customer .input_sorting_status .btn_wrap_center{margin-top:20px}
+
+.customer .label_status{display:inline-block; width:70px; height:25px; line-height:23px; color:#fff; font-size:13px; text-align:center}
+.customer .label_status.complete{background-color:#117bb2}/* 답변완료 */
+.customer .label_status.receipt{background-color:#24a51b}/* 접수완료 */
+.customer .label_status.answer{background-color:#888}/* 답변중 */
+
+/* 자주하는 질문 - 메인 */
+.customer .search_ask_anything{padding:5px; background:url('../images/customerspace/bg_search_ask_anything.png')repeat 0 0; margin-bottom:40px}
+.customer .search_ask_anything .inner{background:#fff url('../images/customerspace/ico_search_ask_anything.png')no-repeat 35px 35px; padding:45px 0 51px 196px}
+.customer .search_ask_anything .tit{font-size:15px; color:#444; font-weight:normal}
+.customer .search_ask_anything .tit label{display:inline-block;;font-weight:bold; font-size:20px; letter-spacing:-1px; color:#333; margin-right:7px}
+.customer .search_ask_anything .search{margin:10px 0 11px}
+.customer .search_ask_anything .search input[type="text"]{width:426px; height:38px; line-height:36px; font-size:15px; margin-right:5px}
+.customer .search_ask_anything .hot_keyword a{display:inline-block; margin-left:5px; height:26px; line-height:24px; font-size:12px; color:#666; background-color:#ececec; border-radius:2px; padding:0 8px}
+
+.customer .tab_business_list{border:1px solid #d9d9d9; background:#fafafa url('../images/customerspace/bg_tab_business_list.png')no-repeat 237px 20px; padding:13px 0 23px 50px}
+.customer .tab_business_list:after{content:''; display:block; clear:both}
+.customer .tab_business_list li{float:left; line-height:27px; margin-left:51px}
+.customer .tab_business_list li.c_1,
+.customer .tab_business_list li:first-child{width:173px; margin-left:0}
+.customer .tab_business_list li.c_2{width:234px}
+.customer .tab_business_list li.c_3{width:255px}
+.customer .tab_business_list li a{font-size:14px; color:#444; display:inline-block; padding-left:14px; position:relative}
+.customer .tab_business_list li a:after{content:''; display:block; width:3px; height:3px; background:#666; position:absolute; left:0; top:13px}
+.customer .tab_business_list li.on a{color:#117bb2; font-weight:bold}
+.customer .tab_business_list li a:hover{text-decoration:underline}
+
+.customer .tab_business_list.business_cate_list{border:1px solid #e3e3e3; background:none; padding:14px 0 14px 50px}
+.customer .box_faq.all .tbl_txt_01 {margin-top:-27px}
+.customer .box_faq .tbl_txt_01 {margin-top:20px}
+
+.customer .other_counsel:after{content:''; display:block; clear:both}
+.customer .other_counsel .box{width:363px; height:150px; border:1px solid #ddd; padding:18px 20px; position:relative; float:right}
+.customer .other_counsel .box:first-child{float:left}
+.customer .other_counsel .box.general{background:url('../images/customerspace/bg_other_counsel_01.png')no-repeat 279px 92px}
+.customer .other_counsel .box.call{background:url('../images/customerspace/bg_other_counsel_02.png')no-repeat 318px 95px}
+.customer .other_counsel .box .tit{font-size:17px; margin-bottom:8px}
+.customer .other_counsel .box .info{font-size:14px; line-height:20px; color:#666}
+.customer .other_counsel .box dl.info dt{font-weight:bold}
+.customer .other_counsel .box dl.info dd{margin-bottom:3px}
+.customer .other_counsel .box a.g_btn_05{position:absolute; left:21px; bottom:20px; font-weight:bold}
+
+/* 자주하는 질문 서브 */
+.customer .box_faq .tit_faq{font-size:15px; margin-bottom:16px; line-height:16px}
+.customer .list_faq .a *{color:#666}
+.customer .list_faq li .q{position:relative; font-size:13px; padding-right:80px}
+.customer .list_faq li .q:after{content:''; display:block; width:20px; height:11px; position:absolute; right:20px; top:50%; margin-top:-6px; background:url('../images/customerspace/ico_faq_open.png')no-repeat 0 0}
+.customer .list_faq li.show .q:after{background-image:url('../images/customerspace/ico_faq_close.png')}
+.customer .list_faq li.top .q{background-image:url('../images/customerspace/bul_q_top.png')}
+.customer .list_faq li .a{background-image:url('../images/customerspace/bul_a.png')}
+.customer .list_faq li.no_data .q{padding:15px 0 18px; text-align:center; background:0 none}
+.customer .list_faq li.no_data .q:after{display:none}
+
+.customer .list_faq2 .a *{color:#666}
+.customer .list_faq2 li .q{position:relative;font-size:13px;padding-right:80px}
+.customer .list_faq2 li .q:after{content:''; display:block; width:20px; height:11px; position:absolute; right:20px; top:50%; margin-top:-6px; background:url('../images/customerspace/ico_faq_open.png')no-repeat 0 0}
+.customer .list_faq2 li.show .q:after{background-image:url('../images/customerspace/ico_faq_close.png')}
+.customer .list_faq2 li .q .ico_q{position:absolute;top:15px;left:20px}
+.customer .list_faq2 li .a .ico_a{position:absolute;top:16px;left:54px}
+.customer .list_faq2 li.no_data > p{padding:15px 80px 18px 0;font-weight:bold;font-size:13px;color:#444;border-bottom:1px solid #d9d9d9;text-align:center}
+
+/* 자주 발생되는 민원(FAQ) */
+.customer .box_faq.category .q{font-size:13px; background:none; padding:12px 60px 14px 20px}
+.customer .box_faq.category .q:after{clear:both}
+.customer .box_faq.category .q .cate{font-weight:normal; color:#333; width:165px; display:table-cell; vertical-align:middle}
+.customer .box_faq.category .q .tit{margin-left:10px; display:table-cell; vertical-align:middle; padding-left:33px; background:url('../images/common/bul_q.gif') 0 50% no-repeat; height:23px}
+.customer .box_faq.category .a{padding-left:250px; background-position:217px 15px}
+
+.customer .box_faq.category .list_faq2 .q{padding:12px 60px 14px 20px}
+.customer .box_faq.category .list_faq2 .q:after{clear:both}
+.customer .box_faq.category .list_faq2 .q .cate{font-weight:normal; color:#333; width:165px; display:table-cell; vertical-align:middle}
+.customer .box_faq.category .list_faq2 .q .tit{position:relative;margin-left:10px; display:table-cell; vertical-align:middle; padding-left:33px; background:none; height:23px}
+.customer .box_faq.category .list_faq2 .q .tit .ico_q{position:absolute;top:0;left:0}
+.customer .box_faq.category .list_faq2 .a{padding-left:250px}
+.customer .box_faq.category .list_faq2 .a .ico_a{position:absolute;top:15px;left:217px}
+
+.customer .customerspace_pagetop_02 + h4.g_title_04 {padding-left: 27px}
+.customer .customerspace_pagetop_02 + h4.g_title_04:before{content:''; display:block; position:absolute; left:0; top:6px; width:16px;height:18px; background: url('../images/customerspace/ico_customer_bullet_01.png')no-repeat}
+
+/* 고객중심경영 우수사례 */
+.customer .customer_stats:after{content:''; display:block; clear:both}
+.customer .customer_stats .box{width:363px; height:84px; border:1px solid #ddd; padding:20px}
+.customer .customer_stats .box.number{float:left; background:#f8f8f8 url('../images/customerspace/ico_customer_stats_01.png')no-repeat 318px 55px}
+.customer .customer_stats .box.rate{float:right; background:#f8f8f8 url('../images/customerspace/ico_customer_stats_02.png')no-repeat 339px 45px}
+.customer .customer_stats .box .tit{font-size:20px; letter-spacing:-1px; color:#333; line-height:21px}
+.customer .customer_stats .box .tit span{display:block; font-size:13px; color:#666; line-height:14px; margin-top:10px; font-weight:normal}
+.customer .customer_stats .box p{font-size:15px; line-height:31px; margin-top:8px}
+.customer .customer_stats .box p strong{font-size:30px; color:#117bb2}
+
+.customer .customer_stats + .g_bbslist_01,
+.customer .customer_stats + .g_table_02{margin-top:50px}
+.customer .customer_stats + .g_bbslist_01{border-top:2px solid #1699dc}
+.customer .customer_stats + .g_bbslist_01 .rowgroup:first-child{padding-top:30px}
+
+/* 소비자보호부 우수사례 */
+.customer .g_bbslist_01{border-bottom:0 none}
+
+.ly_customer_story .inner{width:500px; top:50%; margin:-250px auto 0}
+.ly_customer_story .layer_cont{overflow:hidden; height:auto; padding:17px 20px 0}
+.ly_customer_story .layer_cont .story_wrap{border:solid #d9d9d9; border-width:0 0 1px 0}
+.ly_customer_story .story_wrap .title{font-size:15px; line-height:20px}
+.ly_customer_story .story_wrap .story{overflow:auto; height:253px; border:solid #d9d9d9; border-width:1px 1px 0 1px; margin-top:15px; padding:15px 18px 17px}
+.ly_customer_story .story_wrap .story .box:first-child{border-bottom:1px solid #d9d9d9; margin-bottom:13px; padding-bottom:15px}
+.ly_customer_story .story_wrap .story .g_title_03{padding-bottom:7px}
+.ly_customer_story .story_wrap .story .txt{color:#666; line-height:23px}
+
+/* 서비스 이용가이드 :: 사이버창구 이용안내 */
+.customer .g_tab_01 + .guide_svc, .customer #cont_panel .guide_svc{margin-top:23px}
+.customer .guide_svc .g_title_04{display:inline-block;padding-bottom:9px}
+.customer .guide_svc .g_text_02 + .g_title_04,
+.customer .guide_svc .g_list_03 + .g_title_04{margin-top:40px}
+
+.customer .guide_svc.s_wssn .use_info:after{content:''; display:block; clear:both}
+.customer .guide_svc.s_wssn .use_info li{width:260px; float:left; margin-left:20px}
+.customer .guide_svc.s_wssn .use_info li:first-child{margin-left:0}
+.customer .guide_svc.s_wssn .use_info li span{display:block}
+.customer .guide_svc.s_wssn .use_info li .img_wrap{text-align:center}
+.customer .guide_svc.s_wssn .use_info li .txt{margin-top:11px; line-height:22px}
+
+.customer .guide_svc.s_certificate .g_text_02 + .g_list_04,
+.customer .guide_svc.s_certificate .g_list_04 + .g_text_02{margin-top:8px}
+.customer .guide_svc.s_certificate .box_info{margin-top:23px; border:1px solid #d9d9d9; background:#fafafa url('../images/customerspace/ico_guide_certificate_info.png')no-repeat 30px 20px; padding:29px 20px 27px 159px}
+.customer .guide_svc.s_certificate .box_info .tit{font-size:17px; line-height:18px; font-weight:bold; color:#333; margin-bottom:7px}
+.customer .guide_svc.s_certificate .box_info .g_list_03 li{margin-top:8px}
+.customer .guide_svc.s_certificate .box_info .g_list_03 li:first-child{margin-top:0}
+.customer .guide_svc.s_certificate .box_info + .g_title_04{margin-top:40px}
+.customer .guide_svc.s_certificate h5.g_title_01{padding-bottom:7px}
+.customer .guide_svc.s_certificate .g_list_02 li{color:#444; padding-left:15px}
+
+.customer .guide_svc.s_mobile .main_svc .box{margin-top:10px; padding:27px 20px 0 140px; height:90px}
+.customer .guide_svc.s_mobile .main_svc .box:first-child{margin-top:0}
+.customer .guide_svc.s_mobile .main_svc .box.n1{background:url('../images/customerspace/ico_guide_mobile_mainsvc_01.png')no-repeat 14px 11px}
+.customer .guide_svc.s_mobile .main_svc .box.n2{background:url('../images/customerspace/ico_guide_mobile_mainsvc_02.png')no-repeat 16px 24px}
+.customer .guide_svc.s_mobile .main_svc .box.n3{background:url('../images/customerspace/ico_guide_mobile_mainsvc_03.png')no-repeat 18px 23px}
+.customer .guide_svc.s_mobile .main_svc .box .g_title_01{font-weight:bold; padding-bottom:10px}
+.customer .guide_svc.s_mobile .use_prcs:after{content:''; display:block; clear:both}
+.customer .guide_svc.s_mobile .use_prcs li{width:260px; float:left; padding:170px 0 0 20px; text-align:center; position:relative}
+.customer .guide_svc.s_mobile .use_prcs li:first-child{padding-left:0}
+.customer .guide_svc.s_mobile .use_prcs li.st1{background:url('../images/customerspace/ico_guide_mobile_useprcs_01.png')no-repeat 50% 15px}
+.customer .guide_svc.s_mobile .use_prcs li.st2{background:url('../images/customerspace/ico_guide_mobile_useprcs_02.png')no-repeat 50% 15px}
+.customer .guide_svc.s_mobile .use_prcs li.st3{background:url('../images/customerspace/ico_guide_mobile_useprcs_03.png')no-repeat 50% 15px}
+.customer .guide_svc.s_mobile .use_prcs li.st2:after,
+.customer .guide_svc.s_mobile .use_prcs li.st3:after{content:''; display:block; width:14px; height:25px; position:absolute; left:3px; top:70px; background:url('../images/customerspace/arr_guide_mobile_useprcs.png')no-repeat 0 0}
+.customer .guide_svc.s_mobile .use_prcs li .tit{display:block; font-size:15px; color:#444; line-height:15px; margin-bottom:5px}
+.customer .guide_svc.s_mobile .use_prcs li .txt{display:block; color:#444; line-height:20px}
+
+.customer .guide_access li li{color:#666}
+.customer .guide_access li li:after{display:none}
+.customer .guide_access .img_wrap{margin:20px 0}
+.customer .guide_access > .g_list_02 li{padding-left:14px}
+.customer .guide_access > h4{margin-top:40px}
+.customer .guide_access > h4:first-child{margin-top:0}
+.customer .guide_access h5.g_title_01{padding-bottom:7px}
+.customer .guide_access .img_wrap + h5.g_title_01{padding-top:7px;}
+
+/* 민원처리 프로세스 */
+.customer .prcs_minwon h4.g_title_04{padding-bottom:8px}
+.customer .prcs_minwon h4.g_title_04{margin-top:40px}
+.customer .prcs_minwon h4.g_title_04:first-child{margin-top:0}
+.customer .info_receipt{margin-top:23px}
+.customer .info_receipt .tit_receipt{font-size:15px; color:#444; margin-bottom:12px; line-height:12px}
+.customer .info_receipt .box{width:405px; float:right; position:relative}
+.customer .info_receipt .box:first-child{float:left}
+.customer .info_receipt .box dl{border:1px solid #ddd; background-color:#f8f8f8; padding:20px 18px 17px}
+.customer .info_receipt .box dt{font-size:15px; color:#444; font-weight:bold; line-height:16px; margin-bottom:8px}
+.customer .info_receipt .box dd{color:#666; line-height:22px}
+.customer .info_receipt .box a.g_btn_07{position:absolute; right:20px; bottom:21px}
+.customer .info_receipt .post_fax{clear:both; padding-top:30px}
+.customer .info_receipt .post_fax h6.tit{margin:13px 0 8px; font-size:13px; color:#117bb2}
+.customer .prcs_minwon .g_text_02 + .g_list_04{margin-top:11px}
+
+.customer .prcs_minwon .handling_wrap:after{content:''; display:block; clear:both}
+.customer .prcs_minwon .handling_wrap .step{width:172px; float:left; padding-left:44px}
+.customer .prcs_minwon .handling_wrap .step:first-child{padding-left:0}
+.customer .prcs_minwon .handling_wrap .step dl{position:relative; border:1px solid #dedede; border-radius:5px; margin-bottom:10px}
+.customer .prcs_minwon .handling_wrap .step dl:after{content:''; display:block; width:24px; height:24px; position:absolute; left:-34px; top:50%; margin-top:-12px; background:url('../images/customerspace/arr_prcs_minwon_handling.png')no-repeat 0 0}
+.customer .prcs_minwon .handling_wrap .step:first-child dl:after{display:none}
+.customer .prcs_minwon .handling_wrap .step dt{font-weight:bold; color:#fff; background-color:#1699dc; border-radius:5px 5px 0 0; height:41px; line-height:39px; padding:0 20px}
+.customer .prcs_minwon .handling_wrap .step dd{color:#444; line-height:22px; padding:10px 20px 12px}
+
+.customer .prcs_minwon .handling_wrap .step ul.g_list_04{text-align:center}
+.customer .prcs_minwon .handling_wrap .step .g_list_04 li{display:inline-block; text-align:left; color:#666}
+
+/* 민원건수 공시 */
+.customer .official_notice .btn_wrap_right{margin-bottom:20px}
+.customer .official_notice h4.tit{font-size:15px; margin:40px 0 12px}
+.customer .official_notice .btn_wrap_right + h4.tit{margin-top:0}
+.customer .official_notice h4.tit span{font-weight:normal}
+.customer .official_notice .g_table_01 td sup{font-size:10px}
+
+/* 고객중심경영 소개 */
+.customer .sl_centrictity{width:820px}
+.customer .sl_centrictity a.btn_down{position:absolute; top:420px; left:504px}
+.customer .sl_centrictity a.prev,
+.customer .sl_centrictity a.next{display:block; width:40px; height:40px; position:absolute; top:392px; z-index:50; overflow:hidden; text-indent:-9999px}
+.customer .sl_centrictity a.prev{left:1px; background:url('../images/customerspace/btn_sl_centrictity_prev2.gif')no-repeat 0 0}
+.customer .sl_centrictity a.next{right:1px; background:url('../images/customerspace/btn_sl_centrictity_next2.gif')no-repeat 0 0}
+
+/* 소비자보호 우수제도 */
+.customer .great_system h4.g_title_04{padding-bottom:10px}
+.customer .great_system .list_no + h4.g_title_04,
+.customer .great_system .goldenBx + h4.g_title_04,
+.customer .great_system .g_list_04 + h4.g_title_04{margin-top:40px}
+.customer .great_system .g_text_02 + .list_no,
+.customer .great_system .g_text_02 + .g_list_04,
+.customer .great_system .g_text_02 + .goldenBx{margin-top:20px}
+.customer .great_system .g_list_04 + .list_no{margin-top:21px}
+.customer .great_system .list_no li{line-height:22px; color:#666}
+.customer .great_system .list_no li:first-child{font-weight:bold; color:#444}
+
+.customer .great_system .goldenBx{width:100%}
+.customer .great_system .goldenBx:after,
+.customer .great_system .g_list_04 .circle:after{display:block; content:""; clear:both}
+.customer .great_system .goldenBx ul{float:left}
+.customer .great_system .goldenBx ul:nth-child(1){width:471px}
+.customer .great_system .goldenBx ul:nth-child(2){width:347px}
+
+.customer .great_system .g_list_04 li li{color:#666}
+.customer .great_system .g_list_04 li li:after{width:0; height:0}
+.customer .great_system .g_list_04 .circle{width:830px; margin:20px 0 20px -10px}
+.customer .great_system .g_list_04 .circle li{float:left; width:151px; height:151px; line-height:19px; margin-left:13px; padding-left:0; border:solid 1px #2586b8; border-radius:100px; font-size:12px; text-align:center; letter-spacing:-0.075em;}
+.customer .great_system .g_list_04 .circle li:first-child{margin-left:0}
+.customer .great_system .g_list_04 .circle li i{display:block; margin:13px 0 5px; line-height:20px; font-size:18px; font-weight:bold; color:#117bb2}
+
+.customer .great_system .g_define_01 dd{margin-top:7px; line-height:22px; letter-spacing:-0.05em; color:#444}
+.customer .great_system .g_define_01 + .g_define_01{margin-top:15px}
+
+/* 상품개발 프로세스 */
+.customer .prcs_product h4.g_title_04{padding-bottom:17px}
+.customer .prcs_product ul li{padding:0 0 0 140px; position:relative}
+.customer .prcs_product li.st1{background:url('../images/customerspace/ico_prcs_product_01.png')no-repeat 20px 0}
+.customer .prcs_product li.st2{background:url('../images/customerspace/ico_prcs_product_02.png')no-repeat 20px 50%}
+.customer .prcs_product li.st3{background:url('../images/customerspace/ico_prcs_product_03.png')no-repeat 20px 50%}
+.customer .prcs_product li.st4{background:url('../images/customerspace/ico_prcs_product_04.png')no-repeat 20px 50%}
+.customer .prcs_product li.st5{background:url('../images/customerspace/ico_prcs_product_05.png')no-repeat 20px 50%}
+.customer .prcs_product li:after{content:''; display:block; width:15px; height:9px; position:absolute; left:52px; bottom:-4px; background:url('../images/customerspace/arr_prcs_product.png')no-repeat 0 0}
+.customer .prcs_product li.st5:after{display:none}
+.customer .prcs_product li dl{border-bottom:1px solid #e9e9e9; height:90px; padding:50px 0 0}
+.customer .prcs_product li:first-child dl{padding-top:19px}
+.customer .prcs_product li.st2 dl{padding-top:39px; height:101px}
+.customer .prcs_product li dt{font-size:15px; font-weight:bold; color:#444; line-height:15px; margin-bottom:10px}
+.customer .prcs_product li dd{line-height:20px; color:#444}
+
+/* 소비자보호부 조직도 */
+.customer .box_img_bd{width:820px; height:435px; background:url('../images/customerspace/img_organization_chart.jpg') no-repeat 0 0}
+
+/* 금융거래주소 일괄변경 : SM2016.03.04 */
+.g_tab_01.thick .depth_n02 .bcorp_list li{padding-left:14px}
+.customer .adr_bank h4.g_title_04{padding-bottom:8px}
+.customer .adr_bank h4.g_title_04{margin-top:40px}
+.customer .adr_bank h4.g_title_04:first-child{margin-top:0}
+.adr_bank_list .conbox{display:none}
+.customer .adr_bank h5.tit{margin:13px 0 8px 12px; font-size:13px; color:#117bb2}
+.customer .adr_bank .handling_wrap1{margin-top:15px}
+.customer .adr_bank .handling_wrap1:after, .customer .adr_bank .handling_wrap2:after{content:''; display:block; clear:both}
+.customer .adr_bank .handling_wrap1 .step, .customer .adr_bank .handling_wrap2 .step{float:left; padding-left:44px}
+.customer .adr_bank .handling_wrap1 .step dl, .customer .adr_bank .handling_wrap2 .step dl{position:relative; border:1px solid #dedede; border-radius:5px; margin-bottom:0}
+.customer .adr_bank .handling_wrap1 .step dl:after, .customer .adr_bank .handling_wrap2 .step dl:after{content:''; display:block; width:24px; height:24px; position:absolute; left:-34px; top:50%; margin-top:-12px; background:url('../images/customerspace/arr_prcs_minwon_handling.png')no-repeat 0 0}
+.customer .adr_bank .handling_wrap1 .step dl:after{left:-36px}
+.customer .adr_bank .handling_wrap1 .step:first-child dl:after, .customer .adr_bank .handling_wrap2 .step:first-child dl:after{display:none}
+.customer .adr_bank .handling_wrap1 .step dt, .customer .adr_bank .handling_wrap2 .step dt{font-weight:bold; color:#fff; background-color:#1699dc; border-radius:5px 5px 0 0; height:41px; line-height:39px; padding:0 20px; text-align:center}
+.customer .adr_bank .handling_wrap1 .step dt{height:55px; padding-top:8px; line-height:22px}
+.customer .adr_bank .handling_wrap1 .step dd, .customer .adr_bank .handling_wrap2 .step dd{color:#444; line-height:22px; padding:10px 20px 12px}
+.customer .adr_bank .handling_wrap1 .step_box1{width:374px; padding-left:12px}
+.customer .adr_bank .handling_wrap1 .step_box2{width:387px; padding-left:47px}
+.customer .adr_bank .handling_wrap2 .step_box1{width:247px; padding-left:0}
+.customer .adr_bank .handling_wrap2 .step_box2{width:236px; padding-left:45px}
+.customer .adr_bank .handling_wrap2 .step_box3{width:247px; padding-left:45px}
+.customer .adr_bank .handling_wrap1 .step_box1 dd, .customer .adr_bank .handling_wrap2 .step_box1 dd{height:152px}
+.customer .adr_bank .handling_wrap1 .step_box2 dd{height:88px; padding:74px 20px 12px; text-align:center}
+.customer .adr_bank .handling_wrap2 .step_box2 dd, .customer .adr_bank .handling_wrap2 .step_box3 dd{height:108px; padding:54px 20px 12px}
+.customer .adr_bank .handling_wrap1 .step_box1 dd ul{width:254px; margin-left:62px}
+.customer .adr_bank .handling_wrap1 .step_box1 dd ul:after{content:''; display:block; clear:both}
+.customer .adr_bank .handling_wrap1 .step_box1 dd ul li{display:block; float:left; width:100px; padding-right:27px}
+.adr_bank_list .g_table_01 tbody th{font-weight:normal; font-size:13px; color:#444; background-color:#fff}
+
+/* 소비자포털금융소비자보호체계라이나생명 고객중심헌장 */
+.customer .customer_rules{width:750px;height:500px;background:url('/images/customerspace/img_customer_rules.jpg') no-repeat 0 0}
+
+/* 소비자보호실태평가 공시 */
+.customer .g_text_01{text-indent:-15px; padding-left:15px}
+.customer.publicly col{display:table-column}
+.customer.publicly caption{position:relative; visibility:hidden; width:0; height:0; margin:0; padding:0; font-size:0; line-height:0}
+
+/* 사이버창구 이용안내 */
+.customer .guide_user_info li{position:relative;padding:0 0 0 140px;}
+.customer .guide_user_info li:before{content:"";display:inline-block;position:absolute;top:54px;left:20px;width:80px;height:80px;background:url('../images/customerspace/bg_ico_useinfo_01.png') no-repeat}
+.customer .guide_user_info li.st1:before{background-position:0 0;top:36px}
+.customer .guide_user_info li.st2:before{background-position:0 -80px}
+.customer .guide_user_info li.st2_1:before{background-position:0 -320px;top:126px}
+.customer .guide_user_info li.st3:before{background-position:0 -160px;top:126px}
+.customer .guide_user_info li.st4:before{background-position:0 -240px}
+.customer .guide_user_info li:after{content:'';display:block;width:15px;height:9px;position:absolute;left:52px;background:url('../images/customerspace/arr_prcs_product.png')no-repeat 0 0}
+.customer .guide_user_info li.st1:after{bottom:-4px}
+.customer .guide_user_info li.st2:after{bottom:-8px}
+.customer .guide_user_info li.st2_1:after{bottom:-8px}
+.customer .guide_user_info li.st3:after{bottom:40px}
+.customer .guide_user_info li.last:after{display:none}
+.customer .guide_user_info li dl{height:194px;padding:64px 0 0;border-bottom:1px solid #e9e9e9;box-sizing:border-box}
+.customer .guide_user_info li.st1 dl{padding:50px 0 0}
+.customer .guide_user_info li.st2_1 dl{padding:126px 0 0;height:354px}
+.customer .guide_user_info li.st3 dl{padding:126px 0 0;height:354px}
+.customer .guide_user_info li.st3_1 dl{padding:40px 0 0}
+.customer .guide_user_info li dt{font-size:15px; font-weight:bold; color:#444; line-height:15px; margin-bottom:10px}
+.customer .guide_user_info li dd{line-height:20px; color:#444}
+.customer .guide_user_info li dd p{display:inline-block;width:394px}
+.customer .guide_user_info li .img_wrap{position:absolute;top:20px;right:0}
+.customer .guide_user_info li .img_wrap img{display:block;margin-bottom:10px}
+
+.customer .guide_user_info.user_info_app li:before{content:"";display:inline-block;position:absolute;top:54px;left:20px;width:80px;height:80px;background:url('../images/customerspace/bg_ico_useinfo_02.png') no-repeat}
+.customer .guide_user_info.user_info_app li.st1:before{background-position:0 0;top:36px}
+.customer .guide_user_info.user_info_app li.st2:before{background-position:0 -80px}
+.customer .guide_user_info.user_info_app li.st3:before{background-position:0 -160px;top:126px}
+.customer .guide_user_info.user_info_app li.st3_1:before{background-position:0 -400px}
+.customer .guide_user_info.user_info_app li.st4:before{background-position:0 -240px}
+.customer .guide_user_info.user_info_app li.st5:before{background-position:0 -320px}
+.customer .guide_user_info.user_info_app li.st2 dl{height:240px}
+
+.customer .guide_user_info.user_info_mw li:after{bottom:-4px}
+.customer .guide_user_info.user_info_mw li:before{content:"";display:inline-block;position:absolute;top:30px;left:20px;width:80px;height:80px;background:url('../images/customerspace/bg_ico_useinfo_03.png') no-repeat}
+.customer .guide_user_info.user_info_mw li.st1:before{background-position:0 0}
+.customer .guide_user_info.user_info_mw li.st2:before{background-position:0 -80px}
+.customer .guide_user_info.user_info_mw li.st3:before{background-position:0 -160px}
+.customer .guide_user_info.user_info_mw li.st4:before{background-position:0 -240px}
+.customer .guide_user_info.user_info_mw li dl{height:140px;padding:50px 0 0}
+
+.customer .guide_top{width:100%;height:228px;margin-bottom:50px;background:url('../images/customerspace/bg_top_talk.png') no-repeat;color:#fff}
+.customer .guide_top h4{padding-top:70px;padding-left:60px;color:#fff;font-size:26px;font-family:'Noto Sans','맑은고딕',Malgun Gothic,Dotum,'돋움',sans-serif;font-weight:300;letter-spacing:-1px}
+.customer .guide_top h4 strong{display:block;font-size:30px;font-weight:bold}
+
+.customer .guide_talk{margin:50px 0;border:1px solid #e9e9e9;font-family:'Noto Sans','맑은고딕',Malgun Gothic,Dotum,'돋움',sans-serif}
+.customer .guide_talk i{font-style:italic}
+.customer .guide_talk .area_box{position:relative;padding:48px 60px;box-sizing:border-box}
+.customer .guide_talk .area_box2{background-color:#f9f9f9}
+.customer .guide_talk .area_box3{min-height:520px}
+.customer .guide_talk .area_box4{background-color:#f4faff}
+
+.customer .guide_talk .area_tit{display:block;padding-bottom:20px;color:#222;font-size:32px;text-align:center}
+.customer .guide_talk p.txt{font-size:23px;letter-spacing:-1px;line-height:1.8;text-align:center}
+.customer .guide_talk p.txt_in{margin-top:25px;padding-left:9px;text-indent:-9px;color:#787878;font-size:13px}
+
+.customer .guide_talk .talkinfo_list li{float:left}
+.customer .guide_talk .talkinfo_list:after{content:"";display:block;clear:both}
+.customer .guide_talk .talkinfo_list.n2{width:564px;margin:46px auto 0}
+.customer .guide_talk .talkinfo_list.n2 li{width:282px;padding-left:25px;text-align:left;box-sizing:border-box}
+.customer .guide_talk .talkinfo_list.n2 li span{position:relative;display:block;margin-top:20px;padding-left:22px;font-size:15px;letter-spacing:-1px}
+.customer .guide_talk .talkinfo_list.n2 li span:before{position:absolute;top:4px;left:0;content:"";display:inline-block;width:18px;height:18px;background:url('../images/customerspace/bg_ico_talk.png') -200px -150px no-repeat}
+.customer .guide_talk .talkinfo_list.n3{margin-top:30px}
+.customer .guide_talk .talkinfo_list.n3 li{width:33.3333%;text-align:center}
+.customer .guide_talk .talkinfo_list.n3 li span strong{color:#004286}
+.customer .guide_talk .talkinfo_list.n3 li span{position:relative;display:block;margin-bottom:20px;font-size:18px;letter-spacing:-1px}
+
+.customer .guide_talk p.txt_s{margin-top:36px;text-align:center;font-size:13px;font-weight:300;color:#767676}
+.customer .guide_talk p.ico_chat{position:relative;margin-top:64px;padding-top:90px;font-size:23px;font-weight:bold;letter-spacing:-1px;line-height:1.8}
+.customer .guide_talk p.ico_chat:before{position:absolute;top:0;left:0;content:"";display:inline-block;width:73px;height:73px;background:url('../images/customerspace/bg_ico_talk.png') no-repeat 0 -128px}
+
+.customer .guide_talk .area_box .img_r{position:absolute;top:150px;right:60px}
+.customer .guide_talk .area_box1 .check_list{margin:20px 0 40px 160px}
+.customer .guide_talk .area_box1 .img{margin:25px 0 46px}
+.customer .guide_talk .check_list>li{position:relative;padding-left:22px;margin-top:12px;color:#444;font-size:16px;letter-spacing:-1px;line-height:1.6}
+.customer .guide_talk .check_list>li:before{position:absolute;top:5px;left:0;content:"";display:inline-block;width:20px;height:20px;background:url('../images/customerspace/bg_ico_talk.png') -200px -128px no-repeat}
+.customer .guide_talk .img{text-align:center}
+
+.customer .guide_talk .talk_link_list{margin-top:25px}
+.customer .guide_talk .talk_link_list:after{content:"";clear:both;display:block}
+.customer .guide_talk .talk_link_list li{float:left;width:33.3333%;box-sizing:border-box}
+.customer .guide_talk .talk_link_list a{display:block;position:relative;width:199px;height:283px;margin:0 auto;padding-top:170px;background-color:#fff;border-radius:24px;box-shadow:9px 0 29px rgba(0,0,0,.07);box-sizing:border-box;color:#222;font-size:19px;font-weight:bold;letter-spacing:-1px;text-align:center}
+.customer .guide_talk .talk_link_list a:after{position:absolute;bottom:30px;left:50%;margin-left:-10px;content:"";display:inline-block;width:40px;height:40px;background:url('../images/customerspace/bg_ico_talk.png') no-repeat -100px -128px}
+.customer .guide_talk .talk_link_list a:before{position:absolute;top:34px;left:50%;margin-left:-53px;content:"";display:inline-block;width:106px;height:110px;background:url('../images/customerspace/bg_ico_talk.png') no-repeat}
+.customer .guide_talk .talk_link_list a.talk_prd_link1:before{background-position:0 0}
+.customer .guide_talk .talk_link_list a.talk_prd_link2:before{background-position:-114px 0}
+.customer .guide_talk .talk_link_list a.talk_prd_link3:before{background-position:-228px 0}
+.customer .guide_talk a.talk_prd_link{display:block;position:relative;margin:0 auto;width:404px;height:81px;padding:24px 0;background-color:#008bec;border-radius:40px;box-sizing:border-box;color:#fff;font-size:22px;letter-spacing:-1px;text-align:center}
+.customer .guide_talk a.talk_prd_link:after{position:absolute;top:30px;right:30px;content:"";display:inline-block;width:18px;height:24px;background:url('../images/customerspace/bg_ico_talk.png') -160px -128px no-repeat}
+
+.customer .guide_talk .num_list li{position:relative;margin-top:24px;min-height:356px;padding-top:120px;margin-bottom:20px;box-sizing:border-box}
+.customer .guide_talk .num_list li .img_r{position:absolute;top:0;right:36px}
+.customer .guide_talk .num_list li:first-child .img_r{right:6px}
+.customer .guide_talk .num_list li .num{display:inline-block;width:32px;height:32px;margin-bottom:10px;box-sizing:border-box;border-radius:100%;background-color:#004286;color:#fff;text-align:center;font-size:18px;line-height:32px}
+.customer .guide_talk p.txt1{width:280px;font-size:22px;font-weight:bold;letter-spacing:-1px;line-height:1.8}
+.customer .guide_talk .area_box6{min-height:384px;background-color:#f4faff}
+.customer .guide_talk .area_box7{min-height:384px;background-color:#e9f3fc}
+.customer .guide_talk .area_box6 .img_r,
+.customer .guide_talk .area_box7 .img_r{position:absolute;top:60px;right:60px}
+.customer .guide_talk .area_box6 .txt1,
+.customer .guide_talk .area_box7 .txt1{margin-top:75px}
+.customer .guide_talk .area_box8{padding:60px 0}
+
+/* 고객센터 이용안내 - 케어라운지 배너 */
+.bnr_topRight{position:fixed;top:214px;left:50%;margin-left:600px;width:117px}
+.bnr_topRight a{display:block}
+.bnr_topRight a img{width:100%;max-width:100%}

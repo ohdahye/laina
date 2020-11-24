@@ -1,0 +1,468 @@
+@charset "utf-8";
+/* ------------------------------------------
+* Filename :company.css
+* Description :회사소개
+* Author :Fu:z
+------------------------------------------ */
+/* 회사소개 메인 */
+.submain_cpn .visual{width:100%; min-width:1100px; height:495px; background:url('../images/company/bg_main_theme.jpg') no-repeat 50% 0}
+.submain_cpn .visual *{text-indent:-9999px}
+.submain_cpn .mcpn_cont{width:1100px; margin:-261px auto 100px} /* margin:-273px auto 100px */
+.submain_cpn .mcpn_cont > .btn_wrap_right{margin-bottom:50px; text-align: right;}
+.submain_cpn a.vod_link{display: inline-block; width:110px; height:110px; border-radius:50%; background:#6bb4ea url('../images/company/img_vodlink.png') no-repeat 50% 50%}
+.submain_cpn a.vod_link:focus{outline:1px dotted #777}
+.submain_cpn .mcpn_list{width:1100px}
+.submain_cpn .mcpn_list:after{display:block; content:""; clear:both}
+.submain_cpn .mcpn_list li{position:relative; float:left; width:25%; height:355px; box-sizing:border-box; text-align:center; border-width:0 1px 1px 0; border-style:solid; border-color:#ddd; border-top:0; background-color:#fff; background-repeat:no-repeat; letter-spacing:-1px}
+.submain_cpn .mcpn_list li:after{position:absolute; top:0; left:-1px; display:block; content:""; width:276px; height:5px}
+.submain_cpn .mcpn01:after{background-color:#4490df}
+.submain_cpn .mcpn02:after{background-color:#71b602}
+.submain_cpn .mcpn03:after{background-color:#ff9329}
+.submain_cpn .mcpn04:after{background-color:#0cb8b8}
+.submain_cpn .mcpn_list dt{margin:113px 0 10px; font-size:24px}
+.submain_cpn .mcpn_list dd{font-size:14px; line-height:23px; color:#666}
+.submain_cpn li.mcpn01{border-left:1px solid #ddd; background-image:url('../images/company/bg_mcpn01.gif'); background-position:50% 36px}
+.submain_cpn .mcpn02{background-image:url('../images/company/bg_mcpn02.gif'); background-position:50% 40px}
+.submain_cpn .mcpn03{background-image:url('../images/company/bg_mcpn03.gif'); background-position:50% 36px}
+.submain_cpn .mcpn04{background-image:url('../images/company/bg_mcpn04.gif'); background-position:50% 39px}
+.submain_cpn .btn_sec{position:absolute; bottom:27px; width:100%}
+
+/* 레이어: 라이나 홍보영상 레이어 팝업 */
+.ly_vod .inner{top:50%;width:597px;margin:-340px auto 0}
+.g_layer_box.ly_vod .layer_cont{overflow:hidden;padding:20px}
+.ly_vod .g_video_01 .video{border:1px solid #d9d9d9}
+.ly_vod .vod_script{overflow-y:auto;width:555px;height:150px;margin-top:10px;border:1px solid #d9d9d9}
+.ly_vod .vod_script .box_script{padding:15px 20px;font-size:14px;line-height:20px;color:#666;letter-spacing:-0.05em}
+
+/* 상단아이콘 */
+.company .cpn_pagetop_01{background-image:url('../images/company/cpn_pagetop_01.jpg')}/* 생명 */
+.company .cpn_pagetop_02{background-image:url('../images/company/cpn_pagetop_02.jpg')}/* 채용 */
+.company .cpn_pagetop_03{background-image:url('../images/company/cpn_pagetop_03.jpg')}/* TMR */
+.company .cpn_pagetop_04{background-image:url('../images/company/cpn_pagetop_04.jpg')}/* 찾아오시는길 */
+
+/* 회사소개 > TMR모집 > TMR모집 목록, 상세*/
+.tmr_notice_visual p.top_visual{padding-bottom:10px}
+.tbl_tmr_notice .td_left{text-align:left}
+.tbl_tmr_notice .th_center{padding-left:0;padding-right:0;text-align:center}
+
+/* Step */
+.conpany_step_01{height:123px}
+.conpany_step_01:after{display:block;content:'';clear:both}
+.conpany_step_01 li:first-child{margin-left:0}
+.conpany_step_01 li.lst{padding-right:0px;background:none}
+.conpany_step_01 li{position:relative; float:left;text-align:center;width:95px;margin-left:21px;padding-right:29px;background:url('../images/company/ico_step_arr.gif') 100% 40px no-repeat}
+.conpany_step_01 li .img_zone{overflow:hidden; width:95px;height:95px}
+.conpany_step_01 li.on .img_zone img{margin-top:-95px}
+.conpany_step_01 li [class^='txt_']{position:absolute; top:110px;left:0; text-align:center}
+.conpany_step_01 li .txt_01{left:0}
+.conpany_step_01 li .txt_02{left:-7px}
+.conpany_step_01 li .txt_03{left:13px}
+.conpany_step_01 li .txt_04{left:6px}
+.conpany_step_01 li .txt_05{left:21px}
+.conpany_step_01 li .txt_06{left:34px}
+
+/* 회사소개 > TMR모집 > TMR지원 > 지원자정보입력 ::*/
+.apply_step1 .apply_step1_tblcont{padding-bottom:12px; color:#444}
+.apply_step1 .pb_control{padding-bottom:5px}
+p.warning_pl{padding-left:30px;background:url('../images/common/ico_warning.gif') 0 0 no-repeat}
+p.warning_pl_01{height:20px;padding-left:30px;background:url('../images/common/ico_info_bubble.gif') 0 0 no-repeat}
+
+/* 회사소개 > TMR모집 > TMR지원 > 개인정보 수집동의 ::개인정보 수집 및 이용 / 조회에 대한 동의 */
+.apply_step2 .employ_box .term{height:348px; overflow-y:scroll; border:1px solid #d9d9d9; padding:15px 30px 39px 30px; line-height:22px; color:#666}
+.apply_step2 .employ_box .term .tit{font-size:15px; font-weight:bold; color:#444; margin-top:10px}
+.apply_step2 .employ_box .term .tit + ul{margin-top:7px}
+.apply_step2 .employ_box .term > ul > li{position:relative; margin-top:5px; padding-left:10px}
+.apply_step2 .employ_box .term > ul > li:after{content:''; display:block; width:3px; height:3px; background-color:#666; position:absolute; left:0; top:10px}
+.apply_step2 .employ_box .term > ul > li:first-child{margin-top:0}
+.apply_step2 .employ_box .term li li{position:relative; padding-left:15px}
+.apply_step2 .employ_box .term li li i{content:''; display:block; position:absolute; left:0; top:0}
+.apply_step2 .employ_box .agree{border:solid #d9d9d9; border-width:0 1px 1px 1px; background-color:#fafafa; padding:10px 19px 10px 30px}
+.apply_step2 .employ_box .agree:after{display:block; content:''; clear:both}
+.apply_step2 .employ_box .agree .chk{float:left; line-height:24px}
+.apply_step2 .employ_box .agree .chk label{display:inline-block; margin-left:3px; font-weight:bold}
+.apply_step2 .employ_box .agree .rd_sec{float:right} 
+.apply_step2 .employ_box .agree .rd_sec label{display:inline-block; margin-right:20px} 
+.apply_step2 .employ_box .agree .rd_sec label.lst{display:inline-block; margin-right:0px} 
+/* 회사소개 > TMR모집 > TMR지원 > 이력서작성 ::경력사항자기소개 */
+.apply_step3 .tbl_tac{text-align:center}
+.apply_step3 td.field_plus a:first-child{display:inline-block; margin-right:6px}
+/* 회사소개 > TMR모집 > TMR지원 > 이력서작성 */
+.apply_step3 .g_table_01 .txtbox{width:95%; height:199px; padding:4px 4px 3px; border:1px solid #9ab5c3; color:#666}
+.apply_step3 .receipt_agree {padding:0 0 10px;border:1px solid #d0d0d0;color:#333}
+.apply_step3 .receipt_agree .date {display:block;padding:7px 30px 0 0;border-top:1px solid #d0d0d0;text-align:right}
+.apply_step3 .receipt_agree .cont_agree {display:block;padding:10px 40px 15px 50px;background:none repeat scroll 0 0 #f5f5f5}
+.apply_step3 span.no_bold{font-weight:normal}
+
+/* 회사소개 > TMR모집 > TMR지원 > 직무적성검사 */
+.apply_step4 .tmr_pre_info .txt{padding-bottom:20px;line-height:25px}
+.apply_step4 .g_list_01 li{color:#de181b}
+.apply_step4 .g_list_01 li:after{content:''; display:block; width:3px; height:3px; background-color:#de181b; position:absolute; left:0; top:10px}
+
+/* 회사소개 > TMR모집 > TMR지원 > 설문조사 */
+.apply_step4 h4.g_title_04.bot_line,
+.apply_step5 h4.g_title_04.bot_line,
+.apply_step6 h4.g_title_04.bot_line{position:relative; border-bottom:2px solid #58bbee}
+
+.apply_step4 h4.g_title_04.bot_line .pos_r,
+.apply_step5 h4.g_title_04.bot_line .pos_r,
+.apply_step5 h4.g_title_05.bot_line .pos_r{position:absolute; bottom:10px; right:0; font-size:13px;letter-spacing:2px}
+
+.apply_step4 .survey_list li,
+.apply_step5 .survey_list li{padding:26px 0; border-bottom:1px dashed #b0b0b0}
+.apply_step4 .survey_list dl:after,
+.apply_step5 .survey_list dl:after{display:block;content:'';clear:both}
+.apply_step4 .survey_list dt,
+.apply_step5 .survey_list dt{font-size:15px; padding-bottom:25px;color:#444}
+.apply_step4 .survey_list dd,
+.apply_step5 .survey_list dd{float:left;width:50%;padding-bottom:10px}
+.apply_step4 .survey_list dd input[type='radio'],
+.apply_step5 .survey_list dd input[type='radio']{margin-right:5px}
+
+/* 회사소개 > TMR모집 > TMR지원 > 제출 */
+.apply_step6 .result_survey_sec{padding:50px 0; border-bottom:1px solid #d9d9d9; text-align:center}
+.apply_step6 .result_survey_sec .img_sec{padding-bottom:22px}
+.apply_step6 .result_survey_sec .txt_01{padding-bottom:14px; font-size:26px}
+
+/* 회사소개공통 */
+.g_title_btn:after {display:block; content:""; clear:both}
+.g_title_btn h3,
+.g_title_btn h4 {float:left}
+.g_title_btn a {float:right}
+
+.company .g_btn_09{display:inline-block; width:67px; height:24px; line-height:20px; padding:0 10px; text-align:left !important; font-size:13px; color:#666; border:1px solid #b9b9b9; box-sizing:border-box; border-radius:2px;  background:#fafafa url(../images/common/g_print.gif) 85% center no-repeat}
+
+/*회사소개 > 찾아오시는길 > TM면접장소 및 TM센터 안내*/
+.rough_map {}
+.rough_map_info {overflow:hidden; margin-top:15px}
+.rough_map_info strong {float:left; font-size:15px}
+.rough_map_info a {float:right; min-width:85px; height:24px; line-height:20px; margin-top:8px; padding:0 10px;  font-size:13px; color:#127bb2; font-weight:bold; box-sizing:border-box; border-radius:2px; border:1px solid #127bb2; background:url('../images/common/arrw_bg.gif') 88% center no-repeat}
+
+.rough_map_list {margin-top:15px}
+.rough_map_list > li {overflow:hidden; padding:20px 0; box-sizing:border-box; border-top:1px solid #d9d9d9}
+.rough_map_list > li:first-child {border-top:none}
+.rough_map_list li strong{float:left; width:18%; height:40px; line-height:40px; font-size:15px; padding-left:52px; box-sizing:border-box}
+.rough_map_list li ul {float:left; width:82%}
+.rough_map_list li ul li{line-height:22px}
+.rough_map_list li p {float:left}
+
+.rough_map_list .rml01 {background:url('../images/company/rml01.gif') 0 0 no-repeat}
+.rough_map_list .rml02 {margin-top:6px; background:url('../images/company/rml02.gif') 0 0 no-repeat}
+.rough_map_list .rml03 {margin-top:6px; background:url('../images/company/rml03.gif') 0 0 no-repeat}
+.rough_map_list .rml04 {background:url('../images/company/rml04.gif') 0 0 no-repeat}
+.rough_map_list .rml01.line2,
+.rough_map_list .rml04.line2 {line-height:20px}
+
+/*TMR소개*/
+.tmr_top_txt {padding:20px 0 20px 158px; height:100px; margin-bottom:45px; line-height:22px; border:1px solid #d9d9d9; background:#fafafa url('../images/company/tmt_top_bg02.gif') 30px center no-repeat}
+.tmr_top_txt strong {display:block; margin-top:10px; margin-bottom:7px; font-size:17px; color:#333}
+.tmr_top_txt strong span {color:#127bb2}
+.tmr_list {}
+.tmr_list li {padding:30px 35px; border-top:1px solid #d9d9d9} 
+.tmr_list li:first-child {padding-top:20px; border-top:none}
+.tmr_list li strong {display:block; margin-bottom:10px; font-size:17px}
+.tmr_list li p {line-height:20px; color:#666}
+.tmr_list li.tmr_list01 {background:url('../images/company/tmr_list_num01.gif') 0 18px no-repeat}
+.tmr_list li.tmr_list02 {background:url('../images/company/tmr_list_num02.gif') 0 28px no-repeat}
+.tmr_list li.tmr_list03 {background:url('../images/company/tmr_list_num03.gif') 0 28px no-repeat}
+
+.tmr_bottom {overflow:hidden; border:1px solid #d9d9d9}
+.tmr_bottom > div{float:left; width:50%; height:148px; padding:30px 0 30px 142px;  box-sizing:border-box}
+.tmr_bottom > div:first-child {border-right:1px solid #d9d9d9}
+.tmr_bottom > div strong {display:block; margin-top:-10px; margin-bottom:10px; font-size:20px}
+.tmr_bottom > div.left {background:url('../images/company/tmr_bot01.gif') 35px center no-repeat}
+.tmr_bottom > div.right {background:url('../images/company/tmr_bot02.gif') 35px center no-repeat}
+.tmr_bottom > div.right p span {font-weight:bold}
+.tmr_bottom > div p {line-height:22px; letter-spacing:-1px}
+ 
+.company_tmr03 .tmr_top_txt {color:#666; background:#fafafa url('../images/company/tmt_top_bg03.gif') 30px center no-repeat}
+.text_blue {display:block; color:#127bb4; margin:25px 0}
+.company_tmr03 .lh_txt_02{margin-top:-8px; line-height:22px}
+.company_tmr03 .text_blue{font-size:15px; line-height:22px}
+.tmr_program {margin-top:-30px; margin-bottom:50px}
+.tmr_program li {padding:50px 0 50px 140px; box-sizing:border-box; border-bottom:1px solid #e9e9e9; color:#333}
+.tmr_program li strong{display:block; margin-bottom:12px; font-size:17px}
+.tmr_program .tmr_pro_li01 {background:url('../images/company/tmr_pro01.gif') 20px center no-repeat}
+.tmr_program .tmr_pro_li02 {background:url('../images/company/tmr_pro02.gif') 20px center no-repeat}
+.tmr_program .tmr_pro_li03 {background:url('../images/company/tmr_pro03.gif') 20px center no-repeat}
+.tmr_program .tmr_pro_li04 {background:url('../images/company/tmr_pro04.gif') 20px center no-repeat}
+
+.company .lh_txt {display:block; line-height:22px; font-size:15px; color:#333}
+.company .s_lh {letter-spacing:-0.05em;line-height:20px}
+.company .s_lh strong {color:#117bb2}
+
+.tmr_program2 {border:1px solid #d9d9d9; border-collapse:collapse; overflow:hidden; background-color:#fafcff}
+.tmr_program2:after{display:block; content:''; clear:both}
+.tmr_program2 li {float:left; width:20%; height:185px; padding-top:120px; text-align:center; font-weight:bold; box-sizing:border-box; border-left:1px solid #d9d9d9}
+.tmr_program2 li:first-child{border-left:0}
+.tmr_program2 li.tmr_pro_li01 {background:url('../images/company/tmr_pro_2li01.gif') center 30px no-repeat}
+.tmr_program2 li.tmr_pro_li02 {background:url('../images/company/tmr_pro_2li02.gif') center 30px no-repeat}
+.tmr_program2 li.tmr_pro_li03 {background:url('../images/company/tmr_pro_2li03.gif') center 30px no-repeat}
+.tmr_program2 li.tmr_pro_li04 {background:url('../images/company/tmr_pro_2li04.gif') center 30px no-repeat}
+.tmr_program2 li.tmr_pro_li05 {background:url('../images/company/tmr_pro_2li05.gif') center 30px no-repeat}
+
+/* 회사소개 - lifelina - benefits */
+.cpn_welface {margin-top:20px}
+.cpn_welface li {float:left; width:50%; height:140px; border-top:1px solid #e9e9e9}
+.cpn_welface li img {float:left; margin:30px 25px 0 20px}
+.cpn_welface li p {float:left; width:282px; line-height:19px}
+.cpn_welface li p strong {display:block; font-size:17px; line-height:24px; margin:35px 0 10px; letter-spacing:-1px}
+.cpn_welface li.first {border-top:none}
+.cpn_welface li.over_title p strong{margin-top:25px}
+
+.cpn_on_study {overflow:hidden; margin-top:50px}
+.cpn_on_study li {float:left; width:190px; height:160px; margin-left:20px; padding:15px 20px; line-height:18px; color:#fff; box-sizing:border-box}
+.cpn_on_study li:first-child {margin-left:0}
+.cpn_on_study li strong {display:block; margin-bottom:10px}
+.cpn_on_study li.list01 {background:url('../images/company/cpn_on_study01.gif') 0 0 no-repeat}
+.cpn_on_study li.list02 {background:url('../images/company/cpn_on_study02.gif') 0 0 no-repeat}
+.cpn_on_study li.list03 {background:url('../images/company/cpn_on_study03.gif') 0 0 no-repeat}
+.cpn_on_study li.list04 {background:url('../images/company/cpn_on_study04.gif') 0 0 no-repeat}
+
+.cpn_healthy {position:relative; width:100%; height:424px; margin-top:50px; background:url('../images/company/cpn_healthy.gif') 0 0 no-repeat}
+.cpn_healthy li {position:absolute; width:190px; height:125px; text-align:left; line-height:21px}
+.cpn_healthy li strong {display:block; font-size:15px; color:#117bb2; margin-bottom:5px}
+.cpn_healthy .list01 {left:5px; top:15px; text-align:right}
+.cpn_healthy .list02 {right:20px; top:15px}
+.cpn_healthy .list03 {left:5px; top:233px;text-align:right}
+.cpn_healthy .list04 {right:20px; top:233px}
+
+.why_lina_list {}
+.why_lina_list li {padding:30px 0 30px 140px; border-top:1px solid #e9e9e9}
+.why_lina_list li:first-child{border-top:0}
+.why_lina_list li strong {display:block; margin-bottom:10px; font-size:20px; color:#333}
+.why_lina_list li span {color:#117bb2; font-weight:bold; letter-spacing:-1px}
+.why_lina_list li p {line-height:21px; color:#444444}
+.why_lina_list li.list01 {background:url('../images/company/why_icon01.gif') 20px center no-repeat}
+.why_lina_list li.list02 {background:url('../images/company/why_icon02.gif') 20px center no-repeat}
+.why_lina_list li.list03 {background:url('../images/company/why_icon03.gif') 20px center no-repeat}
+.why_lina_list li.list04 {background:url('../images/company/why_icon04.gif') 20px center no-repeat}
+.why_lina_list li.list05 {background:url('../images/company/why_icon05.gif') 20px center no-repeat}
+.why_lina_list li.list06 {background:url('../images/company/why_icon06.gif') 20px center no-repeat}
+
+.talendted {}
+.talendted .sec01 {overflow:hidden; padding:50px 0; border-bottom:1px solid #d3d3d3}
+.talendted .sec01 img {float:left; margin:0 30px 0 36px}
+.talendted .sec01 ul {float:left; margin-top:-9px}
+.talendted .sec01 ul li {margin-bottom:7px; font-weight:bold}
+.talendted .sec02 {overflow:hidden; padding:50px 0 50px}
+.talendted .sec02 img {float:left; margin:0 30px 0 50px}
+.talendted .sec02 ul {float:left; width:427px; margin-top:27px}
+.talendted .sec02 ul li {float:left; width:50%; margin-bottom:7px; font-weight:bold}
+.talendted .sec02 ul li:nth-child(odd){width:37%}
+
+.company_intro{}
+.company_intro .lina_hq {position:relative; width:100%; height:240px; background:url('../images/company/company_build01.jpg') 0 0 no-repeat}
+.company_intro .lina_hq p {position:absolute; line-height:1; right:-5px; top:25px; color:transparent;}
+.company_intro .lina_hq p span {display:block; margin-bottom:25px; font-size:30px}
+.company_intro .hq_str_text {margin:20px 0 30px}
+.company_intro .hq_str_text2 {margin:30px 0 30px}
+
+.hq_ct_position {overflow:hidden; margin-top:35px}
+.hq_ct_position > img {float:left; margin-right:20px}
+.hq_ct_position p {float:left; width:419px; line-height:20px}
+.hq_ct_position p > img {display:block; margin-bottom:14px}
+
+.cpn_history{overflow:hidden}
+.cpn_history > div {width:50%; float:left}
+.cpn_history > div > ol {position:relative; margin-top:20px; background:url('../images/company/his_bg.jpg') 6px 10px repeat-y}
+.cpn_history > div > ol > li {overflow:hidden; margin-bottom:35px}
+.cpn_history ul {float:left}
+.cpn_history ul li {padding-left:10px;  margin-bottom:2px; line-height:20px; background:url('../images/common/bul_dot_01.gif') 0 8px no-repeat}
+.cpn_history strong {float:left; margin-right:15px; padding-left:40px; font-size:15px; background:url('../images/company/his01_strong.gif') 0 4px no-repeat}
+.cpn_history .his02 strong {background:url('../images/company/his02_strong.jpg') 0 4px no-repeat}
+.cpn_history div ol:before {display:block; position:absolute; left:6px; top:-6px; width:2px; height:10px; content:""; background:#fff}
+.cpn_history div ol:after {display:block; position:absolute; left:6px; bottom:-6px; width:2px; height:10px; content:""; background:#fff}
+.cpn_history .his02 ol:after {height:50px}
+
+.vision_prograss {position:relative; height:372px; margin:30px 0 50px; background:url(../images/company/vision_prograss_bg.gif) 0 0 no-repeat}
+.vision_prograss .vision_strong {position:absolute; width:195px; left:313px; top:100px; text-align:center}
+.vision_prograss .vision_strong strong {display:block; margin:8px 0 10px; color:#117bb2; font-size:17px}
+.vision_prograss .vision_strong span {color:#666}
+.vision_prograss li {position:absolute; width:215px; line-height:20px}
+.vision_prograss li strong {display:block; font-size:15px; margin-bottom:5px; letter-spacing:-1px}
+.vision_prograss li:nth-child(odd) {text-align:right}
+.vision_prograss .list01 {left:10px; top:25px}
+.vision_prograss .list02 {right:20px; top:25px}
+.vision_prograss .list03 {left:10px; top:222px}
+.vision_prograss .list04 {right:20px; top:222px}
+
+.cpn_world_map {position:relative; margin:30px 0}
+.cpn_world_map ul {position:absolute; width:400px; left:20px; bottom:20px}
+.cpn_world_map ul li {margin-bottom:5px; padding-left:10px; background:url('../images/common/bul_dot_01.gif') 0 center no-repeat}
+.cpn_world_map ul li:last-child {background:none; padding:0}
+.cpn_world_map ul li:last-child span {color:#117bb2}
+.cpn_world_map ul li span {font-weight:bold; color:#444}
+
+.cpn_global_list {margin-top:15px; border-top:2px solid #57bbed}
+.cpn_global_list > ul {overflow:hidden; margin-top:10px}
+.cpn_global_list > ul > li {float:left; width:20%}
+.cpn_global_list > ul > li strong {display:block; margin-bottom:12px}
+.cpn_global_list > ul > li > ul > li {margin-bottom:5px; padding-left:10px; background:url('../images/common/bul_dot_01.gif') 0 8px no-repeat}
+
+.cpn_award {position:relative; background:url('../images/company/his_bg.jpg') 6px 0 repeat-y}
+.cpn_award:before {position:absolute; content:""; width:2px; height:16px; left:6px; top:0; background:#fff}
+.cpn_award:after {position:absolute; content:""; width:2px; height:90px; left:6px; bottom:0; background:#fff}
+.cpn_award > li { padding:35px 0; margin-left:8px; border-top:1px dashed #b0b0b0}
+.cpn_award > li:after {content:""; display:block; clear:both}
+.cpn_award > li:first-child {padding-top:0; border-top:none}
+.cpn_award > li > strong {float:left; margin-right:90px; margin-left:-8px; padding-left:35px; font-size:34px; background:url('../images/company/his01_strong.gif') 0 center no-repeat}
+
+.cpn_award > li > ul {float:left}
+.cpn_award > li > ul > li {overflow:hidden; margin-top:25px}
+.cpn_award > li > ul > li:first-child {margin-top:0}
+.cpn_award > li > ul > li > span {float:left; width:115px/* margin-right:30px */}
+.cpn_award > li > ul > li > p {float:left; width:500px; text-align:justify; line-height:20px}
+.cpn_award > li > ul > li > p strong {display:block; margin-bottom:5px; font-size:15px; color:#117bb2}
+
+.cpn_mem_ol {overflow:hidden; margin:30px 0 50px 50px}
+.cpn_mem_ol li {float:left; font-size:15px; color:#444; font-weight:bold}
+.cpn_mem_ol li:last-child {text-align:center}
+.cpn_mem_ol li img {display:block;margin-bottom:25px}
+
+.cpn_job_plan {overflow:hidden; margin:35px 0 25px}
+.cpn_job_plan img {float:left}
+
+.cpn_txt {font-size:13px; line-height:20px; text-align:justify}
+
+.partner_list {margin:25px 0; overflow:hidden; border-top:1px solid #c3c3c3}
+.partner_list li {float:left; width:163px; text-align:center; border:1px solid #c3c3c3; border-top:none; border-left:none}
+.partner_list li:nth-child(1n+6) {border-bottom:1px solid #c3c3c3}
+.partner_list li:nth-child(5n+1) {width:162px; border-left:1px solid #c3c3c3}
+.partner_list li p {text-align:center; padding:10px 0;  border-bottom:1px dashed #d9d9d9}
+.partner_list li span {display:block; height:30px; line-height:30px; font-weight:bold}
+.cpn_partner_bottom {}
+.cpn_partner_bottom .list01 {padding:25px 0 25px 140px; border-bottom:1px solid #e9e9e9; background:url('../images/company/cpn_bot01.gif') 20px center no-repeat}
+.cpn_partner_bottom .list02 {padding:25px 0 25px 140px; background:url('../images/company/cpn_bot02.gif') 20px center no-repeat}
+.cpn_partner_bottom .list01 ul {overflow:hidden; margin-top:10px}
+.cpn_partner_bottom .list01 ul li {float:left; width:170px; padding-left:10px; margin-bottom:5px; background:url('../images/common/bul_dot_01.gif') 0 center no-repeat}
+.cpn_partner_bottom .list02 ul li {color:#666}
+
+/*.ceo_hello{background:url('/images/company/ceo_pic.jpg') 386px 90px no-repeat}*/
+.ceo_hello .txt_title{margin:30px 0 4px}
+.ceo_hello .txt_para{line-height:22px}
+.ceo_hello .ceo_sign{margin-top:40px}
+
+/* 회사소개 > 라이나생명 > 기업소개자료 - 라이나생명 기업홍보영상 */
+.cpn_vod{margin-bottom:45px}
+.cpn_vod:after{display:block; content:""; clear:both}
+.cpn_vod .video{float:left;width:555px}
+.cpn_vod .vod_script{overflow-y:auto;float:right;width:253px;height:310px;border:1px solid #d9d9d9}
+.cpn_vod .vod_script .box_script{padding:15px 20px;font-size:14px;line-height:20px;color:#666}
+
+.cpn_movie {overflow:hidden; margin-bottom:50px}
+.cpn_movie .moving_picture {float:left; width:555px; height:312px; margin-right:10px}
+.cpn_movie .cpn_caption {float:left; width:253px; height:310px; padding:10px; box-sizing:border-box; border:1px solid #dfdfdf}
+.cpn_doc_down {overflow:hidden}
+.cpn_doc_down li {float:left; margin-left:30px; text-align:center}
+.cpn_doc_down li:first-child {margin-left:0}
+.cpn_doc_down li span img {display:block; width:251px; height:318px; border:solid 1px #ddd}
+.cpn_doc_down li a {height:24px; margin-top:20px; line-height:24px}
+
+.tree_logo_type{margin:30px 0 50px}
+.tree_logo_type:after{content:"";clear:both;display:block}
+.tree_logo_type li {float:left; width:33.33%; padding-top:130px; text-align:center}
+.tree_logo_type li strong {display:block; margin-bottom:20px; font-size:20px}
+.tree_logo_type li p {width:230px; margin:0 auto; line-height:20px; text-align:center}
+.tree_logo_type li.list01 {background:url('../images/company/tree01.gif') center 0 no-repeat}
+.tree_logo_type li.list02 {background:url('../images/company/tree02.gif') center 0 no-repeat}
+.tree_logo_type li.list03 {background:url('../images/company/tree03.gif') center 0 no-repeat}
+
+.cpn_logo_guide li {overflow:hidden; padding-left:20px; border-top:1px dashed #e1e1e1}
+.cpn_logo_guide li:first-child {border-top:1px solid #e1e1e1}
+.cpn_logo_guide li:last-child {border-bottom:1px solid #e1e1e1}
+.cpn_logo_guide li div {float:left; width:158px;height:208px;padding:40px 0;border-right:1px dashed #e1e1e1;box-sizing:border-box}
+.cpn_logo_guide li div strong {display:block; margin-bottom:16px; font-size:17px}
+.cpn_logo_guide li div a {min-width:115px; height:24px; line-height:24px; margin-bottom:5px; box-sizing:border-box}
+.cpn_logo_guide li img {float:right;}
+
+.cpn_logo_guide li.last img {margin-top:60px; margin-right:111px}
+.cpn_logo_guide li.last div {padding:80px 0}
+
+/* TMR Exit Survey 팝업 */
+.g_win_pop .tmr_survey{padding-top:20px}
+.g_win_pop .tmr_survey .box_01{height:318px; overflow-y:auto; overflow-x:hidden}
+.g_win_pop .tmr_survey h2.logo{margin-bottom:20px}
+.g_win_pop .tmr_survey .intro{height:330px}
+.g_win_pop .tmr_survey .intro .msg{margin-top:10px}
+.g_win_pop .tmr_survey .intro .msg dt{font-size:20px; color:#444; letter-spacing:-1px; font-weight:bold; margin-bottom:9px}
+
+.g_win_pop .tmr_survey .chk_box{border-top:2px solid #666; border-bottom:1px solid #d9d9d9}
+.g_win_pop .tmr_survey .box_01.scroll{border-bottom:1px solid #d9d9d9}
+.g_win_pop .tmr_survey .box_01.scroll .chk_box{border-bottom:0 none}
+.g_win_pop .tmr_survey .chk_box dt{font-size:15px; color:#333; font-weight:bold; padding:14px 15px 13px 51px; line-height:25px; letter-spacing:-1px; border-bottom:1px dashed #cfd6d9; background-color:#fafafa; position:relative}
+.g_win_pop .tmr_survey .chk_box dt i{display:block; width:22px; height:22px; position:absolute; left:20px; top:15px; text-indent:-9999px}
+.g_win_pop .tmr_survey .chk_box.q1 dt i{background:url('../images/company/ico_survey_q1.png')no-repeat 0 0}
+.g_win_pop .tmr_survey .chk_box.q2 dt i{background-image:url('../images/company/ico_survey_q2.png')}
+.g_win_pop .tmr_survey .chk_box.q2-1 dt i{background-image:url('../images/company/ico_survey_q21.png')}
+.g_win_pop .tmr_survey .chk_box.q3 dt i{background-image:url('../images/company/ico_survey_q3.png')}
+.g_win_pop .tmr_survey .chk_box.q4 dt i{background-image:url('../images/company/ico_survey_q4.png')}
+.g_win_pop .tmr_survey .chk_box.q5 dt i{background-image:url('../images/company/ico_survey_q5.png')}
+.g_win_pop .tmr_survey .chk_box dd{padding:10px 15px 15px}
+.g_win_pop .tmr_survey .chk_box .chk{color:#444}
+.g_win_pop .tmr_survey .chk_box .chk p{margin-top:9px; position:relative; padding-left:20px}
+.g_win_pop .tmr_survey .chk_box .chk p:first-child{margin-top:0}
+.g_win_pop .tmr_survey .chk_box .chk p input{position:absolute; left:0; top:6px}
+.g_win_pop .tmr_survey .chk_box .chk p label{line-height:22px; height:auto}
+.g_win_pop .tmr_survey .chk_box textarea{box-sizing:border-box; width:100%; padding:10px}
+.g_win_pop .tmr_survey .chk_box .textarea_01{height:100px; margin-top:7px}
+.g_win_pop .tmr_survey .chk_box .textarea_02{height:193px}
+.g_win_pop .tmr_survey .chk_box.q5 dd{padding:20px}
+
+.g_win_pop .tmr_survey .complete .msg{padding-top:200px; text-align:center; background:url('../images/company/ico_survey_complete.png')no-repeat 50% 30px}
+.g_win_pop .tmr_survey .complete .msg dt{font-size:26px; letter-spacing:-1px}
+.g_win_pop .tmr_survey .complete .msg dd{font-size:15px; line-height:24px; margin-top:13px}
+.g_win_pop .tmr_survey .btn_wrap_center{position:fixed; left:0; bottom:30px; width:100%}
+
+/* 회사소개 > 라이나영상 */
+.g_video_02{border-top:2px solid #58bbee;border-bottom:1px solid #9ab5c3}
+.g_video_02:after{content:"";clear:both;display:block}
+.g_video_02 .rowgroup{padding:30px 0 20px;overflow:hidden;border-top:1px solid #cae5ef}
+.g_video_02 .rowgroup:first-child{border-top:0}
+.g_video_02 .box{display:block;float:right;width:395px;box-sizing:border-box;overflow:hidden}
+.g_video_02 .box:nth-child(2n-1){float:left}
+.g_video_02 .video{width:395px;height:222px;border:1px solid #dfdfdf;box-sizing:border-box;background:url('../images/common/logo.gif') no-repeat 50% 50%;background-size:135px auto}
+.g_video_02 .box img{width:100%;height:auto}
+.g_video_02 .box .tit{display:block; width:100%;font-size:17px;line-height:22px;margin:16px 0 9px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;color:#333}
+.g_video_02 .box a{display:block;color:#333}
+.g_video_02 .vod_script{}
+.g_video_02 .vod_script .box_script{padding:15px 20px;color:#666;font-size:14px;line-height:20px;letter-spacing:-0.05em}
+
+.g_table_02 tbody td.board_view.video_view{padding:30px 0}
+.video_view .g_video_02{border-top:0;border-bottom:0}
+.video_view .g_video_02 .rowgroup{padding:0;border-top:0;border-bottom:0}
+.video_view .g_video_02 .box{float:none;width:555px;overflow:hidden;margin:0 auto}
+.video_view .g_video_02 .box:after{content:"";display:block;clear:both}
+.video_view .g_video_02 .box .txt{display:block;float:left;margin-top:20px;font-size:13px;color:#444;line-height:20px}
+.video_view .g_video_02 .video{float:left;width:555px;height:312px}
+.video_view .g_video_02 .vod_script{float:right;overflow-y:auto;width:255px;height:312px;border:1px solid #d9d9d9;box-sizing:border-box}
+.video_view .g_video_02 .box.video_script{width:100%}
+
+/*  CI */
+.cpn_color_guide:after{content:"";clear:both;display:block}
+.cpn_color_guide li{float:left;width:20%;margin:40px 0;text-align:center}
+.cpn_color_guide li em{position:relative;display:inline-block;width:154px;height:154px;margin-bottom:35px;border-radius:50%;color:#fff;line-height:154px;text-align:center;font-size:16px;font-weight:bold}
+.cpn_color_guide li em:after{content:"";position:absolute;top:100%;left:50%;width:1px;height:19px;background-color:#afafaf}
+.cpn_color_guide li.c01 em{background-color:#007be0}
+.cpn_color_guide li.c02 em{background-color:#00aae0}
+.cpn_color_guide li.c03 em{background-color:#004986}
+.cpn_color_guide li.c04 em{background-color:#54b948}
+.cpn_color_guide li.c05 em{background-color:#f8981d}
+.cpn_color_guide li span{display:block;padding-left:30px;color:#2d2d2d;font-size:13px;font-weight:bold;text-align:left}
+.cpn_color_guide li span i{color:#9d9d9f}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

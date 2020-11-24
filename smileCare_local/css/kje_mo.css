@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* Mobile */
+.tit-wrap+.section{margin-top:24px}
+.tit3+.section{margin-top:15px}
+.pdl8{padding-left:8px}
+.apply-inner.left{padding-right:24px}
+.apply-inner.right{border-left:1px solid #e5e5e5;padding-left:24px}
+.apply-items .tit3{margin-top:15px}
+.apply-sub-txt{color:#008bec}
+.apply-sub-txt strong{font-weight:700;}
+.radio.square { display:inline-block; vertical-align:middle; margin-top: -3px;}
+.radio.square label{padding-left:30px;line-height:15px}
+.check_tit_sub{font-size:13px;color:#111;padding-left:30px;margin-top:3px}
+.agree_form .tit3{letter-spacing: -0.1em;}
+.grid2 li.btn-radio{position:relative;width:calc(50% - 5px);margin-left:10px !important}
+.grid2 li.btn-radio:first-child {margin-left:0 !important;}
+.grid2:after{content:"";display:block;clear:both}
+.btn-radio label:before {content:'';  position:absolute; top:8px; left:12px; width: 24px; height: 24px; background:url(../img/ico_forms_mo.png) no-repeat; background-size:24px auto;background-position:0 -24px}
+.btn-radio label{display:block !important;padding:0 12px 0 30px !important;font-size:14px;color:#999;font-weight:bold;border:1px solid #999;border-radius:5px;height:40px !important;line-height:37px !important;}
+.btn-radio input[type="checkbox"]:focus + label:before {outline:none;}
+.btn-radio input[type="checkbox"]:focus + label{outline:1px dotted #000;outline-style:auto;}
+.btn-radio.all label{color:#111;border-color:#111}
+.btn-radio input:checked+label{color:#008bec;border-color:#008bec;}
+.btn-radio input:checked+label:before{background-position:0 0}
+/*팝업*/
+.cont-top {padding-bottom:30px;border-bottom:1px solid #e5e5e5}
+.cont-top .tit1 + p{margin-top:15px}
+.cont-top p{font-size:14px}
+.cont-top p strong{font-weight:700}
+.cont-bottom .tit3{margin-top:30px}
+.cont-bottom p{font-size:14px;color:#666}
+.cont-bottom .tit3 + p{margin-top:15px;word-break: normal}
+/*공유채널*/
+.share-wrap{margin-top:25px;padding-top:5px;border-top:1px solid #e5e5e5}
+.share-wrap .share-list{display:block;margin:0 auto}
+.share-wrap ul li{display:inline-block;position:relative;margin:20px 20px 0 7px}
+.share-wrap ul li:last-child{margin-right:0}
+.share-wrap .share-list .share-item input[type='radio']:focus + label{outline:1px dotted #000;outline-style:auto}
+.share-wrap .share-list .share-item input[type='radio']{position: absolute;width: 1px;height: 1px;margin: -1px;border: 0;overflow: hidden;padding: 0;clip: rect(0,0,0,0);-webkit-appearance: none;opacity: 0;}
+.share-wrap .share-list .share-item label{display:block;width:80px;height:80px;background:url('../img/spr_share_mo.png')no-repeat;background-size:80px 480px;}
+.share-wrap .share-list .share-item label span{display:block;font-size:13px;color:#666;text-align:center;padding-top:90px}
+.share-wrap .share-list .share-item.kakao label{background-position:0 0}
+.share-wrap .share-list .share-item.facebook label{background-position:0 -80px}
+.share-wrap .share-list .share-item.kakaostory label{background-position:0 -160px}
+.share-wrap .share-list .share-item.naver label{background-position:0 -240px}
+.share-wrap .share-list .share-item.url label{background-position:0 -320px}
+.share-wrap .share-list .share-item input[type='radio']:checked + label span:before{content:"";position:absolute;top:0;left:0;width:80px;height:80px;border-radius:50%;background:rgba(0,0,0,.8) url('../img/spr_share_mo.png') no-repeat 0 -400px/80px 480px}
+
+.tit3 span:before{content:"";display:inline-block;width:4px;height:4px;background:#111;vertical-align:middle;margin-right:8px}
+/*약관 상세 미동의/동의 버튼*/
+.btn-wrap.col2 .btn-base{width:calc(50% - 11px);}
+.btn-base.agree span:before,
+.btn-base.disagree span:before{content:"";display:inline-block;vertical-align:middle;margin:-2px 5px 0 0;width: 24px; height: 22px; background:url(../img/ico_forms.png) no-repeat; background-size:24px 109px;background-position:0 -22px}
+.btn-base.agree{height:40px;box-sizing:border-box;width:100%;font-size:14px;line-height:14px;color:#999;border:1px solid #999;background:#fff;padding:10px;color:#111;border-color:#111}
+.btn-base.disagree{height:40px;box-sizing:border-box;width:calc(50% - 11px);font-size:14px;line-height:14px;color:#999;border:1px solid #999;background:#fff;padding:10px;color:#111;border-color:#111}
+.btn-base.agree:focus,
+.btn-base.disagree:focus{outline:1px dotted #000;} 
+.btn-base.agree:active span:before,
+.btn-base.agree.active span:before{background-position:0 0}
+.btn-base.agree:active,
+.btn-base.agree.active{border:1px solid #008bec;color:#008bec}
+.btn-base.disagree:active span:before,
+.btn-base.disagree.active span:before{background-position:0 -87px}
+.btn-base.disagree:active,
+.btn-base.disagree.active{border:1px solid #ff6000;color:#ff6000}
+
+/*스마일케어 서브메인 - 상품 */
+.product-img{position:relative;text-align:center;padding-bottom:10px}
+.product-img img{width:100%;}
+.product-img .product{width:90%;}
+.product-img .btn-area.n2{position: absolute;top:105px;left:250px}
+/*스마일케어 서브메인 - 구독해지*/
+.smile-section.cancel{background:#e8e8e8}
+.smile-section.cancel .smile-inner{padding:30px}
+.smile-section.cancel .smile-inner .cancel-txt{color:#666;text-align:center}
+.smile-section.cancel .smile-inner .cancel-txt+.btn-wrap{margin-top:20px}
+
+@media screen and (max-width:320px){
+    .btn-radio label{font-size:13px}
+    .step-list > li{font-size:12px!important}
+    .step-list > li:before{width:20px!important}
+}

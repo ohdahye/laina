@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <title>Smile Care</title>
+  <link rel="stylesheet" type="text/css" href="./css/smileCare.css">	
+  <script src="../js/jquery.min.js"></script>
+  <script src="../js/jquery-ui-1.12.1.min.js"></script>
+  <script src="../js/ui.common.js"></script>
+  <style>
+      #wrap { padding:0 30px; }
+      h1 { margin:30px 0; }
+      .coding-tbl { border:1px solid #000; border-width:1px 0; }
+      .coding-tbl table { width:100%; }
+      .coding-tbl th, .coding-tbl td { padding:5px 10px; border:1px solid #eee; border-width:1px 0 0 1px; }
+      .coding-tbl th { background:#3a3a3a; color:#fff; border-top:0;  }
+      .coding-tbl th:first-child, .coding-tbl td:first-child { border-left:0; }
+      .coding-tbl tr:nth-child(odd) td { background:rgb(252, 252, 252); }
+      .coding-tbl .done th, .coding-tbl .done td { background:rgb(231, 253, 255) !important; }
+      .coding-tbl td:last-child { text-align:center; }
+      .coding-tbl a { border-bottom:1px solid #000; }
+      .coding-tbl tr:hover td { background:#eee !important; }
+      .coding-tbl a:active { font-weight:700; }
+      .coding-tbl em { display:block;  font:inherit; font-weight:700; font-size:small; }
+      .coding-tbl strong { color:red; }
+      .bul-note { color:red; padding-left:20px; text-align:left; font-size:11px; }
+      .bul-note:before { display:inline-block; vertical-align:middle; margin:-4px 5px 0 -17px; content:"※"; }
+      .coding-tbl tr.del{text-decoration: line-through;}
+  </style>
+</head>
+<body>
+  <div id="wrap">        
+    <div class="coding-list">
+      <h1>Smile Care</h1>
+      <ul class="list-bullet">
+        <li>.ui-modal, script태그는 .base-body 밖, #content 안에 위치한다.<br>
+        (단, modal 내에서 사용되는 script는 section.ui-modal 내 가장 하단에 위치한다.) </li>
+        <li>구조, 클래스 네이밍, js 등은 solution/(보장분석) 폴더 내 파일과 맞춘다.</li>
+        <li>PC 구조 : #container > #content.smilecare / Mobile 구조 : #container > .contents.smilecare</li>
+      </ul>
+      <h2>PC</h2>
+      <div class="coding-tbl">
+        <table>
+          <caption></caption>
+          <colgroup>
+            <col style="width:120px;">
+            <col style="width:500px;">
+            <col style="width:200px;">
+            <col style="width:120px;">
+            <col style="width:120px;">
+            <col style="width:120px;">
+            <col style="width:400px">
+          </colgroup>
+          <thead>
+            <tr>
+              <th>분류</th>
+              <th>화면명</th>
+              <th>화면 ID</th>
+              <th>작업자</th>
+              <th>완료예정일</th>
+              <th>완료일</th>
+              <th>비고</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="done">
+              <td>메인</td>
+              <td>서브메인</td>
+              <td><a target="_page" href="./ET-000000.html">ET-000000</a></td>
+              <td>은지혜</td>
+              <td>2020/10/27</td>
+              <td></td>
+              <td>아이디 임시 지정</td>
+            </tr>
+            <tr class="done">
+              <td rowspan="3">공통</td>
+              <td>본인인증 > [P]SMS본인인증</td>
+              <td><a target="_page" href="./ET-010101.html">ET-010101</a></td>
+              <td>김정은</td>
+              <td><strong>2020/10/21</strong></td>
+              <td></td>
+              <td>마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>약관 상세 정보 > [P]약관 탭</td>
+              <td><a target="_page" href="./ET-010201.html">ET-010201</a></td>
+              <td>은지혜</td>
+              <td><strong>2020/10/21</strong></td>
+              <td></td>
+              <td>마크업 완료</td>
+            </tr>
+            <!-- <tr class="done">
+              <td>약관 상세 정보 > [P]약관 탭</td>
+              <td><a target="_page" href="./ET-010200-1.html">ET-010200-1</a></td>
+              <td>은지혜</td>
+              <td><strong>2020/10/30</strong></td>
+              <td></td>
+              <td>마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>약관 상세 정보 > [P]약관 탭</td>
+              <td><a target="_page" href="./ET-010200-2.html">ET-010200-2</a></td>
+              <td>은지혜</td>
+              <td><strong>2020/10/30</strong></td>
+              <td></td>
+              <td>마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>약관 상세 정보 > [P]약관 탭</td>
+              <td><a target="_page" href="./ET-010200-3.html">ET-010200-3</a></td>
+              <td>은지혜</td>
+              <td><strong>2020/10/30</strong></td>
+              <td></td>
+              <td>마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>약관 상세 정보 > [P]약관 탭</td>
+              <td><a target="_page" href="./ET-010200-4.html">ET-010200-4</a></td>
+              <td>은지혜</td>
+              <td><strong>2020/10/30</strong></td>
+              <td></td>
+              <td>마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>약관 상세 정보 > [P]약관 탭</td>
+              <td><a target="_page" href="./ET-010200-5.html">ET-010200-5</a></td>
+              <td>은지혜</td>
+              <td><strong>2020/10/30</strong></td>
+              <td></td>
+              <td>마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>약관 상세 정보 > [P]약관 탭</td>
+              <td><a target="_page" href="./ET-010200-6.html">ET-010200-6</a></td>
+              <td>은지혜</td>
+              <td><strong>2020/10/30</strong></td>
+              <td></td>
+              <td>마크업 완료</td>
+            </tr> -->
+            <tr class="done">
+              <td>관심키워드 선택 > [P]구독 관심키워드선택</td>
+              <td><a target="_page" href="./ET-010300.html">ET-010300</a></td>
+              <td>은지혜</td>
+              <td><strong>2020/10/21</strong></td>
+              <td></td>
+              <td>마크업 완료</td>
+            </tr>
+            <tr>
+              <td rowspan="11">원페이지 이벤트</td>
+              <td>이벤트 원페이지</td>
+              <td><a target="_page" href="./ET-020000.html">ET-020000</a></td>
+              <td>은지혜</td>
+              <td>2020/10/27</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr class="done">
+                    <td>이벤트 원페이지 - 커밍순 적용</td>
+                    <td><a target="_page" href="./ET-020000-comingsoon.html">ET-020000-comingsoon</a></td>
+                    <td>은지혜</td>
+                    <td>2020/10/27</td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr class="done">
+              <td>이벤트01 > [P]참여완료(공유 이벤트 진행 전)</td>
+              <td><a target="_page" href="./ET-020101.html">ET-020101</a></td>
+              <td>김정은</td>
+              <td>2020/10/27</td>
+              <td></td>
+              <td>마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>이벤트01 > [P]참여완료(모든 이벤트 동시 진행 중)</td>
+              <td><a target="_page" href="./ET-020102.html">ET-020102</a></td>
+              <td>은지혜</td>
+              <td>2020/10/27</td>
+              <td></td>
+              <td>마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>이벤트02 > [P]기 구독 이벤트 참여 완료 안내 팝업</td>
+              <td><a target="_page" href="./ET-020103.html">ET-020103</a></td>
+              <td>김정은</td>
+              <td>2020/10/27</td>
+              <td></td>
+              <td>마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>이벤트02 > [P]공유 콘텐츠 상세 내용 팝업</td>
+              <td><a target="_page" href="./ET-020201.html">ET-020201</a></td>
+              <td>김정은</td>
+              <td>2020/10/27</td>
+              <td></td>
+              <td>마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>이벤트02 > [P]공유채널 선택 팝업</td>
+              <td><a target="_page" href="./ET-020202.html">ET-020202</a></td>
+              <td>김정은</td>
+              <td>2020/10/27</td>
+              <td></td>
+              <td>마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>이벤트02 > [P]구독이벤트 참여완료 및 공유채널 선택</td>
+              <td><a target="_page" href="./ET-020203.html">ET-020203</a></td>
+              <td>김정은</td>
+              <td>2020/10/27</td>
+              <td></td>
+              <td>마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>이벤트02 > [P]공유 이벤트 참여 완료</td>
+              <td><a target="_page" href="./ET-020204.html">ET-020204</a></td>
+              <td>김정은</td>
+              <td>2020/10/27</td>
+              <td></td>
+              <td>마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>이벤트02 > [P]기 공유 이벤트 참여 완료 안내 팝업</td>
+              <td><a target="_page" href="./ET-020205.html">ET-020205</a></td>
+              <td>김정은</td>
+              <td>2020/10/27</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr class="del">
+              <td>이벤트02 > [P]구독 선 진행안내 팝업</td>
+              <td><a target="_page" href="./ET-020206.html">ET-020206</a></td>
+              <td></td>
+              <td>2020/10/27</td>
+              <td></td>
+              <td>삭제</td>
+            </tr>
+            <tr class="done">
+              <td rowspan="2">스마일케어</td>
+              <td>스마일케어 > 구독 해지하기</td>
+              <td><a target="_page" href="./ET-010400.html">ET-010400</a></td>
+              <td>김정은</td>
+              <td><strong>2020/10/21</strong></td>
+              <td></td>
+              <td>마크업 완료</td>
+            </tr>
+            <tr>
+              <td>스마일케어 > [P]관심키워드 변경</td>
+              <td><a target="_page" href="./키워드변경.html">키워드변경</a></td>
+              <td>은지혜</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <hr style="margin:40px 0 30px;">
+      <h2>Mobile</h2>
+      <p>파일명 규칙 : 화면ID_mo.html</p>
+      <div class="coding-tbl">
+        <table>
+          <caption></caption>
+          <colgroup>
+            <col style="width:120px;">
+            <col style="width:500px;">
+            <col style="width:200px;">
+            <col style="width:120px;">
+            <col style="width:120px;">
+            <col style="width:120px;">
+            <col style="width:400px">
+          </colgroup>
+          <thead>
+            <tr>
+              <th>분류</th>
+              <th>화면명</th>
+              <th>화면 ID</th>
+              <th>작업자</th>
+              <th>완료예정일</th>
+              <th>완료일</th>
+              <th>비고</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="done">
+              <td>메인</td>
+              <td>서브메인</td>
+              <td><a target="_page" href="./ET-000000_mo.html">ET-000000</a></td>
+              <td>은지혜</td>
+              <td>2020/10/27</td>
+              <td></td>
+              <td>아이디 임시 지정</td>
+            </tr>
+            <tr class="done">
+              <td rowspan="3">공통</td>
+              <td>본인인증 > [P]SMS본인인증</td>
+              <td><a target="_page" href="./ET-010101_mo.html">ET-010101</a></td>
+              <td>김정은</td>
+              <td><strong>2020/10/21</strong></td>
+              <td></td>
+              <td>모바일 마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>약관 상세 정보 > [P]약관 탭</td>
+              <td><a target="_page" href="./ET-010201_mo.html">ET-010201</a></td>
+              <td>은지혜</td>
+              <td><strong>2020/10/21</strong></td>
+              <td></td>
+              <td>모바일 마크업 완료</td>
+            </tr>
+            <!-- <tr class="done">
+              <td>약관 상세 정보 > [P]약관 탭</td>
+              <td><a target="_page" href="./ET-010200-1_mo.html">ET-010200-1</a></td>
+              <td>은지혜</td>
+              <td><strong>2020/10/30</strong></td>
+              <td></td>
+              <td>모바일 마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>약관 상세 정보 > [P]약관 탭</td>
+              <td><a target="_page" href="./ET-010200-2_mo.html">ET-010200-2</a></td>
+              <td>은지혜</td>
+              <td><strong>2020/10/30</strong></td>
+              <td></td>
+              <td>모바일 마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>약관 상세 정보 > [P]약관 탭</td>
+              <td><a target="_page" href="./ET-010200-3_mo.html">ET-010200-3</a></td>
+              <td>은지혜</td>
+              <td><strong>2020/10/30</strong></td>
+              <td></td>
+              <td>모바일 마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>약관 상세 정보 > [P]약관 탭</td>
+              <td><a target="_page" href="./ET-010200-4_mo.html">ET-010200-4</a></td>
+              <td>은지혜</td>
+              <td><strong>2020/10/30</strong></td>
+              <td></td>
+              <td>모바일 마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>약관 상세 정보 > [P]약관 탭</td>
+              <td><a target="_page" href="./ET-010200-5_mo.html">ET-010200-5</a></td>
+              <td>은지혜</td>
+              <td><strong>2020/10/30</strong></td>
+              <td></td>
+              <td>모바일 마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>약관 상세 정보 > [P]약관 탭</td>
+              <td><a target="_page" href="./ET-010200-6_mo.html">ET-010200-6</a></td>
+              <td>은지혜</td>
+              <td><strong>2020/10/30</strong></td>
+              <td></td>
+              <td>모바일 마크업 완료</td>
+            </tr> -->
+            <tr class="done">
+              <td>관심키워드 선택 > [P]구독 관심키워드선택</td>
+              <td><a target="_page" href="./ET-010300_mo.html">ET-010300</a></td>
+              <td>은지혜</td>
+              <td><strong>2020/10/21</strong></td>
+              <td></td>
+              <td>모바일 마크업 완료</td>
+            </tr>
+            <tr>
+              <td rowspan="11">원페이지 이벤트</td>
+              <td>이벤트 원페이지</td>
+              <td><a target="_page" href="./ET-020000_mo.html">ET-020000</a></td>
+              <td>은지혜</td>
+              <td>2020/10/27</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>이벤트 원페이지 - 커밍순 적용</td>
+              <td><a target="_page" href="./ET-020000_mo-comingsoon.html">ET-020000-comingsoon</a></td>
+              <td>은지혜</td>
+              <td>2020/10/27</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr class="done">
+              <td>이벤트01 > [P]참여완료(공유 이벤트 진행 전)</td>
+              <td><a target="_page" href="./ET-020101_mo.html">ET-020101</a></td>
+              <td>김정은</td>
+              <td>2020/10/27</td>
+              <td></td>
+              <td>모바일 마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>이벤트01 > [P]참여완료(모든 이벤트 동시 진행 중)</td>
+              <td><a target="_page" href="./ET-020102_mo.html">ET-020102</a></td>
+              <td>은지혜</td>
+              <td>2020/10/27</td>
+              <td></td>
+              <td>모바일 마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>이벤트02 > [P]기 구독 이벤트 참여 완료 안내 팝업</td>
+              <td><a target="_page" href="./ET-020103_mo.html">ET-020103</a></td>
+              <td>김정은</td>
+              <td>2020/10/27</td>
+              <td></td>
+              <td>모바일 마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>이벤트02 > [P]공유 콘텐츠 상세 내용 팝업</td>
+              <td><a target="_page" href="./ET-020201_mo.html">ET-020201</a></td>
+              <td>김정은</td>
+              <td>2020/10/27</td>
+              <td></td>
+              <td>모바일 마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>이벤트02 > [P]공유채널 선택 팝업</td>
+              <td><a target="_page" href="./ET-020202_mo.html">ET-020202</a></td>
+              <td>김정은</td>
+              <td>2020/10/27</td>
+              <td></td>
+              <td>모바일 마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>이벤트02 > [P]구독이벤트 참여완료 및 공유채널 선택</td>
+              <td><a target="_page" href="./ET-020203_mo.html">ET-020203</a></td>
+              <td>김정은</td>
+              <td>2020/10/27</td>
+              <td></td>
+              <td>모바일 마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>이벤트02 > [P]공유 이벤트 참여 완료</td>
+              <td><a target="_page" href="./ET-020204_mo.html">ET-020204</a></td>
+              <td>김정은</td>
+              <td>2020/10/27</td>
+              <td></td>
+              <td>모바일 마크업 완료</td>
+            </tr>
+            <tr class="done">
+              <td>이벤트02 > [P]기 공유 이벤트 참여 완료 안내 팝업</td>
+              <td><a target="_page" href="./ET-020205_mo.html">ET-020205</a></td>
+              <td>김정은</td>
+              <td>2020/10/27</td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr class="del">
+              <td>이벤트02 > [P]구독 선 진행안내 팝업</td>
+              <td><a target="_page" href="./ET-020206_mo.html">ET-020206</a></td>
+              <td></td>
+              <td>2020/10/27</td>
+              <td></td>
+              <td>삭제</td>
+            </tr>
+            <tr class="done">
+              <td>스마일케어</td>
+              <td>스마일케어 > 구독 해지하기</td>
+              <td><a target="_page" href="./ET-010400_mo.html">ET-010400</a></td>
+              <td>김정은</td>
+              <td><strong>2020/10/21</strong></td>
+              <td></td>
+              <td>모바일 마크업 완료</td>
+            </tr>
+            <tr>
+              <td>스마일케어</td>
+              <td>스마일케어 > [P]관심키워드 변경</td>
+              <td><a target="_page" href="./키워드변경_mo.html">키워드변경</a></td>
+              <td>은지혜</td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+             
+          </tbody>
+        </table>
+      </div>
+
+      <h1>Guide</h1>
+      
+    </div>
+  </div>
+</body>
+</html>

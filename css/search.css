@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* ------------------------------------------
+* Filename :search.css
+* Description :검색
+* Author :Fu:z
+------------------------------------------ */
+
+#container .content.search{width:1100px}
+.content.search .g_cont_title{width:100%; padding-right:0; background-image:url('../images/wssn/wssn_pagetop_01.jpg')}
+
+.search_guide_txt{font-size:20px; letter-spacing:-1px}
+.search_guide_txt strong span{letter-spacing:0}
+.search .search_num{margin-top:20px; border:1px solid #d0d0d0; font-size:16px; color:#333; font-weight:bold; background-color:#f8f8f8}
+.search .search_num:after{display:block; content:''; clear:both}
+.search .search_num li{float:left; border-left:1px solid #d0d0d0; width:20%; height:60px; line-height:60px; box-sizing:border-box; text-align:center}
+.search .search_num li a{display:block}
+.search .search_num li:first-child{border-left:0}
+
+[id^='search_cont_']{border-top:1px solid #d9d9d9; padding:50px 0}
+[id^='search_cont_']:after{display:block; content:""; clear:both}
+[id^='search_cont_'] a.g_btn_15{float:right}
+#search_cont_01{border-top:0}
+[class^='search_cont_'] li{margin-top:30px}
+[class^='search_cont_'] li:first-child{margin-top:0}
+[class^='search_cont_'] strong{font-size:15px}
+[class^='search_cont_'] p{margin-top:5px}

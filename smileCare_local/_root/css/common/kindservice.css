@@ -1,0 +1,1013 @@
+@charset "utf-8";
+/* ------------------------------------------
+* Filename :kindservice.css
+* Description :착한서비스
+* Author :Fu:z
+------------------------------------------ */
+/* 착한서비스 상단 이미지
+.kind_pagetop_01{background-image:url('../../images/common/kindservice/kind_pagetop_01.png'); background-size:67px auto}
+.kind_pagetop_02{background-image:url('../../images/common/kindservice/kind_pagetop_02.png'); background-size:62px auto}
+.kind_pagetop_0201{background:url('../../images/common/kindservice/kind_pagetop_02_01.png') no-repeat 15px 5px; background-size:65px auto}
+.kind_pagetop_03{background-image:url('../../images/common/kindservice/kind_pagetop_03.png'); background-size:61px auto}
+.kind_pagetop_04{background-image:url('../../images/common/kindservice/kind_pagetop_04.png'); background-size:65px auto}
+.kind_pagetop_05{background-image:url('../../images/common/kindservice/kind_pagetop_05.png'); background-size:65px auto}
+.kind_pagetop_06{background-image:url('../../images/common/kindservice/kind_pagetop_06.png'); background-size:65px auto}
+.kind_pagetop_07{background-image:url('../../images/common/kindservice/kind_pagetop_07.png'); background-size:65px auto}
+.kind_pagetop_08{background:url('../../images/common/kindservice/kind_pagetop_08.png') no-repeat 15px 5px; background-size:58px auto}
+.kind_pagetop_09{background:url('../../images/common/kindservice/kind_pagetop_09.png') no-repeat 15px 8px; background-size:65px auto}
+.kind_pagetop_10{background:url('../../images/common/kindservice/kind_pagetop_10.png') no-repeat 15px 5px; background-size:65px auto}
+ */
+
+.kindservice .g_point_01{color:#008bec !important}
+.kindservice input[type='radio']{background-image:url('../../images/common/kindservice/bg_radio_style.png');background-size:100%}
+
+/* 콕닥 덴탈
+------------------------------------------ */
+/* 상단 이미지 */
+.kokdoc_service .cont_title_top{background-image:url('../../images/common/kindservice/bg_kokdoc_top_01.png'); background-size:68px auto}
+.kokdoc_contents .cont_title_top{background-image:url('../../images/common/kindservice/bg_kokdoc_top_02.png'); background-size:68px auto}
+
+.kokdoc .g_list_01>li{background-position:0 9px}
+
+/* 콕닥 덴탈 서비스 안내 */
+.kokdoc_service .clie_area{padding:10px; text-align:left}
+
+.kokdoc_service ul.kokdoc_list{border-top:solid 1px #ddd}
+.kokdoc_service .kokdoc_list li{border-bottom:solid 1px #ddd}
+.kokdoc_service ul:after{display:block; content:''; clear:both}
+
+.kokdoc_service li > div{width:100%; box-sizing:border-box; padding:15px 0 15px 65px; background-position:left 15px; background-repeat:no-repeat; background-size:50px; text-align:left; color:#666}
+.kokdoc_service li > div h3{margin-bottom:8px; line-height:25px; font-size:15px; font-weight:bold; color:#333}
+.kokdoc_service li > div h3 span{float:right}
+.kokdoc_service li > div p{line-height:16px; letter-spacing:-0.05em}
+.kokdoc_service li > div .indent{margin-left:8px; text-indent:-8px; line-height:16px}
+.kokdoc_service .service_bx01 div{background-image:url('../../images/common/kindservice/kokdoc_svc_icon01.png')}
+.kokdoc_service .service_bx02 div{background-image:url('../../images/common/kindservice/kokdoc_svc_icon02.png')}
+.kokdoc_service .service_bx03 div{background-image:url('../../images/common/kindservice/kokdoc_svc_icon03.png')}
+.kokdoc_service .service_bx04 div{background-image:url('../../images/common/kindservice/kokdoc_svc_icon04.png')}
+.kokdoc_service .service_bx05 div{background-image:url('../../images/common/kindservice/kokdoc_svc_icon05.png')}
+.kokdoc_service .service_bx06 div{background-image:url('../../images/common/kindservice/kokdoc_svc_icon06.png')}
+.kokdoc_service .service_bx07 div{background-image:url('../../images/common/kindservice/kokdoc_svc_icon07.png')}
+.kokdoc_service .service_bx08 div{background-image:url('../../images/common/kindservice/kokdoc_svc_icon14.png')}
+
+/* 콕닥 서비스 */
+.kokdoc_service p{letter-spacing:-0.05em}
+.kokdoc_service a:link{color:#008bec}
+.kokdoc_step_wrap .prcs_step{width:100%; text-align:center}
+.kokdoc_step_wrap .prcs_step:after{content:''; display:block; clear:both}
+.kokdoc_step_wrap .prcs_step li{position:relative; width:33.33%; float:left; color:#333; text-align:center; line-height:15px; letter-spacing:-1px; padding-top:85px; background-repeat:no-repeat; background-position:50% 0; background-size:65px}
+.kokdoc_step_wrap .prcs_step.n3 li{width:33.33%}
+.kokdoc_step_wrap .prcs_step li.st01{background-image:url('../../images/common/kindservice/kokdoc_prcstep01.png');background-size:80px}
+.kokdoc_step_wrap .prcs_step li.st02{background-image:url('../../images/common/kindservice/kokdoc_prcstep02.png');background-size:80px}
+.kokdoc_step_wrap .prcs_step li.st03{background-image:url('../../images/common/kindservice/kokdoc_prcstep03.png');background-size:80px}
+.kokdoc_step_wrap .prcs_step li:after{content:''; display:block; width:6px; height:14px; position:absolute; left:-3px; top:28px; background:url('../../images/web/virtual/ico_prcs_arws.png')no-repeat 0 0; background-size:100%}
+.kokdoc_step_wrap .prcs_step li:first-child:after{display:none}
+.kokdoc_voucher{padding:25px 20px;background:#3faffd;box-sizing:border-box}
+.kokdoc_voucher .inner{padding:30px 0 25px 25px;background:#fff;box-shadow:6px 6px 12px rgba(0,0,0,0.2)}
+.kokdoc_voucher .kokdoc_logo{display:inline-block;margin-bottom:15px;padding-left:98px;background:url('../../images/common/kindservice/kokdoc_logo.png') no-repeat 0 50%;background-size:74px auto;color:#333;font-size:13px;font-weight:bold;letter-spacing:-1px}
+.kokdoc_voucher .kokdoc_number{color:#333;font-size:14px;font-weight:bold;text-align:center}
+.kokdoc_voucher .kokdoc_number strong{display:inline-block;width:112px;height:27px;margin-left:38px;border:2px dashed #b3b3b3;font-size:14px;line-height:27px}
+
+
+/* 해외병원 예약 */
+.virtual.kokdoc_rsv .step_wrap .prcs_step li.st02{background-image:url('../../images/common/kindservice/ico_prcs_step_st02.png')}
+
+.kokdoc_rsv_02 td p input[type='text']{vertical-align:top}
+.kokdoc_rsv_02 .time{margin-top:5px}
+.kokdoc_rsv_02 .time select{width:48%; margin-right:0.5%}
+.kokdoc_rsv_02 .time select#wantDttmMm{margin:0 0 0 0.5%}
+.kokdoc_rsv_02 .clie_area{padding:14px; text-align:left}
+.kokdoc_rsv_02 .clie_area p{font-size:12px}
+.kokdoc_rsv_02 [class^='txt_color_'].txt_color_03{line-height:18px; vertical-align:middle;}
+.kokdoc_rsv_02 .g_table_02.inpt th{padding:5px 7px;}
+.birth_line .sel {width:32%; margin-left:2%; float:left;}
+.birth_line .sel:first-child {margin-left:0;}
+.kokdoc_rsv_02 input[type='number']{padding:0 5px}
+.kokdoc_rsv_02 .hope_location p{height:35px; line-height:35px}
+.kokdoc_rsv_02 .hope_location a.g_btn_01,
+a.g_btn_01.in_table{padding:0; min-width:70px; font-weight:normal; font-size:13px; background-color:#888}
+.kokdoc_rsv_02 a.g_btn_02.call{height:40px}
+.kokdoc_rsv_02 a.g_btn_02.call span{display:inline-block; height:40px; line-height:38px; padding-left:20px; background:url('../../images/common/kindservice/bg_ico_call.png') left center no-repeat; background-size:20px; font-size:12px; vertical-align:middle}
+
+.g_table_02 tbody.hope_in_china td[colspan='2']{padding:5px 0 25px; border-left:0}
+table tbody.hope_in_china td .chk input + label{margin-right:0}
+.kokdoc table tbody.hope_in_china .term_borrow_box .agree .chk{padding:9px 3px}
+
+/* 병원 예약 현황 > 목록 */
+.virtual.kokdoc_mypage .step_wrap .prcs_step li.st02{background-image:url('../../images/common/kindservice/ico_prcs_step_st02_2.png')}
+.kokdoc_mypage .label_status{display:inline-block; padding:7px 10px; color:#fff; font-size:13px; text-align:center}
+.kokdoc_mypage .label_status.receipt{background-color:#117bb2}/* 접수완료 */
+.kokdoc_mypage .label_status.complete{background-color:#1699dc}/* 예약완료 */
+.kokdoc_mypage .label_status.cancel{background-color:#888}/* 예약취소 */
+.kokdoc_mypage .label_status.review{background-color:#81bd00}/* 예약검토 */
+
+.kokdoc_list li{width:100%; float:left}
+.kokdoc_mypage .cus_info:after{display:block;content:'';clear:both}
+.kokdoc_mypage .cus_info li{margin-bottom:15px}
+.kokdoc_mypage .cus_info .info_list{position:relative; width:100%; box-sizing:border-box; padding:15px;border-color:#1699dc #ddd #ddd #ddd;border-width:2px 1px 0px 1px; border-style:solid}
+.kokdoc_mypage .cus_info .info_list h4{height:22px; margin:15px 0 0; background:url('../../images/common/kindservice/bul_h5_tit_02.png') no-repeat left center; background-size:21px}
+.kokdoc_mypage .cus_info .info_list h4 a{display:inline-block; width:100%; height:22px; box-sizing:border-box; padding-left:30px; line-height:22px; vertical-align:middle; background:url('../../images/common/kindservice/arrw_bg3.gif') right center no-repeat; background-size:11px; font-size:13px; font-weight:bold; letter-spacing:-0.05em; color:#444}
+.kokdoc_mypage .cus_info .info_list h4 a span{padding-left:15px; font-weight:normal}
+.kokdoc_mypage .cus_info .g_info_txt{width:100%; box-sizing:border-box; padding:10px 15px; border-color:#eaeaea #e4e4e4 #e4e4e4 #e4e4e4; border-width:1px 1px 1px 1px; border-style:solid; background-color:#fafafa}
+.kokdoc_mypage .cus_info .g_info_txt dl:after{display:block; content:""; clear:both}
+.kokdoc_mypage .cus_info .g_info_txt dt,
+.kokdoc_mypage .cus_info .g_info_txt dd,
+.kokdoc_mypage .cus_info .g_info_txt dd span{font-size:13px; letter-spacing:-0.05em; color:#444}
+.kokdoc_mypage .cus_info .g_info_txt dt{line-height:16px}
+.kokdoc_mypage .cus_info .g_info_txt dd{line-height:26px}
+.kokdoc_mypage .cus_info .g_info_txt dd span{display:inline-block; height:26px; line-height:26px}
+.kokdoc_mypage .cus_info .g_info_txt dd span.addr{width:220px}
+.kokdoc_mypage .cus_info .g_info_txt dd span.date{padding:0 10px 0 30px; background:#fff url('../../images/common/kindservice/kokdoc_list_calender.gif') 11px center no-repeat; border:solid 1px #eaeaea; line-height:25px;}
+
+/* 병원 예약 현황 > 상세보기 예약 step */
+.mypage_step{overflow:hidden;width:100%; height:33px}
+.mypage_step li{float:left; width:33.33%; height:32px; box-sizing:border-box; background-position:0 -32px; background-repeat:no-repeat; background-size:32px; padding-left:39px;}
+.mypage_step:after{display:block;content:'';clear:both}
+
+.mypage_step li span{display:inline-block; line-height:15px; font-size:12px; color:#666}
+.mypage_step li strong{font-size:13px ;letter-spacing:-1px}
+.mypage_step li.on{background-position:0 0}
+.mypage_step li.on span{color:#1699dc}
+
+.mypage_step li:nth-child(1){background-image:url('../../images/common/kindservice/img_kind_service_step_01_step_01.png')}
+.mypage_step li:nth-child(2){background-image:url('../../images/common/kindservice/img_kind_service_step_01_step_02.png')}
+.mypage_step li:nth-child(3){background-image:url('../../images/common/kindservice/img_kind_service_step_01_step_03.png')}
+
+/* 미국 원격 진료 */
+.kokdoc_remote.kokdoc_interpreter .g_box_03{background-image:url('../../images/common/kindservice/bg_msg_remote.png'); background-size:70px}
+.kokdoc .g_list_01>li.no_bul{background:none}
+.kokdoc a[class^='g_btn_'] + p{font-size:12px; color:#666}
+.virtual.kokdoc_remote .step_wrap .prcs_step li.st02{background-image:url('../../images/common/kindservice/ico_remote_prcs_step_st02.png')}
+.g_rcgroup_01 input[type='text']{width:120px}
+
+/* 진료 통역 (영어) 서비스 */
+.kokdoc_interpreter .g_box_03{box-sizing:border-box; padding:105px 0 25px; border-top:solid 2px #1699dc; background:url('../../images/common/kindservice/bg_msg_interpreter.png') center 25px no-repeat; background-size:70px}
+.kokdoc_interpreter .g_box_03 > *{line-height:22px; text-align:center}
+.kokdoc_interpreter .g_box_03 h3{color:#333}
+.kokdoc_interpreter .g_box_03 p{margin:3px 0 11px; color:#444}
+.kokdoc_interpreter a.g_btn_02.call{height:40px}
+.kokdoc_interpreter a.g_btn_02.call span{display:inline-block; height:40px; line-height:38px; padding-left:28px; background:url('../../images/common/kindservice/bg_ico_call2.png') left center no-repeat; background-size:28px; font-size:15px; vertical-align:middle}
+
+/* 미세먼지 */
+.kokdoc .search_area{padding:15px 10px; margin:25px 0; border-style:solid; border-color:#58bbee #9ab5c3 #9ab5c3 #9ab5c3; border-width:2px 0 1px; background-color:#f6fcff}
+.kokdoc .search_area .g_input_01,
+.kokdoc .search_area .g_sel_01,
+.kokdoc .search_area a{margin-right:1%}
+.kokdoc .search_area a:last-child{margin-right:0}
+.kokdoc .search_area a.g_btn_01{line-height:35px}
+.kokdoc .search_area a.g_btn_02{line-height:33px}
+
+.kokdoc .search_city .g_input_01{width:54%}
+.kokdoc .search_city a{width:22%; min-width:22%; padding:0; vertical-align:top; font-size:12px}
+
+.kokdoc .map_box{border:1px solid #d9d9d9; background-color:#fafafa}
+.g_table_dust{width:1 00%; border: solid 1px #ccc; border-collapse:separate}
+.g_table_dust th, .g_table_dust td{padding: 15px 5px}
+.g_table_dust th{background: #fff; font-size: 16px; font-weight: bold; color:#333; text-align: center; }
+.g_table_dust tr th:first-child{border-top-left-radius: 5px; border-right: solid 1px #ccc;}
+.g_table_dust tr th:nth-child(2){border-right: solid 1px #ccc;}
+.g_table_dust tr th:last-child{border-top-right-radius: 5px; border-bottom: solid 1px #ccc;}
+.g_table_dust td{color: #fff; text-align: center; border: solid 1px #ccc; border-width: 1px 1px 0 0;}
+.g_table_dust tbody tr td:last-child{border-right: 0; text-align: left;}
+.g_table_dust tbody tr:last-child td{border-radius: 0 !important}
+
+.g_table_dust .color-set-green td{background-color: #009966}
+.g_table_dust .color-set-yellow td{background-color: #dec80a}
+.g_table_dust .color-set-orange td{background-color: #ff9933}
+.g_table_dust .color-set-red td{background-color: #cc0033}
+.g_table_dust .color-set-violet td{background-color: #660099}
+.g_table_dust .color-set-purple td{background-color: #7e0023}
+
+/* 언어별 비상약 정보 */
+.kokdoc .search_medicine .g_sel_01{float:left; width:77%; background-color:#fff}
+.kokdoc .search_medicine a{width:22%; min-width:22%; padding:0; vertical-align:top; font-size:12px}
+
+.kokdoc_medicine .medicine_wrap .medicine{display:none}
+.kokdoc_medicine .medicine_wrap .medicine:first-child{display:block}
+.medicine ul:after{display:block;content:'';clear:both}
+.medicine li{margin-bottom:10px}
+.medicine li > div{width:100%; height:55px; box-sizing:border-box; padding:10px 10px 10px 65px; background-position:15px 10px; background-repeat:no-repeat; background-size:35px; border-radius:2px; border:solid 1px #ccc}
+.medicine li p.kor_name{padding-bottom:2px; letter-spacing:-0.1em; color:#666}
+.medicine li p{font-weight:bold; letter-spacing:-0.02em; color:#333}
+
+.medicine li:nth-child(1) div{background-image:url('../../images/common/kindservice/kokdoc_mdc_icon01.png')}
+.medicine li:nth-child(2) div{background-image:url('../../images/common/kindservice/kokdoc_mdc_icon02.png')}
+.medicine li:nth-child(3) div{background-image:url('../../images/common/kindservice/kokdoc_mdc_icon03.png')}
+.medicine li:nth-child(4) div{background-image:url('../../images/common/kindservice/kokdoc_mdc_icon04.png')}
+.medicine li:nth-child(5) div{background-image:url('../../images/common/kindservice/kokdoc_mdc_icon05.png')}
+.medicine li:nth-child(6) div{background-image:url('../../images/common/kindservice/kokdoc_mdc_icon06.png')}
+.medicine li:nth-child(7) div{background-image:url('../../images/common/kindservice/kokdoc_mdc_icon07.png')}
+.medicine li:nth-child(8) div{background-image:url('../../images/common/kindservice/kokdoc_mdc_icon08.png')}
+.medicine li:nth-child(9) div{background-image:url('../../images/common/kindservice/kokdoc_mdc_icon09.png')}
+.medicine li:nth-child(10) div{background-image:url('../../images/common/kindservice/kokdoc_mdc_icon10.png')}
+.medicine li:nth-child(11) div{background-image:url('../../images/common/kindservice/kokdoc_mdc_icon11.png')}
+.medicine li:nth-child(12) div{background-image:url('../../images/common/kindservice/kokdoc_mdc_icon12.png')}
+.medicine li:nth-child(13) div{background-image:url('../../images/common/kindservice/kokdoc_mdc_icon13.png')}
+.medicine li:nth-child(14) div{background-image:url('../../images/common/kindservice/kokdoc_mdc_icon14.png')}
+.medicine li:nth-child(15) div{background-image:url('../../images/common/kindservice/kokdoc_mdc_icon15.png')}
+.medicine li:nth-child(16) div{background-image:url('../../images/common/kindservice/kokdoc_mdc_icon16.png')}
+.medicine li:nth-child(17) div{background-image:url('../../images/common/kindservice/kokdoc_mdc_icon17.png')}
+
+/* 긴급 전화 번호 */
+.kokdoc .search_emer .g_input_01{float:left; width:77%; background-color:#fff}
+.kokdoc .search_emer a{width:22%; min-width:22%; padding:0; vertical-align:top; font-size:12px}
+.emer_list{}
+.emer_list > ul{border:1px solid #b4b4b4; border-width:2px 0 1px}
+.emer_list > ul > li{border-top:1px solid #e4e4e4}
+.emer_list > ul > li:first-child{border-top:0}
+.emer_list > ul > li > p{padding:15px; font-size:13px; font-weight:bold; color:#333; background-image:url('../../images/common/kindservice/emer_off.gif'); background-position: right 15px center; background-repeat:no-repeat; background-size:auto 14px; background-color:#f9f9f9}
+.emer_list > ul > li.on p{background-image:url('../../images/common/kindservice/emer_on.gif'); color:#117bb2}
+.emer_list .dep2{display:none; padding:10px 15px; border-top:1px solid #e4e4e4}
+.emer_list .dep2 li{line-height:22px; background-color:#fff}
+.emer_list .dep2 li:last-child{margin-bottom:0}
+.emer_list .dep2 li span{float:right}
+.emer_list .dep2 li a{color: #666}
+.emer_list li.on .dep2{display:block}
+
+/* 콕닥 컨텐츠 */
+.kokdoc .event_list_cont dt{width:100%}
+
+/* 콕닥 덴탈 POPUP */
+.ly_info_guide .layer_cont .g_box_01{padding-bottom:25px}
+.ly_info_guide h3.g_text_01{font-size:14px; margin:15px 0 8px}
+.ly_info_guide p.g_text_01{letter-spacing:-0.05em}
+.ly_info_guide h3.g_text_01 + p.g_text_01{font-size:13px; line-height:20px}
+.ly_info_guide p.g_text_01 span{display:block; margin:2px 0; line-height:14px; font-size:12px}
+.ly_info_guide .g_box_01 > ul{margin:10px 0}
+.ly_info_guide p + p,
+.kokdoc_rsv_02 .g_box_01 > p + p{margin-top:5px}
+
+.ly_radio_group .inner,
+.ly_kokdoc .inner{min-width:290px; padding-top:0}
+.ly_radio_group .layer_cont,
+.ly_kokdoc .layer_cont{box-sizing: border-box; height: 100%; padding:55px 15px 0}
+.ly_radio_group p.g_text_03 + .contBx{margin-top:14}
+.ly_radio_group .contBx{padding:10px; background-color:#fafafa; border:1px solid #dedede}
+.ly_radio_group .contBx > p{padding-left:16px; text-indent: -15px; color:#333}
+
+.ly_radio_group .g_chkrdo_wrap span{display:inline-block; height:30px; margin:2px 0}
+.ly_radio_group .g_chkrdo_wrap span{width:50%}
+.ly_radio_group .g_chkrdo_wrap span:nth-child(2n){width:47%}
+.ly_radio_group .g_chkrdo_wrap span:last-child{width:100%; min-height:35px}
+.ly_radio_group .g_chkrdo_wrap span:last-child label{width:87%; line-height:18px}
+.ly_radio_group .g_chkrdo_wrap span:last-child input{margin-top:5px; vertical-align:top}
+.ly_radio_group .g_chkrdo_wrap label{height:initial; min-height:30px; line-height:30px; letter-spacing:-0.1em}
+.ly_radio_group .g_chkrdo_wrap input[type='text']{width:58%; margin-left:5px; vertical-align:top}
+.ly_radio_group .g_chkrdo_wrap input.disable{border-bottom-color:#777}
+.ly_radio_group .g_chkrdo_wrap + p{margin-top:15px}
+
+/* fixed height size */
+.ly_info_guide.bs_small .inner{height:410px; top:50%; margin-top:-220px}
+.ly_radio_group .inner{height:510px; top:50%; margin-top:-270px}}
+.ly_hope_location.location01 .inner{height:300px; top:50%; margin-top:-160px}
+.ly_hope_location.location03 .inner{height:310px; top:50%; margin-top:-165px}
+
+.ly_hope_location .layer_cont .search_city_area{padding:15px; margin:0 0 15px; border:1px solid #d9d9d9;background-color:#fafafa; text-align:center}
+.ly_hope_location .layer_cont .search_city_area .g_input_01{margin-bottom:10px}
+.ly_hope_location .layer_cont .search_city_area a.g_btn_01{margin-right:2.5%}
+.ly_hope_location .layer_cont .search_city_area a{width:48.5%; line-height:23px; vertical-align:top}
+
+.ly_hope_location .layer_cont .search_map_area{width:100%; height:180px; box-sizing:border-box; margin:0 0 10px; border:1px solid #d9d9d9; background-color:#fafafa}
+.ly_hope_location .layer_cont .search_select_area{width:100%; box-sizing:border-box}
+.ly_hope_location .layer_cont .search_select_area > li{position:relative; padding:10px 10px; margin-bottom:10px; border:1px solid #d9d9d9; background-color:#fafafa}
+.ly_hope_location .layer_cont .search_select_area > li:last-child{margin-bottom:0}
+.ly_hope_location .layer_cont .search_select_area .list_box {width:72%; min-height:30px; line-height:15px; vertical-align:middle; color:#333; font-weight:normal}
+.ly_hope_location .layer_cont .search_select_area .list_box .address{color:#444;}
+.ly_hope_location .layer_cont .search_select_area .g_btn_03{position:absolute; right:15px; top:15px; background:#666; border:0; color:#fff}
+
+.ly_hope_location .layer_cont .choice_area{width:100%; box-sizing:border-box; padding:10px; border:1px solid #d9d9d9; background-color:#fafafa}
+.ly_hope_location .layer_cont .choice_area:after{display:block;content:'';clear:both}
+.ly_hope_location .layer_cont .choice_area span{float:left}
+.ly_hope_location .layer_cont .choice_area .rnd{display:inline-block; height:26px; line-height:24px; padding:0 15px; margin-right:10px; background-color:#fff; text-decoration:none; border:1px solid #117bb2; border-radius:4px; font-size:13px; font-weight:bold; color:#117bb2}
+.ly_hope_location .layer_cont .choice_area .adrs{display:inline-block; margin-top:-4px; line-height:20px; color:#444; font-size:13px}
+
+
+/* 건강검진 우대서비스
+------------------------------------------ */
+a.tel_ks{display:block; margin-top:4px; padding-left:18px; background:url('../../images/common/kindservice/ico_tel_01.png') 0 40% no-repeat; background-size:14px}
+a.g_btn_02.tel_ks{display:inline-block; margin-top:0; padding-left:40px; background-position:22px 40%}
+.g_define_01.package_care dt span{font-weight:normal; color:#666}
+.package_care + .btn_wrap_center a{height:initial; line-height:20px; padding:6px 10px; margin-top:10px}
+
+/* 패키지 팝업 */
+.ly_health_chk .g_table_01 th, 
+.ly_health_chk .g_table_01 td{padding:10px 5px}
+.ly_health_chk .g_table_01 tr > *[colspan]{border-bottom:1px solid #cfd6d9}
+.ly_health_chk .g_table_01 tr > *[rowspan]{border-right:0}
+.ly_health_chk .g_table_01 th span{display:block; line-height:17px; font-size:10px}
+.ly_health_chk .g_table_01 td{word-break:break-all}
+.ly_health_chk .g_table_01 td.bd_th{padding:10px 3px; background-color:#fafafa; font-weight:bold}
+
+/* 검진 전 유의사항 레이어 팝업 */
+.g_layer_box.ly_health_chk .layer_head .layer_tit{background-color:#008bec}
+.g_layer_box.ly_health_chk .g_box_01{padding-bottom:15px}
+.g_layer_box.ly_health_chk .g_list_01 li{padding-bottom:10px; color:#333}
+.g_layer_box.ly_health_chk .warning{padding-left:19px; font-weight:bold;background:url('../../images/common/kindservice/ico_warning.png') 0 2px no-repeat;background-size:14px auto}
+
+/* 현재위치 박스 */
+.kindservice .now_loc{overflow:hidden; padding:9px 10px 6px 10px; border:1px solid #bebebe; border-radius:3px}
+.kindservice .now_loc:after{display:block; content:''; clear:both}
+.kindservice .now_loc dt,
+.kindservice .now_loc dd{float:left}
+.kindservice .now_loc dt{padding-left:15px; background:url('../../images/common/kindservice/ico_now_loc.png') 0 0 no-repeat; background-size:11px 16px}
+.kindservice .now_loc dd{padding-left:7px; margin-left:7px; background:url('../../images/common/common/bg_line_01.png') 0 50% no-repeat; background-size:1px 8px}
+
+/* 지역찾기 리스트 */
+.kindservice .kind_box_01{padding:15px 15px 30px 15px; background-color:#f6fcff; border-radius:2px; border:1px solid #ddd}
+.kindservice .kind_box_01 .g_title_03{display:block; margin:0 0 10px 0; font-size:15px; line-height:15px; color:#333; font-weight:bold}
+.kindservice .kind_box_01 .g_sel_01{background-color:#fff}
+.kindservice .loc_find_list > li{padding-bottom:25px; border-bottom:1px solid #d9d9d9}
+
+/* 지도영역 */
+.g_layer_box.ly_map .layer_cont .g_box_01{padding:15px}
+.g_layer_box.ly_map .layer_head .layer_tit{background-color:#008bec}
+ 
+/* 간편 건강진단 이용하기 */
+.kindservice .g_rcgroup_01.sex{/* padding-bottom:17px; */ text-align:center}
+.kindservice .g_rcgroup_01.sex:after{display:block; content:''; clear:both}
+.kindservice .g_rcgroup_01.sex li{float:left;width:50%; height:50%; box-sizing:border-box; padding-bottom:0}
+.kindservice .g_rcgroup_01.sex li p.tit_img{padding-bottom:10px}
+/* 입력영역 */
+.health_form_01{padding-left:5px; margin-bottom:3px; line-height:35px}
+.health_form_01:after{display:block; content:''; clear:both}
+.health_form_01 span input{width:100%}
+.health_form_01 span{display:block;float:left;width:50%;box-sizing:border-box}
+.health_form_01 span:nth-child(1){position:relative; left:-5px}
+
+.health_form_02{padding-left:5px; margin-bottom:5px; line-height:35px}
+.health_form_02:after{display:block; content:''; clear:both}
+.health_form_02 span input{width:100%}
+.health_form_02 span{display:block;float:left;box-sizing:border-box}
+
+.health_form_02 span:nth-child(odd){width:42%}
+.health_form_02 span:nth-child(even){width:8%}
+.health_form_02 span:first-child{position:relative; left:-5px}
+.health_form_02 span:nth-child(2){position:relative; left:-2px}
+.health_form_02 span:nth-child(4){padding-left:3px}
+
+.health_form_03{display:none}
+
+/* 정보이용 동의 */
+.kind_infoua .g_title_08{margin-top:20px; padding:0 15px}
+.kind_infoua .term_borrow_box .term{padding:0 15px; margin-bottom:25px}
+.kind_infoua .term_borrow_box .term .inner{padding:15px; border:1px solid #bebebe; line-height:18px}
+.kind_infoua .term_borrow_box .term .tit{font-size:14px; color:#333; font-weight:bold; margin:15px 0 7px}
+.kind_infoua .term_borrow_box .term .tit:first-child{margin-top:0}
+.kind_infoua .term_borrow_box .agree{background-color:#f9f9f9; border:1px solid #bebebe; border-top:none}
+.kind_infoua .term_borrow_box .agree p{padding:10px 10px 10px 0; text-align:right; color:#333; font-weight:bold}
+
+/* 건강검진 우대서비스
+------------------------------------------ */
+/* 건강한 진단 서비스 ::STEP1 생활습관 */
+.question_sec{position:relative; padding:12px 15px 12px 55px; border-width:1px; border-style:solid none dashed none; border-color:#cfd6d9; background-color:#f4f4f4; background-size:auto 35px}
+.question_sec .ico_q{position:absolute; left:15px; top:50%; margin-top:-17px; display:block; height:35px}
+.question_sec .ico_q img{width:auto; height:100%}
+.question_sec dl.one_line{margin:8px 0}
+.question_sec dt{color:#333}
+.question_sec dd{font-size:12px}
+
+.contents.kindservice .g_rcgroup_01.questlist label {margin-right:0; position:absolute; left:30px}
+
+.g_rcgroup_01.questlist ul{overflow:hidden; width:100%}
+.g_rcgroup_01 li{padding:0 0 15px 0}
+.g_rcgroup_01.questlist li{ position:relative; float:left; width:50%; box-sizing:border-box}
+.g_rcgroup_01.questlist li:last-child{width:100%}
+
+.g_rcgroup_01.questlist.line_n2 li{height:46px}
+.g_rcgroup_01.questlist.line_n2 li:last-child{width:50%}
+
+.g_rcgroup_01.questlist_01{overflow:hidden}
+.g_rcgroup_01.questlist_01 .txtbox_n2 span{display:inline-block; float:left; box-sizing:border-box; line-height:35px}
+.g_rcgroup_01.questlist_01 .txtbox_n2 span:nth-child(1) label{margin-right:5px; margin-left:5px}
+.g_rcgroup_01.questlist_01 .txtbox_n2 span:nth-child(2){width:15%}
+.g_rcgroup_01.questlist_01 .txtbox_n2 span:nth-child(2) input {width:100%}
+.g_rcgroup_01.questlist_01 .txtbox_n2 span:nth-child(3){padding:0 5px}
+.g_rcgroup_01.questlist_01 .txtbox_n2 span:nth-child(4) {width:15%}
+.g_rcgroup_01.questlist_01 .txtbox_n2 span:nth-child(4) input{width:100%}
+.g_rcgroup_01.questlist_01 .txtbox_n2 span:nth-child(5){padding:0 0 0 5px}
+
+.g_rcgroup_01.questlist.step04 li span{display:inline-block; float:left; box-sizing:border-box; line-height:35px}
+.g_rcgroup_01.questlist.step04 li:nth-child(3){width:100%}
+.g_rcgroup_01.questlist.step04 li:last-child span:nth-child(3){width:40%; padding-right:5px}
+.g_rcgroup_01.questlist.step04 li:last-child span:nth-child(3) input{width:100%}
+.g_rcgroup_01.questlist.step04 li:last-child span:first-child{padding-right:10px}
+.g_rcgroup_01.questlist.step04 li:last-child span:nth-child(2) label{position:static; margin-right:5px; left:auto}
+.g_rcgroup_01.questlist.step05 li:last-child{width:50%}
+
+/* 건강한 진단 서비스 ::STEP2 생활습관 */
+.g_rcgroup_01.questlist.step2_01 li{width:100%}
+.g_rcgroup_01.questlist.step2_01 li:last-child{width:100%}
+
+/* 건강한 진단 서비스 ::STEP4 전립선 & 유방암 */
+.question_sec_top_step04{padding:15px; border-width:1px 0; border-style:solid; border-color:#d9d9d9; background-color:#fafafa}
+.question_sec_top_step04 p.q_tit{color:#333}
+
+/* 간편 건강진단 결과 리포트 */
+.result_tit {padding-top:28px; text-align:center}
+.result_tit p:nth-child(1){padding-bottom:2px; font-size:22px; color:#333}
+.result_tit p:nth-child(2){padding-bottom:29px; font-size:15px; color:#666}
+.clie_area{padding:14px 0; border-width:1px; border-style:solid; border-color:#e4e4e4; background-color:#f9f9f9; text-align:center; font-size:14px}
+.clie_area strong{padding-left:20px; background:url('../../images/common/common/bul_tit_02.png') 0 50% no-repeat; background-size:13px 15px}
+
+.rv_box_wrap{width:100%}
+.rv_box_wrap ul{width:102%; margin:0 auto}
+.rv_box_wrap:after{display:block; content:''; clear:both}
+.rv_box_wrap li{float:left; width:48%; height:170px; margin:0 2% 25px 0;padding-bottom:17px; border:1px solid #ddd;border-radius:2px;background-color:#fafafa;text-align:center;box-sizing:border-box}
+.rv_box_wrap li:nth-child(3),
+.rv_box_wrap li:nth-child(4){margin-bottom:10px}
+.rv_box_wrap li [class^='status_']{display:block; width:66%; height:18px;margin:-11px auto 12px;font-size:12px;border-width:2px;border-style:solid;border-radius:2px;line-height:19px}
+.rv_box_wrap li span.status_01{border-color:#f59f2c;background-color:#fdf8f1}
+.rv_box_wrap li span.status_02{border-color:#2596d0;background-color:#f2fbff}
+.rv_box_wrap li span.status_03{border-color:#81bd00;background-color:#faffef}
+.rv_box_wrap li span.status_04{border-color:#e7292b;background-color:#fef7f7}
+.rv_box_wrap li dt{padding-bottom:10px}
+.rv_box_wrap li dd.tit{font-size:15px}
+.rv_box_wrap li dd{font-size:14px}
+
+.result_color_wrap{overflow:hidden}
+[class^='txt_color_']{float:left;height:15px;line-height:15px}
+.txt_color_01{color:#de181b}
+.txt_color_02{color:#f59f2c}
+.txt_color_03{color:#117bb2}
+.txt_color_04{color:#81bd00}
+[class^='circle_']{float:left;width:15px;height:15px;border-radius:50%;margin-right:5px}
+.circle_01{background-color:#de181b}
+.circle_02{background-color:#f59f2c}
+.circle_03{background-color:#117bb2}
+.circle_04{background-color:#81bd00}
+
+.rv_box_wrap .tip{color:#666}
+.result_tel_info{text-align:center;padding:15px;border-width:1px 0;border-style:solid;border-color:#e4e4e4;background-color:#f9f9f9}
+.result_tel_info .btn_wrap_center img{margin-top:-3px}
+
+/* 나에게 필요한 보험은?*/
+.myneed_list li{position:relative; margin-bottom:10px; border:1px solid #cfd6d9; border-radius:2px}
+.myneed_list li dt{padding-bottom:4px;font-size:14px;color:#444}
+.myneed_list li dd{color:#666}
+.myneed_list li:after{display:block; content:''; position:absolute; right:15px; top:42%; z-index:-1; width:9px; height:15px; background:url('../../images/common/kindservice/bg_myneed_list_arr.png') 0 50% no-repeat;background-size:9px 15px}
+.myneed_list li a.link_prd{display:block; padding:15px 30px 15px 80px; background-position:15px 50%; background-repeat:no-repeat; background-size:50px}
+.myneed_list li.ccp a.link_prd{background-image:url('../../images/common/common/bg_prd_ccp.png')}/* 마이페이지 아이콘도 이것 사용 */
+.myneed_list li.ecp a.link_prd{background-image:url('../../images/common/common/bg_prd_ecp.png')}
+.myneed_list li.sbf a.link_prd{background-image:url('../../images/common/common/bg_prd_sbf.png')}
+.myneed_list li.gjp a.link_prd{background-image:url('../../images/common/common/bg_prd_gjp.png')}
+.myneed_list li.daf a.link_prd{background-image:url('../../images/common/common/bg_prd_daf.png')}
+.myneed_list li.drf a.link_prd{background-image:url('../../images/common/common/bg_prd_drf.png')}
+.myneed_list li.flb a.link_prd{background-image:url('../../images/common/common/bg_prd_flb.png')}
+.myneed_list li.cif a.link_prd{background-image:url('../../images/common/common/bg_prd_cif.png')}
+.myneed_list li.mbf a.link_prd{background-image:url('../../images/common/common/bg_prd_mbf.png')}
+.myneed_list li.knp a.link_prd{background-image:url('../../images/common/common/bg_prd_knp.png')}
+.myneed_list li.iap a.link_prd{background-image:url('../../images/common/common/bg_prd_iap.png')}
+
+/* sns 영역 */
+.sns_area{height:40px;line-height:40px;padding:0 15px;border-width:1px 0;border-style:solid;border-color:#e4e4e4;background-color:#f9f9f9}
+.sns_area:after{display:block; content:'';clear:both}
+.sns_area strong{float:left;font-size:15px}
+.sns_area ul{float:right}
+.sns_area ul li{float:left;padding-left:10px}
+
+/* 내 몸의 건강지수 향상을 위한 건강목표는? */
+.result_chk_list ul li.on dt strong{color:#117bb2}
+.result_chk_list ul li:last-child dt{border-bottom:1px solid #e4e4e4}
+.result_chk_list ul li.on a.more{background-image:url('../../images/common/kindservice/more_02_on.png')}
+
+.result_chk_list ul li dt{position:relative;padding:13px 0 13px 15px;border-top:2px solid #b4b4b4;background-color:#f9f9f9}
+.result_chk_list ul li dt a.more{position:absolute;top:0;right:0;width:50px;height:45px;text-indent:-9999px; background:url('../../images/common/kindservice/more_01_off.png') 50% 50% no-repeat;background-size:13px 8px}
+.result_chk_list ul li dd{display:none; padding:15px;border-width:1px 0;border-style:solid;border-color:#e4e4e4;background-color:#f9f9f9}
+
+/* 이벤트
+------------------------------------------ */
+/* 이벤트 리스트 */
+.event_list .photo_zone{width:100%;margin-bottom:15px;border:1px solid #dfdfdf;background-color:#f9f9f9}
+.event_list .photo_zone a{display:block;width:100%}
+.event_list .photo_zone a img{width:100%; height:auto}
+.event_list_cont{position:relative;margin-bottom:25px; padding-bottom:15px; border-bottom:1px solid #cae5ef}
+.event_list_cont dt,
+.event_list_cont dd li{overflow:hidden; width:73%;white-space:nowrap; text-overflow:ellipsis}
+.event_list_cont dd ul{width:100%}
+.event_list_cont dt.tit{margin-bottom:7px; font-size:15px}
+.event_list_cont p.pos_state span{display:block; width:50px; height:20px; line-height:20px; font-size:12px; text-align:center; color:#fff; position:absolute; top:0; right:0}
+.event_list_cont p.pos_state span.state_btn_01{background-color:#008bec}
+.event_list_cont p.pos_state span.state_btn_02{background-color:#888}
+/* 이벤트 상세페이지 */
+.event_view_tit{position:relative;border-bottom:1px solid #e4e4e4}
+.event_view_tit dl{padding:25px 15px 14px; background-color:#f9f9f9}
+.event_view_tit dt,
+.event_view_tit dd li{overflow:hidden; width:73%;white-space:nowrap; text-overflow:ellipsis}
+.event_view_tit dd ul{width:100%}
+.event_view_tit dt.tit{font-size:15px}
+.event_view_tit p.pos_state span{display:block; width:50px; height:20px; line-height:18px; font-size:12px; text-align:center; color:#fff; position:absolute; top:25px; right:15px}
+.event_view_tit p.pos_state span.state_btn_01{background-color:#008bec}
+.event_view_tit p.pos_state span.state_btn_02{background-color:#888}
+.event_view_cont{padding:15px;border-bottom:1px solid #9ab5c3}
+.event_view_cont img{margin:10px 0; max-width:100%}
+/* 테마별 자가진단 */
+.health_chk .g_title_01{margin-left:15px}
+.health_chk .chk_list{border-width:1px 0;border-style:solid;border-color:#d9d9d9}
+.health_chk .chk_list:after{display:block;content:'';clear:both}
+.health_chk .chk_list li{position:relative;float:left;width:25%;height:72px;border-width:1px 1px 0 0;border-style:solid;border-color:#d9d9d9;box-sizing:border-box;text-align:center}
+.health_chk .chk_list li:nth-child(1),
+.health_chk .chk_list li:nth-child(2),
+.health_chk .chk_list li:nth-child(3),
+.health_chk .chk_list li:nth-child(4){border-top:0;border-left:0}
+.health_chk .chk_list li:nth-child(8){border-left:0}
+.health_chk .chk_list li a{display:block;width:100%;height:100%;color:#333;font-size:12px}
+.health_chk .chk_list li dt{padding-top:12px}
+.health_chk .chk_list li dd{position:absolute;bottom:10px;width:100%}
+
+/* 온라인 정신건강 자가관리 */
+.kindservice.mind_health_test .ui_list:after {display:block; content:''; clear:both}
+.kindservice.mind_health_test .ui_list li{float: left; width: 33.33%; height:50%; padding-left: 5px; text-align: center; box-sizing:border-box;}
+.kindservice.mind_health_test .ui_list li:first-child {margin-left: 0;}
+.kindservice.mind_health_test .ui_list li .photo_zone img {width: 75px;}
+.kindservice.mind_health_test .ui_list li .txt_zone {margin-top: 11px;}
+.kindservice.mind_health_test .box {text-align: center;}
+.kindservice.mind_health_test .box .block {display:block; margin-top: 10px;}
+.kindservice.mind_health_test .box .block.borB {background:#008bec}
+.kindservice.mind_health_test .box .block.borG {background:#0e9403}
+.kindservice.mind_health_test .box .block:first-child {margin-top: 0;}
+.kindservice.mind_health_test .box .block img {width: 100%; max-width:290px}
+.kindservice.mind_health_test .box .block a{background:#27b694}
+.kindservice.mind_health_test .box .block span{display:block;border-top:1px dashed #fff;color:#fff;text-align:center;font-size:12px;line-height:38px;}
+.kindservice.mind_health_test .box .block.borB span{background:#33a5f4}
+.kindservice.mind_health_test .box .block.borG span{background:#29a91e}
+.kindservice.mind_health_test .box .block span:after{content:"";display:inline-block;width:5px;height:7px;margin-left:3px;background:url('../../images/common/kindservice/bg_txt_arr.png') no-repeat;background-size:100% 100%}
+.kindservice.mind_health_test .box .g_list_02 {text-align: left;}
+
+.kindservice.mind_health_test .g_text_07 {margin-top: 10px; padding-left: 10px; text-indent: -10px; text-align: left;}
+.kindservice.mind_health_test .test_link_box {margin-top: 18px;}
+.kindservice.mind_health_test .test_link_box .list:first-child {margin-top: 0;}
+.kindservice.mind_health_test .test_link_box .list:after {content: ''; display: block; clear: both;}
+.kindservice.mind_health_test .test_link_box .list li {float: left; width: 33.33%; text-align: center; box-sizing: border-box;}
+.kindservice.mind_health_test .test_link_box .list li img {width: 90px; margin-top: 7px; border: 1px solid #c3c3c3; box-sizing: border-box;}
+
+/* 치아 건강 나이 진단 */
+.tooth_health .g_title_01 {letter-spacing: -1px;}
+.tooth_health .txt {font-size:12px; font-weight: normal;}
+.tooth_health .g_rcgroup_01.widthType01 li {width: 100%;}
+.tooth_health .g_rcgroup_01.widthType02 li {width: 33.33%;}
+.tooth_health .g_rcgroup_01.widthType03 li:last-child,
+.tooth_health .g_rcgroup_01.widthType04 li:first-child {width: 100%;}
+.tooth_health .g_rcgroup_01.widthType04 li {width: 50%;}
+
+.tooth_health .g_text_04 {margin-top: 15px; padding-left: 15px;}
+
+.tooth_health .g_box_01:last-child {border-bottom: 1px solid #cfd6d9;} 
+.tooth_health .question_sec{position:relative; display: table; width: 100%; height: 56px; padding: 0; box-sizing: border-box; border-width:1px; border-style:solid none dashed none; border-color:#cfd6d9; background-color:#f4f4f4;}
+.tooth_health .question_sec span {display: table-cell; height: 100%; vertical-align: middle;}
+.tooth_health .question_sec .ico_q{position: static; top: 0; left: 0; width: 47px; margin: 0; text-align: right;}
+.tooth_health .question_sec .ico_q img {width:32px; height: 32px;}
+.tooth_health .question_sec .tit {width: auto; padding: 0 8px; font-weight: bold; color:#333;}
+
+.tooth_health .g_box_03 {padding:130px 12px 25px; border: 1px solid #ddd; border-top:solid 2px #1699dc; box-sizing:border-box; background:url('../../images/common/kindservice/bg_msg_finish01.png') no-repeat center 25px; background-size:91px auto;}
+.tooth_health .g_box_03 > *{line-height:22px; text-align:center}
+.tooth_health .g_box_03 h3{color:#333}
+.tooth_health .g_box_03 p{margin:3px 0 11px; color:#444}
+.tooth_health a.g_btn_02.call{height:40px}
+.tooth_health a.g_btn_02.call span{display:inline-block; height:40px; line-height:38px; padding-left:28px; background:url('../../images/common/kindservice/bg_ico_call2.png') left center no-repeat; background-size:28px; font-size:15px; vertical-align:middle}
+
+.tooth_health .tooth_info_list:after {content: ''; display: block; clear: both;}
+.tooth_health .tooth_info_list .area {width: 100%; margin-top: 25px; padding-bottom: 15px; border-bottom: 1px solid #cae5ef;}
+.tooth_health .tooth_info_list .area:first-child {margin-top: 0;}
+.tooth_health .tooth_info_list .area a,
+.tooth_health .tooth_info_list .area a span {display: block;}
+.tooth_health .tooth_info_list .area .thumbImg {overflow: hidden; border: 1px solid #e5e5e5;}
+.tooth_health .tooth_info_list .area .thumbImg img {width: 100%;}
+.tooth_health .tooth_info_list .area .txt {overflow:hidden; width: 100%; margin-top: 16px; text-overflow: ellipsis; white-space:nowrap; letter-spacing: -.5px; font-size: 15px; font-weight: bold; color: #333;}
+
+/* e-뉴스레터 */
+.letter_select{position:relative; padding:0 90px 0 15px}
+.letter_select a.g_btn_01{position:absolute; top:0; right:15px; padding:0; min-width:70px; font-weight:normal; font-size:13px; background-color:#888}
+
+/* 치아 건강나이 자가 테스트 */
+.toothchk_pagetop_01{background:url('../../images/common/kindservice/bg_toothchk_top.png') no-repeat 15px 0; background-size:66px auto}
+.tooth_health_chk .cont_title_top dt{padding-bottom:4px;font-size:16px}
+.tooth_health_chk .cont_title_top dd{color:#666}
+.tooth_health_chk .g_title_01{margin-left:15px;letter-spacing:-1px}
+.tooth_health_chk .toothchk_step01_sec{padding:130px 10px 20px;margin:15px;background:#fafafa url('../../images/common/kindservice/bg_ico_tooth.png') no-repeat 50% 40px;background-size:95px 65px;border:1px solid #e9e9e9}
+.tooth_health_chk .toothchk_step01_sec .g_list_02{margin:0 18px}
+.tooth_health_chk .inputbox_wrap{margin-bottom:15px;text-align:center}
+.tooth_health_chk .inputbox_wrap input{text-align:center;color:#aaa}
+.tooth_health_chk .inputbox_wrap input::-webkit-input-placeholder{color:#aaa}
+.tooth_health_chk .inputbox_wrap input:focus{color:#333}
+.tooth_health_chk .inputbox_wrap > span{position:relative;float:left;width:33.3333%;padding-left:10px;padding-right:20px;box-sizing:border-box}
+.tooth_health_chk .inputbox_wrap:after{content:"";display:block;clear:both}
+.tooth_health_chk .inputbox_wrap > span em{position:absolute;right:0;top:8px}
+.tooth_health_chk .inputbox_wrap > span:first-child{padding-left:0}
+.tooth_health_chk .inputbox_wrap > span input{width:100%}
+.tooth_health_chk .g_step_02 li{padding:7px 0 0 15px}
+.tooth_health_chk .g_step_02 li.on{background:#004286}
+.tooth_health_chk .g_step_02 li.on:after{background:url('../../images/common/kindservice/bg_step02_on.png');background-size:100%}
+.tooth_health_chk .sub_txt{text-align:center;color:#666;line-height:22px}
+.tooth_health_chk .img_logo{display:inline-block;width:98px;height:21px;margin-right:1px;background:url('../../images/common/kindservice/logo_appletree.png') no-repeat;background-size:98px 19px;text-indent:-999em;vertical-align:2px}
+
+.enquete_info li{float:left;padding-top:75px;font-size:11.5px;color:#666;text-align:center;letter-spacing:-0.08em}
+.enquete_info li.enquete_info1{width:28%;background:url('../../images/common/kindservice/bg_toothchk_before1.png') no-repeat 50% 0;background-size:67px auto;}
+.enquete_info li.enquete_info2{width:40%;background:url('../../images/common/kindservice/bg_toothchk_before2.png') no-repeat 50% 0;background-size:67px auto;}
+.enquete_info li.enquete_info3{width:32%;background:url('../../images/common/kindservice/bg_toothchk_before3.png') no-repeat 50% 0;background-size:67px auto;}
+.enquete_info:after{content:"";display:block;clear:both}
+.g_box{margin:10px 15px;padding:17px 0 20px;border:1px solid #d9d9d9}
+
+.enquete_sec{position:relative;padding-top:30px}
+.enquete_sec .question_state{position:absolute;top:0;left:0;width:100%;padding:0 15px;box-sizing:border-box}
+.question_state .state_txt{position:relative;float:left;width:48px;padding:5px;border:1px solid #d9d9d9;border-radius:3px;box-sizing:border-box;text-align:center}
+.question_state .state_txt:after{content:"";display:inline-block;position:absolute;top:50%;right:-7px;margin-top:-5px;width:7px;height:10px;background:url('../../images/common/kindservice/bg_ballon_arr.jpg') no-repeat;background-size:7px 10px}
+.question_state .state_txt>strong{color:#008bec;font-size:14px;font-weight:bold;vertical-align:top}
+.question_state .state_txt>strong .num{vertical-align:top}
+.question_state .state_graph{position:relative;margin-left:60px;height:9px;margin-top:10px;background:#e9e9e9;border-radius:9px}
+.question_state .state_graph span{position:absolute;top:0;left:0;display:inline-block;width:0;height:9px;background:#008bec;border-radius:9px;text-indent:-999em}
+
+.tooth_health_chk .question_full{margin:15px;padding-bottom:15px;height:400px;overflow-y:scroll;border:1px solid #d9d9d9}
+.tooth_health_chk .question_sec{padding:18px 15px 17px 55px;border-top:1px solid #9ab5c3}
+.tooth_health_chk .g_rcgroup_01.questlist li{width:100%}
+.tooth_health_chk .g_rcgroup_01.questlist li:last-child{padding:0}
+
+.toothchk_step03_top{padding:127px 12px 25px;margin:15px;background:url('../../images/common/kindservice/bg_toothchk03.png') no-repeat center 25px;background-size:91px auto;border:1px solid #ddd;box-sizing:border-box;line-height:22px;text-align:center}
+.toothchk_step03_top.type1{background:url('../../images/common/kindservice/bg_toothchk01.png') no-repeat center 25px;background-size:91px auto;}
+.toothchk_step03_top.type2{background:url('../../images/common/kindservice/bg_toothchk02.png') no-repeat center 25px;background-size:91px auto;}
+.toothchk_step03_top.type3{background:url('../../images/common/kindservice/bg_toothchk03.png') no-repeat center 25px;background-size:91px auto;}
+.toothchk_step03_top p{color:#333;font-size:16px;font-weight:bold;line-height:22px}
+.toothchk_step03_top .sub_txt{margin-top:12px;color:#444;font-size:14px;font-weight:normal;line-height:21px}
+
+.toothchk_step03_sec{margin:15px 15px 20px;padding:0 0 20px;border:1px solid #d9d9d9}
+.toothchk_step03_sec .g_title_04{padding:0 15px 12px;color:#008bec;font-size:14px;font-weight:bold;text-align:left}
+.toothchk_step03_sec .top_state{width:100%;padding:20px 0 70px;margin-bottom:25px;background:#f8f8f8 url('../../images/common/kindservice/bg_top_state01.png') no-repeat 50% 100%;background-size:215px auto;box-sizing:border-box;color:#333;font-size:15px;font-weight:bold;letter-spacing:-1px}
+.toothchk_step03_sec .top_state .g_title_04{text-align:center}
+.toothchk_step03_sec .top_state.s1{background:#f8f8f8 url('../../images/common/kindservice/bg_top_state01.png') no-repeat 50% 100%;background-size:215px auto}
+.toothchk_step03_sec .top_state.s2{background:#f8f8f8 url('../../images/common/kindservice/bg_top_state02.png') no-repeat 50% 100%;background-size:215px auto}
+.toothchk_step03_sec .top_state.s3{background:#f8f8f8 url('../../images/common/kindservice/bg_top_state03.png') no-repeat 50% 100%;background-size:215px auto}
+.toothchk_step03_sec .top_state.s1 span{color:#e04042}
+.toothchk_step03_sec .top_state.s2 span{color:#d85014}
+.toothchk_step03_sec .top_state.s3 span{color:#259e1b}
+
+.toothchk_step03_sec .top_txt{margin-bottom:26px;text-align:center}
+.toothchk_step03_sec .top_txt .thumb_img{display:block;width:98px;margin:0 auto 15px}
+.toothchk_step03_sec .top_txt .thumb_img img{width:100%;}
+.toothchk_step03_sec .top_txt .thumb_txt{padding:0 15px;letter-spacing:-0.06em;line-height:140%}
+.toothchk_step03_sec .top_txt .thumb_txt strong{font-size:15px;letter-spacing:-0.05em}
+.toothchk_step03_sec .top_txt .thumb_txt p{margin:12px 0 18px;color:#666}
+.toothchk_step03_sec .g_list_01{margin:0 10px}
+.toothchk_step03_sec .con_list{text-align:center}
+.toothchk_step03_sec .con_list:after{content:"";display:block;clear:both}
+.toothchk_step03_sec .con_list .con_img{display:block;width:65px;height:65px;margin:0 auto}
+.toothchk_step03_sec .con_list .con_img img{width:100%}
+.toothchk_step03_sec .con_list .con_txt{display:block;margin-top:10px;color:#666;font-size:12px;font-weight:bold;letter-spacing:-0.08em}
+.toothchk_step03_sec .con_list .con_txt i{font-style:normal}
+.toothchk_step03_sec .con_list li{float:left;width:33%;margin-bottom:20px;box-sizing:border-box}
+.toothchk_step03_sec .con_list li:nth-child(2){position:relative;width:34%;padding:0 10px;box-sizing:border-box}
+.toothchk_step03_sec .con_list.n4 li{width:48%}
+.toothchk_step03_sec .con_list.n4 li:nth-child(2),
+.toothchk_step03_sec .con_list.n4 li:nth-child(4){position:relative;width:52%;padding:0 10px;box-sizing:border-box}
+.toothchk_step03_sec .con_list li:nth-child(2):before,
+.toothchk_step03_sec .con_list li:nth-child(4):before{content:"";display:inline-block;position:absolute;left:0;top:26px;width:7px;height:14px;background:url('../../images/common/kindservice/bg_r_arrow.png') no-repeat;background-size:7px auto}
+.toothchk_step03_sec .con_list li:nth-child(2):after{content:"";display:inline-block;position:absolute;right:15px;top:26px;width:7px;height:14px;background:url('../../images/common/kindservice/bg_r_arrow.png') no-repeat;background-size:7px auto}
+.toothchk_step03_sec .con_list.plus li{width:30%;background:none;padding:0}
+.toothchk_step03_sec .con_list.plus li:nth-child(2){position:relative;width:40%;padding:0 10px}
+.toothchk_step03_sec .con_list.plus li:nth-child(2):before{content:"";display:inline-block;position:absolute;left:0;top:26px;width:14px;height:14px;background:url('../../images/common/kindservice/bg_plus.png') no-repeat;background-size:14px 14px}
+.toothchk_step03_sec .con_list.plus li:nth-child(2):after{content:"";display:inline-block;position:absolute;right:0;top:26px;width:14px;height:14px;background:url('../../images/common/kindservice/bg_plus.png') no-repeat;background-size:14px 14px}
+.toothchk_step03_sec .con_list.plus li:last-child{padding-right:0;background:none}
+.toothchk_step03_sec .con_list.n1_3 li{width:33.3333%;padding:0}
+.toothchk_step03_sec .con_list.n1_3 li:first-child{width:100%;padding-bottom:20px;background:url('../../images/common/kindservice/bg_b_arrow.png') no-repeat 50% 100%;background-size:13px auto;box-sizing:border-box}
+.toothchk_step03_sec .con_list.n1_3 li:nth-child(2):before,
+.toothchk_step03_sec .con_list.n1_3 li:nth-child(2):after,
+.toothchk_step03_sec .con_list.n1_3 li:nth-child(4):before{display:none}
+
+.tooth_health_chk .tooth_info_list{padding:0 15px}
+.tooth_health_chk .tooth_info_list:after {content: ''; display: block; clear: both;}
+.tooth_health_chk .tooth_info_list .area {width: 100%; margin-top: 25px; padding-bottom: 15px; border-bottom: 1px solid #cae5ef;}
+.tooth_health_chk .tooth_info_list .area:first-child {margin-top: 0;}
+.tooth_health_chk .tooth_info_list .area a,
+.tooth_health_chk .tooth_info_list .area a span {display: block;}
+.tooth_health_chk .tooth_info_list .area .thumbImg {overflow: hidden; border: 1px solid #e5e5e5;}
+.tooth_health_chk .tooth_info_list .area .thumbImg img {width: 100%;}
+.tooth_health_chk .tooth_info_list .area .txt {overflow:hidden; width: 100%; margin-top: 16px; text-overflow: ellipsis; white-space:nowrap; letter-spacing: -.5px; font-size: 15px; font-weight: bold; color: #333;}
+
+/* 치매예방 두뇌훈련 */
+.soundmind_con{letter-spacing:-1px}
+.soundmind_con .top_box{margin-top:25px;padding:0 15px 15px;border-bottom:1px solid #ddd;letter-spacing:-1px}
+.soundmind_con .top_box .title{display:inline-block;font-size:16px;font-weight:bold}
+.soundmind_con .top_box p{margin:10px 0;line-height:1.4;color:#666;letter-spacing:-1.5px}
+.soundmind_con .top_box a{display:inline-block;margin:0 5px 10px;text-indent:-9999em}
+.soundmind_con .top_box .btn_app01{width:140px;height:44px;background:url('../../images/common/kindservice/bg_app01.png') no-repeat;background-size:100%}
+.soundmind_con .top_box .btn_app02{width:140px;height:44px;background:url('../../images/common/kindservice/bg_app02.png') no-repeat;background-size:100%}
+.soundmind_con .con_box{padding:25px 15px 0;box-sizing:border-box}
+.soundmind_con .box .intro_txt_list li{position:relative;min-height:65px;padding:25px 12px 25px 70px;border-top:1px solid #dfdfdf;box-sizing:border-box}
+.soundmind_con .box .intro_txt_list li:first-child{border-top:0}
+.soundmind_con .box .intro_txt_list li:before{content:"";position:absolute;left:12px;top:15px;display:inline-block;width:50px;height:50px}
+.soundmind_con .box .intro_txt_list li.ico01:before{background:url('../../images/common/kindservice/img_soundmind_intro.png') 0 0 no-repeat;background-size:auto 50px}
+.soundmind_con .box .intro_txt_list li.ico02:before{background:url('../../images/common/kindservice/img_soundmind_intro.png') -51px 0 no-repeat;background-size:auto 50px}
+.soundmind_con .box .intro_txt_list li.ico03:before{background:url('../../images/common/kindservice/img_soundmind_intro.png') -102px 0 no-repeat;background-size:auto 50px}
+.soundmind_con .box .intro_txt_list:after{content:"";clear:both;display:block}
+.soundmind_con .box .intro_img_list{margin-left:-10px;margin-bottom:10px}
+.soundmind_con .box .intro_img_list li{float:left;width:50%;padding-left:10px;box-sizing:border-box}
+.soundmind_con .box .intro_img_list li img{width:100%}
+.soundmind_con .box .intro_img_list li p{margin:12px 0 20px;color:#444}
+.soundmind_con .box .intro_img_list li em{display:inline-block;width:18px;height:18px;margin-top:8px;margin-right:3px;background-color:#10adcb;border-radius:100%;color:#fff;text-align:center;vertical-align:top}
+.soundmind_con .box .intro_img_list li span{display:inline-block}
+.soundmind_con .box .intro_img_list:after{content:"";clear:both;display:block}
+.soundmind_con .video_wrap{width:100%;min-height:180px;margin:0 auto;background:#f1f1f1 url('../../images/common/kindservice/bg_ico_play.png') 50% 50% no-repeat;text-align:center}
+.soundmind_con .dot_txt{display:block;margin-bottom:3px;text-indent:-8px;margin-left:8px;color:#666}
+.soundmind_con .sup_txt{display:inline-block;color:#666}
+.soundmind_con .sup{margin-bottom:30px;padding-left:40px}
+
+.soundmind_service{margin:20px 0}
+.soundmind_service:after{display:block; content:''; clear:both}
+.soundmind_service li{min-height:60px;padding:15px 12px;border-top:1px solid #dfdfdf;box-sizing:border-box}
+.soundmind_service li:first-child{border-top:0}
+.soundmind_service li>div{width:100%;box-sizing:border-box;padding:0 0 0 70px;color:#666}
+.soundmind_service .box01>div{background:url('../../images/common/kindservice/img_soundmind_box01.png') no-repeat;background-size:50px auto}
+.soundmind_service .box02>div{background:url('../../images/common/kindservice/img_soundmind_box02.png') no-repeat;background-size:50px auto}
+.soundmind_service li> div h3{margin-bottom:5px;font-size:13px;font-weight:bold;color:#333}
+.soundmind_service li> div p{line-height:1.4;letter-spacing:-0.05em;text-align:left}
+.soundmind_service li> div .sup_txt{display:block;margin-top:5px;text-align:left;font-size:12px}
+
+.soundmind_service2{margin:20px 0 0}
+.soundmind_service2:after{display:block; content:''; clear:both}
+.soundmind_service2 li{float:left;width:45%;box-sizing:border-box;text-align:center}
+.soundmind_service2 li.divide{width:10%;}
+.soundmind_service2 li.divide span{display:block;margin-top:15px;color:#666;font-size:13px;font-weight:bold}
+.soundmind_service2 li>div{width:100%;box-sizing:border-box;padding:65px 5px 5px;text-align:center;color:#666}
+.soundmind_service2 .box01>div{background:url('../../images/common/kindservice/img_soundmind_box03.png') 50% 0 no-repeat;background-size:50px auto}
+.soundmind_service2 .box02>div{background:url('../../images/common/kindservice/img_soundmind_box04.png') 50% 0 no-repeat;background-size:50px auto}
+.soundmind_service2 li> div strong{display:block;margin-bottom:5px;font-size:14px;font-weight:bold;color:#333}
+.soundmind_service2 li> div .dot_txt{display:block;margin-top:5px;text-align:left;letter-spacing:-2px}
+
+.soundmind_con .app_detail_view>li{margin-bottom:30px}
+.soundmind_con .app_detail_list{margin:15px 0 30px}
+.soundmind_con .app_detail_list:after{content:"";clear:both;display:block}
+.soundmind_con .app_detail_list li:after{content:"";display:block;clear:both}
+.soundmind_con .app_detail_list li{margin-bottom:25px}
+.soundmind_con .app_detail_list li .img{position:relative;float:left;display:block;width:45%;padding-left:10px;padding-right:15px}
+.soundmind_con .app_detail_list li .img img{width:100%}
+.soundmind_con .app_detail_list li .img:before{position:absolute;bottom:-15px;left:50%;margin-left:-6px;content:"";display:inline-block;width:13px;height:7px;background:url('../../images/common/kindservice/bg_b_arrow.png') no-repeat;background-size:13px 7px}
+.soundmind_con .app_detail_list li:last-child .img:before{display:none}
+.soundmind_con .app_detail_list.img_right li .img{float:right;padding-right:10px;padding-left:15px}
+.soundmind_con .app_detail_list .tit{display:block;margin-bottom:10px;color:#222;font-size:14px;font-weight:bold}
+.soundmind_con .app_detail_list p{margin-bottom:5px;color:#444;font-size:13px;line-height:1.4}
+.soundmind_con .app_detail_list .dot_txt{margin-bottom:5px}
+.app_detail_slide{padding:0 15px}
+.app_detail_slide:after{content:"";clear:both;display:block}
+.app_detail_slide .img{float:left;width:55%;padding-right:10px}
+.app_detail_slide .img img{width:100%}
+.app_detail_slide .tit{display:block;margin-bottom:10px;color:#222;font-size:14px;font-weight:bold}
+.app_detail_slide p{margin-bottom:5px;color:#444;font-size:13px;line-height:1.4}
+.soundmind_con .swiper-pagination-clickable{margin:5px 0;text-align:center}
+.soundmind_con .swiper-pagination-clickable button{margin:3px}
+.soundmind_con .swiper-button-prev{left:0;width:30px;height:30px;background-image:url('../../images/common/common/bg_swiper02_prev.png');background-size:100%}
+.soundmind_con .swiper-button-next{right:0;width:30px;height:30px;background-image:url('../../images/common/common/bg_swiper02_next.png');background-size:100%}
+
+.g_layer_box.ly_del_info .inner{padding-top:0;height:auto;top:50%;margin-top:-150px;border-radius:0}
+.g_layer_box.ly_del_info .layer_head{display:none}
+.g_layer_box.ly_del_info .layer_cont{padding:25px 15px 5px}
+.g_layer_box.ly_del_info .layer_cont p{text-align:center;line-height:1.8;font-size:15px;font-weight:bold;letter-spacing:-1px}
+.g_layer_box.ly_del_info .layer_cont a.g_btn_01{background-color:#008bec;border-radius:0}
+
+.event_list .rowgroup > a{display:block;padding-bottom:15px;margin-bottom:25px;border-bottom:1px solid #cae5ef}
+.event_list .rowgroup > a:hover .txt_zone .tit{text-decoration:underline}
+.event_list .rowgroup > a .img_zone img{width:100%;max-width:100%}
+.event_list .rowgroup > a .txt_zone{color:#333;letter-spacing:-1px}
+.event_list .rowgroup > a .txt_zone .tit{display:block;margin:10px 0 7px;font-size:15px}
+.event_list .rowgroup > a:hover .txt_zone .tit{text-decoration:underline}
+.event_list .rowgroup > a .txt_zone .txt{font-size:13px}
+.btn_page_top .btn_top{position:fixed;bottom:35px;right:14px;width:52px;height:52px;background:rgba(36,36,36,.7);border-radius:100%;box-sizing:border-box;z-index:2;line-height:52px;color:#fff;font-size:15px;font-weight:bold;text-align:center}
+.btn_page_top .btn_top.active{display:block}
+
+/* 202003 케어라운지 브랜드컬러 적용 */
+.kindservice .cont_title_top{padding:0 15px 15px 15px;background:none}
+.kindservice .cont_title_top dl{padding-right:0}
+.kindservice .cont_title_top dt{color:#212121;font-size:19px}
+.kindservice .cont_title_top dd{color:#666;font-size:14px;font-family:'NotoSansLight',sans-serif}
+.kindservice .cont_title_top.kind_pagetop_05{border-bottom:0}
+
+.kokdoc .cont_title_top{padding:0 15px 15px 15px;background:none}
+.kokdoc .cont_title_top dl{padding-right:0}
+.kokdoc .cont_title_top dt{color:#212121;font-size:19px;font-family:'NotoSans','Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif}
+.kokdoc .cont_title_top dd{color:#666;font-size:14px;font-family:'NotoSansLight',sans-serif}
+
+.kokdoc a.g_btn_01, .kindservice a.g_btn_01{background-color:#008bec;color:#fff}
+.kokdoc a.g_btn_02, .kindservice a.g_btn_02{border:1px solid #008bec;color:#008bec}
+
+.kindservice .g_title_01, .kindservice .g_title_03, .kindservice h2, .kindservice h3, .kindservice h4, .kokdoc h2, .kokdoc h3, .kokdoc h4,
+.contents.kindservice, .kokdoc{font-family:'NotoSans','Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif}
+.contents.kindservice .g_tab_01 li a{border-bottom:1px solid #008bec}
+.contents.kindservice .g_tab_01 li.on a{border-top:2px solid #008bec;border-right:1px solid #008bec;border-left:1px solid #008bec;border-bottom:1px solid #fff;color:#008bec}
+.contents.kindservice .g_tab_01 li.on:last-child a{border-right:0 none}
+.contents.kindservice .g_tab_01 li.on + li a{border-left:0 none}
+.contents.kindservice .g_tab_01 li:first-child a{border-left:0}
+.contents.kindservice .cont_title_top.kind_pagetop_none{padding:25px 0 15px;border-bottom:0}
+.contents.kindservice .cont_title_top.kind_pagetop_none dt{color:#212121;font-size:19px}
+.contents.kindservice .cont_title_top.kind_pagetop_none dd{color:#666;font-size:14px;font-family:'NotoSansLight'}
+
+.event_list_02{padding-top:15px}
+.event_list_02 .rowgroup > a{display:block;padding-bottom:15px;margin-bottom:25px}
+.event_list_02 .rowgroup > a:hover .txt_zone .tit{text-decoration:underline}
+.event_list_02 .rowgroup > a .img_zone{display:block;min-height:145px;background:url(../../images/common/common/logo_sub_landing.gif) 50% 50% no-repeat;background-size:120px auto;border:1px solid #dfdfdf;box-sizing:border-box}
+.event_list_02 .rowgroup > a .img_zone img{width:100%;max-width:100%}
+.event_list_02 .rowgroup > a .txt_zone{display:block;margin-top:10px;color:#333;letter-spacing:-1px}
+.event_list_02 .rowgroup > a .txt_zone .tit{display:block;margin:10px 0 5px;font-size:15px}
+.event_list_02 .rowgroup > a:hover .txt_zone .tit{text-decoration:underline}
+.event_list_02 .rowgroup > a .txt_zone .txt{display:none}
+.event_list_02 .rowgroup > a .txt_zone .cate{display:inline-block;padding:0 8px;height:20px;background-color:#ffa200;border-top-left-radius:8px;border-bottom-right-radius:8px;box-sizing:border-box;color:#fff;font-size:12px;font-weight:normal;line-height:19px}
+.event_list_02 .rowgroup > a .txt_zone .cate1{background-color:#9d6300} /* 성어지수 */
+.event_list_02 .rowgroup > a .txt_zone .cate2{background-color:#72776b} /* 위로시대 */
+.event_list_02 .rowgroup > a .txt_zone .cate3{background-color:#6e59d6} /* 힐링명화 */
+.event_list_02 .rowgroup > a .txt_zone .cate4{background-color:#0a7d6b} /* 건강은시너지 */
+.event_list_02 .rowgroup > a .txt_zone .cate5{background-color:#004286} /* 재테크 */
+.event_list_02 .rowgroup > a .txt_zone .cate6{background-color:#e00079} /* 금융상식 */
+.event_list_02 .rowgroup > a .txt_zone .cate7{background-color:#0075c8} /* 보험상식 */
+.event_list_02 .rowgroup > a .txt_zone .cate8{background-color:#018409} /* 힐링생활 */
+.event_list_02 .rowgroup > a .txt_zone .cate9{background-color:#007fa8} /* 건강꿀팁 */
+.event_list_02 .rowgroup > a .txt_zone .cate10{background-color:#4065df} /* 식습관 */
+.event_list_02 .rowgroup > a .txt_zone .cate11{background-color:#606e02} /* 생활습관 */
+.event_list_02 .rowgroup > a .txt_zone .cate12{background-color:#075f65} /* 의학정보 */
+.event_list_02 .rowgroup > a .txt_zone .cate13{background-color:#8e6756} /* 운동정보 */
+.event_list_02 .rowgroup > a .txt_zone .cate14{background-color:#9d0dd2} /* 힐링 예술 */
+.event_list_02 .rowgroup > a .txt_zone .cate15{background-color:#ce0cb9} /* 힐링 특강 */
+.event_list_02 .rowgroup > a .txt_zone .cate16{background-color:#de173c} /* 건강 트렌드 */
+.event_list_02 .rowgroup > a .txt_zone .cate17{background-color:#c24400} /* 문화 트렌드 */
+
+.event_list_02 .rowgroup > a .txt_zone .cate.ing{background-color:#018bed} /* 진행중 */
+.event_list_02 .rowgroup > a .txt_zone .cate.end{background-color:#888} /* 종료 */
+.event_list_02 .rowgroup > a .txt_zone .date{color:#666;font-family: 'NotoSansLight'}
+.event_list_02 .rowgroup > a .txt_zone .hits{position:relative;padding-left:20px;color:#666;font-family: 'NotoSansLight'}
+.event_list_02 .rowgroup > a .txt_zone .hits b{display:inline-block;margin-left:2px;font-family: 'NotoSans'}
+.event_list_02 .rowgroup > a .txt_zone .hits:before{position:absolute;top:5px;left:10px;content:"";display:inline-block;width:1px;height:10px;background-color:#d2d2d2;vertical-align:middle}
+.event_list_02 .rowgroup > a .txt_zone .period{display:block;color:#212121;font-family: 'NotoSansLight'}
+.event_list_02 .rowgroup > a .txt_zone .winner{display:block;margin-top:5px;color:#666;font-family: 'NotoSansLight'}
+.event_list_02 .rowgroup > a .txt_zone .winner span{padding-left:14px;background:url('../../images/common/kindservice/bg_winner.png') no-repeat 0 50%;background-size:10px;font-family: 'NotoSans'}
+.event_list_02 + .g_pagenaion_01{margin:20px 0 30px}
+
+.event_view_wrap2 .event_view_tit{padding:20px 15px;background-color:#f6fcff}
+.event_view_wrap2 .event_view_tit .tit{display:block;color:#333;font-size:15px}
+.event_view_wrap2 .event_view_tit .cate + .tit{margin:10px 0 5px}
+.event_view_wrap2 .event_view_tit .period{display:block;margin-top:4px;color:#212121}
+.event_view_wrap2 .event_view_tit .winner{display:block;margin-top:5px;padding-left:14px;background:url('../../images/common/kindservice/bg_winner.png') no-repeat 0 50%;background-size:10px;font-family: 'NotoSans';color:#666}
+.event_view_wrap2 .event_view_tit .winner b{font-family: 'NotoSansLight'}
+.event_view_wrap2 .cate{display:inline-block;padding:0 8px;height:20px;background-color:#ffa200;border-top-left-radius:8px;border-bottom-right-radius:8px;box-sizing:border-box;color:#fff;font-size:12px;font-weight:normal;line-height:19px}
+.event_view_wrap2 .cate.ing{background-color:#018bed}
+.event_view_wrap2 .cate.end{background-color:#888} /* 종료 */
+
+.event_view_wrap2 .event_view_cont{padding:30px 0;border-bottom:0;color:#666}
+.event_view_wrap2 .event_view_cont .cont_area{padding:0 15px 30px;box-sizing:border-box}
+.event_view_wrap2 .event_view_cont .cont_area img{max-width:100%}
+.event_view_wrap2 .event_view_cont .cont_area h4{margin-bottom:5px;font-size:14px;color:#414141;text-align:center}
+.event_view_wrap2 .event_view_cont .cont_area h5{margin:20px 0 10px;font-size:13px;color:#414141}
+.event_view_wrap2 .event_view_cont .cont_area .intext{padding:0 15px}
+.event_view_wrap2 .event_view_cont .cont_area .txt_tit{display:block;margin:30px 0 15px}
+
+.event_view_wrap2 .event_view_cont p{margin-top:10px}
+.event_view_wrap2 .event_view_cont .video{text-align:center}
+.event_view_wrap2 .event_view_cont .video iframe{width:100%;min-height:165px;min-width:280px;text-align:center}
+
+.btn_bottom_box{padding:25px 0;margin-bottom:-19px;background-color:#f5f5f5;text-align:center}
+.btn_bottom_box a{margin:0 3px}
+.kindservice a.g_btn_01.grey, .g_btn_01.grey{background-color:#787878}
+
+.event_view_wrap2 .recom_cont .con_title01,
+.event_view_wrap2 .recom_prd .con_title01{margin:15px 0;color:#212121;font-size:17px}
+.event_view_wrap2 .recom_cont{padding:20px 15px 0;border-top:1px solid #cfd6d9;box-sizing:border-box} 
+.event_view_wrap2 .recom_prd{padding:0 15px;box-sizing:border-box}
+
+.event_view_wrap2 .recom_prd{padding:0 20px;box-sizing:border-box}
+.event_view_wrap2 .recom_prd>a{position:relative;display:block;margin-top:10px;padding:15px 12px 15px 72px;background:#ecf6f9;border:1px solid #d8e3e6;box-sizing:border-box;text-decoration:none;color:#212121;font-size:13px;letter-spacing:-1px}
+.event_view_wrap2 .recom_prd>a .prd_txt{display:block;margin-top:5px;font-size:15px;line-height:1.5;font-weight:300}
+.event_view_wrap2 .recom_prd>a .prd_txt em{color:#008bec;font-weight:500}
+.event_view_wrap2 .recom_prd>a:hover .prd_name{border-bottom:1px solid #212121}
+
+.event_view_wrap2 .recom_prd>a:before{position:absolute;left:15px;top:50%;margin-top:-25px;content:"";display:inline-block;width:50px;height:50px;background:url('../../images/common/kindservice/bg_recom_prd.png') no-repeat;background-size:150px auto}
+.event_view_wrap2 .recom_prd>a.recom_prd_02:before{background-position:-50px 0}
+.event_view_wrap2 .recom_prd>a.recom_prd_03:before{background-position:-100px 0}
+.event_view_wrap2 .recom_prd>a.recom_prd_04:before{background-position:0 -50px}
+.event_view_wrap2 .recom_prd>a.recom_prd_05:before{background-position:-50px -50px}
+
+/* 암케어프로그램 */
+.cancer_service a.tel_ks{font-size:16px;font-weight:600;padding-left:30px;line-height:21px;background-size:21px}
+.cancer_service .g_list_01 li{color:#444}
+.cancer_service [class^="g_list_0"] li{font-size:12px}
+.cancer_service .g_list_04 li{text-indent:-8px;padding-left:8px}
+.cancer_service sup{display:inline-block;width:12px;height:12px;margin-left:4px;margin-top:-2px;border:1px solid #008bec;border-radius:100%;vertical-align:middle;color:#008bec;font-size:11px;line-height:12px;text-align:center;letter-spacing:0}
+.cancer_service sup + sup{margin-left:2px}
+.cancer_service sup a{color:#008bec;text-decoration:none}
+
+.cancer_service .svr_box{padding:20px 0 20px 25px;border:1px solid #e9e9e9}
+.cancer_service .svr_list{display:talbe;padding-top:20px;width:100%}
+.cancer_service .svr_list:first-child{padding-top:0}
+.cancer_service .svr_list .svr_list_tit{display:table-cell;text-align:center;width:50px;padding-right:40px;}
+.cancer_service .svr_list .svr_list_tit strong{font-size:12px;color:#008bec}
+.cancer_service .svr_list .svr_list_tit strong:before{content:'';display:block;width:46px;height:46px;background:url('../../images/common/kindservice/bg_cancercare.png') no-repeat;background-size:200px auto}
+.cancer_service .svr_list.ico_svr01 .svr_list_tit strong:before{background-position:0 0;}
+.cancer_service .svr_list.ico_svr02 .svr_list_tit strong:before{background-position:-46px 0;}
+.cancer_service .svr_list .svr_list_cont{vertical-align:middle;display:table-cell}
+.cancer_service .svr_wrap .svr_care_list h3{font-size:13px;padding-bottom:5px}
+.cancer_service .svr_wrap .svr_care_list{padding:15px 0;border-bottom:1px solid #e9e9e9}
+.cancer_service .sup_list li{font-size:12px;color:#666;padding-left:15px}
+.cancer_service .sup_list li.sup sup{margin-left:-17px}
+.cancer_service .g_define_03 dd{font-size:12px}
+
+.cancer_service .care_svr_list:after{content:'';display:block;clear:both}
+.cancer_service .care_svr_list{padding-top:10px;margin-top:-38px}
+.cancer_service .care_svr_list li{position:relative;float:left;margin-top:38px;width:50%}
+.cancer_service .care_svr_list li > div{width:100px;height:100px;margin:0 auto;text-align:center;border-radius:100%;background:#008bec}
+.cancer_service .care_svr_list li > div > span{font-size:11px;line-height:1.3;display:block;color:#fff}
+.cancer_service .care_svr_list li > div:before{content:'';display:inline-block;margin-top:15px;width:46px;height:42px;background:url('../../images/common/kindservice/bg_cancercare.png') no-repeat;background-position-x:-100px;background-size:200px auto}
+.cancer_service .care_svr_list li.ico01 > div:before{width:30px;background-position-y:0;}
+.cancer_service .care_svr_list li.ico02 > div:before{width:40px;background-position-y:-46px;}
+.cancer_service .care_svr_list li.ico03{float:right}
+.cancer_service .care_svr_list li.ico03 > div:before{width:28px;background-position-y:-93px;}
+.cancer_service .care_svr_list li.ico04{float:left}
+.cancer_service .care_svr_list li.ico04 > div:before{width:40px;height:38px;background-position-y:-138px;}
+
+.cancer_service .care_svr_list li:after{position:absolute;content:'';display:inline-block;width:10px;height:14px;background:url('../../images/common/kindservice/bg_cancercare.png') no-repeat -32px -46px / 200px auto}
+.cancer_service .care_svr_list li.ico01:after{right:0;top:50%;margin-top:-7px;margin-right:-5px}
+.cancer_service .care_svr_list li.ico02:after{-webkit-transform:rotate(90deg);transform:rotate(90deg);right:50%;bottom:-26px;margin-right:-5px}
+.cancer_service .care_svr_list li.ico03:after{-webkit-transform:rotate(180deg);transform:rotate(180deg);left:0;top:50%;margin-top:-7px;margin-left:-5px}
+.cancer_service .care_svr_list li:nth-last-child(1):after{display:none}
+
+.cancer_service .svr_infolist{padding:20px 6px 15px;background:#f4fbff;box-sizing:border-box}
+.cancer_service .svr_infolist:after{content:"";clear:both;display:block}
+.cancer_service .svr_infolist li{float:left;width:33.3333%;box-sizing:border-box;text-align:center;line-height:1.5}
+.cancer_service .svr_infolist li div:before{display:inline-block;content:"";width:57px;height:57px;background:url('../../images/common/kindservice/bg_cancercare.png') no-repeat;background-position-x:0;background-size:200px auto}
+.cancer_service .svr_infolist li.ico01 div:before{background-position-y:-74px;}
+.cancer_service .svr_infolist li.ico02 div:before{background-position-y:-132px;}
+.cancer_service .svr_infolist li.ico03 div:before{background-position-y:-190px;}
+.cancer_service .svr_infolist li span{display:block;font-size:12px;padding-top:10px;box-sizing:border-box;color:#444}
+.cancer_service .svr_infolist li span strong{display:block;color:#008bec;font-weight:bold}
+.cancer_service .svr_infolist li span strong>em{display:block;color:#666;font-weight:300}
+
+.cancer_service .svr_applist{margin-top:10px}
+.cancer_service .svr_applist>p{margin-bottom:15px}
+.cancer_service .svr_applist .qr_list{max-width:500px;padding:12px 10px;margin:0 auto;border:1px solid #e9e9e9;box-sizing:border-box}
+.cancer_service .svr_applist .qr_list li{float:left;width:50%;padding:0 10px;box-sizing:border-box}
+.cancer_service .svr_applist .qr_list li a{display:block}
+.cancer_service .svr_applist .qr_list li img{width:100%;max-width:100%}
+.cancer_service .svr_applist .qr_list:after{content:"";clear:both;display:block}
+.cancer_service .svr_applist .fr_img{max-width:370px;margin:0 auto;padding:20px 30px 0;box-sizing:border-box}
+.cancer_service .svr_applist .fr_img img{width:100%;max-width:100%}
+
+/* 체크건강지수 */
+.healthcare_index{letter-spacing:-1px}
+.healthcare_index .item_row{padding:15px;margin-bottom:30px;background-color:#f7f7f7;box-sizing:border-box;letter-spacing:-1px}
+.healthcare_index .round_wrap{float:left;width:120px;height:120px;position:relative;text-align:center}
+.healthcare_index .area_wrap{float:right;width:calc(100% - 120px);text-align:center}
+.healthcare_index .item_row:after{content:"";clear:both;display:block}
+
+.healthcare_index .round_wrap .round_box{position:absolute;top:6px;left:50%;margin-left:-50px;display:inline-block;width:100px;height:100px;padding-top:50px;background-color:#fff;box-sizing:border-box;border-radius:100%;box-shadow:4px 0 4px rgba(0,0,0,0.2)}
+.healthcare_index .round_wrap .bg{position:absolute;top:0;left:50%;margin-left:-56px;display:inline-block;width:112px;height:112px;background:#bfbfbf url(../../images/common/kindservice/bg_cross.png) 50% 50% no-repeat;border-radius:100%}
+
+.healthcare_index .item_row.score_bad .bg{background-color:#fc5427}
+.healthcare_index .item_row.score_bad .item_score{color:#fc5427}
+.healthcare_index .item_row.score_avg .bg{background-color:#ffb400}
+.healthcare_index .item_row.score_avg .item_score{color:#ffb400}
+.healthcare_index .item_row.score_good .bg{background-color:#008bec}
+.healthcare_index .item_row.score_good .item_score{color:#008bec}
+
+.healthcare_index .round_wrap .round_box .item_tit{display:block;font-size:12px}
+.healthcare_index .round_wrap .round_box .item_score{display:block;font-size:16px;font-weight:bold;line-height:1}
+.healthcare_index .round_txt{margin-bottom:10px;color:#999;font-size:14px;text-align:center}
+.healthcare_index .round_txt p{margin-top:10px}
+.healthcare_index .round_txt strong{display:block;color:#212121}
+.healthcare_index .round_txt span{font-size:12px}
+
+.healthcare_index .item1{display:inline-block;padding-right:5px}
+.healthcare_index .item2{display:inline-block;padding-left:5px;position:relative;}
+.healthcare_index .item2:before{content:"";display:inline-block;position:absolute;left:0;top:5px;width:1px;height:10px;background-color:#eaeaea}
+
+.healthcare_index .item_row .btn_wrap{margin-top:20px}
+.healthcare_index .item_row .btn_wrap button{height:28px;padding:0 10px;margin-left:5px;background-color:transparent;border:0;border-radius:18px;font-size:12px;font-weight:bold}
+.healthcare_index .item_row .btn_wrap button:first-of-type{margin-left:0}
+.healthcare_index .item_row .btn_wrap button.btn_try{background-color:#008bec;border:1px solid #008bec;color:#fff}
+.healthcare_index .item_row .btn_wrap button.btn_retry{background-color:#808080;border:1px solid #808080;color:#808080;color:#fff}
+.healthcare_index .item_row .btn_wrap button.btn_view{background-color:#fff;border:1px solid #808080}
+
+.healthcare_index .item_row.item_link{padding:17px 20px 20px;background-color:#a89b8a}
+.healthcare_index .item_row.item_link p{color:#000;font-size:17px;font-weight:300}
+.healthcare_index .item_row.item_link p strong{display:block;color:#fdeb1e;font-size:20px;font-weight:bold}
+.healthcare_index .item_row.item_link .btn_wrap a{display:inline-block;height:27px;line-height:27px;padding:0 10px;margin:0;background-color:#222;border-radius:25px;color:#fff;font-weight:bold}
+
+.bnr_toothchk{height:125px;margin:20px 0 25px}
+.bnr_toothchk a{display:block;height:120px;padding:10px 15px 0;background:url('../../images/common/kindservice/bg_bnr_toothchk.png') no-repeat 30px 100%;background-size:105px auto;box-sizing:border-box;color:#fff;font-size:15px;text-align:right;letter-spacing:-0.05em}
+.bnr_toothchk a span{position:relative;display:block;height:110px;padding:8px 20px 0 110px;background:#008bec;box-sizing:border-box;z-index:-1;line-height:1.4}
+.bnr_toothchk a span strong{color:#fff36f}
+.bnr_toothchk a span .tit{display:block;margin:3px 0 5px;font-size:11.5px}
+.bnr_toothchk a span b{display:inline-block;padding:2px 24px 3px 12px;background:#fff63f url('../../images/common/kindservice/bg_bk_arr.png') no-repeat right 10px center;background-size:6px auto;border-radius:15px;box-shadow:3px 0 1px rgba(0,0,0,.08);box-sizing:border-box;color:#212121;font-size:14px}
+
+.kindservice .smilecare_bnr{padding:10px 15px}
+.event_view_wrap2 + .smilecare_bnr{margin-top:30px}
+
+@media all and (max-width: 320px) {
+	.kokdoc .g_btn_01,
+	.kindservice .g_btn_01,
+	.kokdoc .g_btn_02,
+	.kindservice .g_btn_02{font-size:13px}
+	.healthcare_index .item_row{padding:15px 10px}
+	
+	.bnr_toothchk a{font-size:13px}
+	.bnr_toothchk a span{padding:12px 10px 0 100px}
+	.bnr_toothchk a span .tit{font-size:11px}
+	.bnr_toothchk a span b{font-size:13px}
+	
+}
+
+
+
+
+

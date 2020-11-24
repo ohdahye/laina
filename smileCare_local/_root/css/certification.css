@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* ------------------------------------------
+* Filename : certification.css
+* Description : 인증서관리
+* Author : Fu:z
+------------------------------------------ */
+
+.certification .g_cont_title{background:url('../images/certification/bg_title_certification.png') 615px 0 no-repeat}
+/* 공인인증서 등록 */
+.login .sel_login_method{margin:20px 0 0 -50px; padding:0 50px; width:100%;/* padding-right:118px; */ height:40px; line-height:40px; text-align:center; border:solid #d9d9d9; border-width:1px 0; background-color:#fbfbfb}
+.login .sel_login_method label:first-of-type{margin-right:38px}
+.login .tit{font-size:20px; letter-spacing:-1px}
+.login .txt{margin-top:6px; color:#444}
+.login [class^='login_wrap_']{position:relative; margin:25px auto 0}
+.login [class^='login_wrap_'] label{display:inline-block; font-size:17px; font-weight:bold}
+.login .login_wrap_pers{width:352px}
+.login .login_wrap_pers label{width:108px}
+.login .login_wrap_corp{width:408px}
+.login .login_wrap_corp label{width:126px}
+.login .username input{width:215px}
+.login .corpname input{width:253px}
+.login .jumin, .login .corpor{margin-top:15px}
+.login .jumin input{width:89px}
+.login .corpor input{width:60px}
+.login .btn_login{position:absolute; top:3px; right:0; width:85px; height:70px; line-height:70px; text-align:center; color:#fff; font-size:22px; letter-spacing:-1px}
+.login .noti_area{border-top:1px solid #d9d9d9; padding-top:20px}
+
+.certification .box_terms_short .terms{padding-bottom:20px; height:auto}
+
+/* 공인증서 복사 */
+.certification .g_cont_guide{padding-left:160px; background:url('../images/certification/bg_guide_01.png') 30px 50% no-repeat}
+.g_cont_guide{margin-bottom:50px; padding:30px; border:1px solid #d9d9d9}
+.g_cont_guide .tit{font-size:17px; color:#333}
+.g_cont_guide .txt{margin-top:8px; color:#666; line-height:22px}
+
+.certification .step_images{border:2px solid #ddd; height:283px}
+.step_images.copy01{background:url('../images/certification/bg_stepimage_01.jpg') 50% 50% no-repeat}
+.step_images.copy02{background:url('../images/certification/bg_stepimage_02.jpg') 50% 50% no-repeat}
+.step_images.copy03{background:url('../images/certification/bg_stepimage_03.jpg') 50% 50% no-repeat}
+
+/* 공인인증서 등록 해제 */
+.certification .g_box_02.delet{border-top:0; padding:0 50px 25px}
+.certification .g_step_01 li{width:33.333%}
+.certification .g_step_01 + p{margin:45px 0 10px} 
+
+.certification .g_table_02.step01 th{vertical-align:top; line-height:28px}
+.certification .g_table_02.step01 td{position:relative}
+
+.certification .g_select_box + #etcTextBx{display:none; margin-top:10px}
+
+.certification .g_table_02.step01 tbody td textarea.g_textarea_01{padding-bottom:25px}
+.certification .g_text_03{position:absolute; right:30px; bottom:25px}
+
+/* 간편비밀번호 등록 */
+.g_cont_title.simple_pw{background:url('../images/certification/bg_title_simple.png') 615px 0 no-repeat}
+.g_notice_01 .tit{margin-left:10px;font-size:20px}
+
+.ly_certify .inner{width:500px;margin:-224px auto;top:50%;border:0;font-family:'Noto Sans','맑은고딕',Malgun Gothic,Dotum,'돋움',sans-serif}
+.ly_certify .layer_cont{height:380px;padding:35px 40px 0;box-sizing:border-box}
+.ly_certify .layer_head .layer_tit{padding:12px 0 15px 20px;background-color:#008bec}
+.ly_certify .btn_layer_close{right:20px}
+.ly_certify .g_certify_way{padding:0;text-align:center}
+.ly_certify .g_certify_way p{font-size:21px;font-weight:bold}
+.ly_certify .g_certify_way ul{margin:25px 0 15px}
+.ly_certify .g_certify_way ul:after{content:"";clear:both;display:block}
+.ly_certify .g_certify_way li{float:left;width:50%;padding:0 0 0 6px;box-sizing:border-box}
+.ly_certify .g_certify_way li:first-child{padding:0 6px 0 0}
+.ly_certify .g_certify_way li a{display:block;width:100%;padding:168px 0 30px;border:1px solid #ddd;color:#444;font-weight:bold;text-align:center}
+.ly_certify .g_certify_way li a span{display:inline-block;width:134px;height:40px;line-height:40px;background:#008bec;color:#fff;font-size:15px}
+.ly_certify .g_certify_way .certify_01 a{background:url('../images/login/ico_login01.png') 50% 24px no-repeat}
+.ly_certify .g_certify_way .certify_02 a{background:url('../images/login/ico_login03.png') 50% 24px no-repeat}
+
+.inp_simple_wrap p{color:#222;font-size:21px;font-weight:300;text-align:center;line-height:30px;letter-spacing:-0.02em}
+.inp_simple_wrap p strong{color:#008bec}
+.inp_simple_wrap p span{color:#666;font-size:20px}
+.inp_simple_area{padding-top:168px;background:url('../images/login/ico_login03.png') 50% 24px no-repeat;text-align:center}
+.inp_simple_area .btn_box_01{display:inline-block;min-width:80px;padding:0 12px;height:50px;line-height:50px;margin-left:5px;background-color:#008bec;box-sizing:border-box;color:#fff;font-size:17px;text-align:center}
+.inp_simple_area .inp_simplepw{width:133px;height:50px;line-height:1;border:2px solid #008bec;box-sizing:border-box;font-size:15px;vertical-align:top;text-align:center;color:#222;font-size:14px}
+.inp_simple_area .inp_simplepw:-ms-input-placeholder,
+.inp_simple_area .btn_box_area .inp_simplepw:-moz-input-placeholder,
+.inp_simple_area .btn_box_area .inp_simplepw::-webkit-input-placeholder{opacity:0.5}
+
+.certification .g_table_02 .g_btn_06{padding:0 10px}
+.certification .g_table_02 .g_btn_07{padding:0 10px}
+.txt_in{margin:5px 0 10px;text-indent:-40px;padding-left:40px;line-height:20px}
+.img_browser01{display:inline-block;width:16px;height:18px;background:url('../images/certification/img_browser01.png') 1px 50% no-repeat;text-indent:-9999em;background-size:14px 14px}
+.img_browser02{display:inline-block;width:16px;height:18px;background:url('../images/certification/img_browser02.png') 1px 50% no-repeat;text-indent:-9999em;background-size:14px 14px}
+
+/* 휴대폰 본인인증 이용 동의 */
+.ly_term_01 .inner{width:820px;margin:-330px auto;top:50%;border:0;font-family:'Noto Sans','맑은고딕',Malgun Gothic,Dotum,'돋움',sans-serif}
+.ly_term_01 .layer_cont{height:560px;padding:30px 30px 0;box-sizing:border-box;letter-spacing:0}
+.ly_term_01 .layer_head .layer_tit{padding:12px 0 15px 20px}
+.ly_term_01 .btn_layer_close{right:20px}
+
+.ctab_area{margin-bottom:30px}
+.ctab_area.g_tab_01 li:first-child a{border-left-width:1px}
+.ctab_area.g_tab_01 li a{display:block;height:47px;text-align:center;box-sizing:border-box;padding-top:10px;border:1px solid #d7d7d7;border-left:0 none;background-color:#fff;font-size:16px;color:#333;font-weight:bold;text-decoration:none}
+.ctab_area.g_tab_01 li.on a{position:relative;height:47px;padding-top:10px;background-color:#117bb2;border:1px solid #117bb2;color:#fff}
+.ctab_area.g_tab_01 li.on a:after,
+.ctab_area.g_tab_01 li.lst.on a:after,
+.ctab_area.g_tab_01 li.on:last-child a:after{display:none}
+.ctab_area.g_tab_01 li:first-child a{border-left:1px solid #d7d7d7}
+.ctab_area.g_tab_01 li:first-child.on a{border-left:1px solid #117bb2}
+
+.ctab_cont{height:350px;overflow-y:auto;padding:20px 30px;box-sizing:border-box;border:1px solid #d7d7d7}
+.areabox{font-size:14px}
+.areabox p{line-height:22px}
+.areabox .term_intro span{display:block;margin:22px 0 6px}
+.areabox .term_intro:first-child span{margin:7px 0 6px}
+.areabox .term_tit_01{color:#222;font-size:17px;font-family:'Noto Sans'}
+.areabox .term_tit_02{display:block;font-weight:normal;margin:15px 0 5px}
+.areabox .term_tit_02 + p{margin-top:5px}
+.areabox .term_txt{margin:10px 0}
+.areabox .pvc_ol_type02 li{margin-top:5px;line-height:22px}
+.areabox .pvc_ol_type02 li p{margin-top:5px}
+.areabox .g_table_01 + p{margin-top:5px}
+
+/* 전자금융거래 이용약관 동의, 전자금융서비스 약관 동의 */
+.ly_term_02 .inner{width:820px;margin:-330px auto;top:50%;border:0;font-family:'Noto Sans','맑은고딕',Malgun Gothic,Dotum,'돋움',sans-serif}
+.ly_term_02 .layer_cont{height:560px;padding:30px 30px 0;box-sizing:border-box;letter-spacing:0}
+.ly_term_02 .layer_head .layer_tit{padding:12px 0 15px 20px}
+.ly_term_02 .btn_layer_close{right:20px}
+
+.ly_term_03 .inner{width:820px;margin:-330px auto;top:50%;border:0;font-family:'Noto Sans','맑은고딕',Malgun Gothic,Dotum,'돋움',sans-serif}
+.ly_term_03 .layer_cont{height:560px;padding:30px 30px 0;box-sizing:border-box;letter-spacing:0}
+.ly_term_03 .layer_head .layer_tit{padding:12px 0 15px 20px}
+.ly_term_03 .btn_layer_close{right:20px}
+
+.g_layer_box .box_tit{margin-bottom:20px;font-size:16px}
+.g_layer_box .pvc_ol_type01.indent_li{padding-left:12px}
+.g_layer_box .privacy{letter-spacing:-0.03em}
+.g_layer_box .pvc_ol_type01{margin-top:7px}
+.g_layer_box .pvc_ol_type01.indent_li{margin-top:5px;padding-left:12px}
+.g_layer_box .pvc_ol_type01 li{margin-top:5px}
+.g_layer_box .privacy.termbox{height:380px;padding:0 30px 20px;overflow-y:auto;border:1px solid #dfdfdf;box-sizing:border-box}
+
+.cert_num_area{position:relative;height:28px}
+.cert_num_area .g_input_01{position:absolute;top:0;left:0}
+.cert_num_area .btn_area{position:absolute;top:0;left:164px}

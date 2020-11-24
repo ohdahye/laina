@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* ------------------------------------------
+* Filename : privacy.css
+* Description : 개인정보보호관련
+* Author : Fu:z
+------------------------------------------ */
+
+.etc .privacy_pagetop_01{background-image:url('../images/privacy/privacy_pagetop_01.jpg')}
+
+/* 보험범죄신고센터 */
+.privacy_box_01{overflow-x:hidden; overflow-y:auto; width:758px; height:191px; padding:20px 31px; border:1px solid #d9d9d9;}
+.privacy_box_01 .crime_info dt strong{font-size:15px}
+.g_text_03.bull{position:relative;padding-left:10px}
+.g_text_03.bull:after{content:'';display:block;width:3px;height:3px; background-color:#666; position:absolute; left:0; top:10px}
+.g_text_03.bull + .g_list_02 li{margin-left:10px}
+.privacy_box_01 .terms_marker{color:#333}
+.privacy_box_01 + .crime_info_bot{width:760px; height:100%; padding:18px 30px 18px 30px; background-color:#fafafa; border-width:0 1px 1px 1px; border-style:solid; border-color:#d9d9d9}
+.privacy_box_01 + .crime_info_bot input{margin-left:20px}
+.privacy_box_01 + .crime_info_bot .chk{float:right}
+
+/* 콘텐츠성 */
+.privacy {letter-spacing:-1px;}
+.privacy table {margin:10px 0 20px;}
+.privacy:after {content:""; display:block; clear:both;}
+.privacy dd, .privacy dd, .privacy p, .privacy li {text-align:justify; line-height:20px;}
+.privacy li {margin-bottom:3px;}
+
+.pvc_top_select {float:right;}
+.pvc_top_select > div {float:left;}
+.pvc_top_select > a {float:left; margin-left:10px;}
+
+.pvc_top_box {padding:20px; border:1px solid #d9d9d9; clear:both;}
+.pvc_top_box p {color:#666;}
+.pvc_top_box .pvc_list_ul li {margin-top:10px; padding-left:10px; color:#666; background:url(../images/common/bul_dot_01.gif) 0 9px no-repeat;}
+.pvc_top_box .pvc_list_ul li:first-child {margin-top:0;}
+
+.privacy_doc {clear:both;}
+.privacy_doc .dep1 {margin:25px 0 15px; color:#117bb2; font-size:17px; font-weight:bold;}
+.privacy_doc .dep2 {display:block; margin:15px 0 12px; color:#444; font-size:15px}
+
+.pvc_ol_type01 {margin-top:10px;}
+.pvc_ol_type01 strong {display:block; margin-top:10px; margin-bottom:5px; color:#666;}
+.pvc_ol_type01 strong.underline{display:inline; color:#333}
+.pvc_ol_type01 p {margin-bottom:5px; margin-left:10px;}
+.pvc_ul_type01 {padding-left:20px; margin-top:5px;}
+.pvc_ul_type01 li {padding-left:10px; color:#666; background:url(../images/common/bul_dot_01.gif) 0 9px no-repeat;}
+
+.pvc_table_left td{padding:11px 20px 12px; text-align:left}
+.pvc_table_left th{padding:11px 20px 12px; text-align:left}
+
+.indent_li {padding-left:20px}
+.indent_li .fwb {font-weight:bold;}
+
